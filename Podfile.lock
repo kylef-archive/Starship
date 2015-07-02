@@ -37,7 +37,7 @@ DEPENDENCIES:
   - VTAcknowledgementsViewController
 
 SPEC CHECKSUMS:
-  Hyperdrive: 1ed9e4d8b063674dd3571015b92ed66ef412d1d3
+  Hyperdrive: 0cc313defc11ac47134e051b9e853257dbfc6b05
   Representor: 4e5f5bf36a899e05205f446f23705ed4d8121c29
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   URITemplate: 0dbf40f0e378eb9c6d04cc08e6101fb82d126dc3

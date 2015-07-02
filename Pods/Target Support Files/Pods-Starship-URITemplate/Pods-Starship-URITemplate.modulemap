@@ -1,0 +1,6 @@
+framework module URITemplate {
+  umbrella header "Pods-Starship-URITemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}
