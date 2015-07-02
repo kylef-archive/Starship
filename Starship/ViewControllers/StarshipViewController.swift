@@ -41,6 +41,7 @@ class StarshipViewController : UITableViewController {
       self.navigationController?.pushViewController(viewController, animated: true)
     case .Failure(let error):
       let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
+      alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
       self.presentViewController(alertController, animated: true, completion: nil)
     }
   }
