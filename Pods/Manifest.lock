@@ -2,6 +2,7 @@ PODS:
   - Hyperdrive (0.1.0):
     - Representor (~> 0.6.0)
     - URITemplate (~> 1.2)
+  - JFTextFieldTableCell (1.0)
   - Representor (0.6.0):
     - Representor/Core (= 0.6.0)
     - Representor/HTTP (= 0.6.0)
@@ -32,12 +33,14 @@ PODS:
 
 DEPENDENCIES:
   - Hyperdrive
+  - JFTextFieldTableCell
   - Representor
   - SVProgressHUD
   - VTAcknowledgementsViewController
 
 SPEC CHECKSUMS:
   Hyperdrive: 0cc313defc11ac47134e051b9e853257dbfc6b05
+  JFTextFieldTableCell: 64f7584e35236d9b0ba9548d8194b4b4fe38f621
   Representor: 4e5f5bf36a899e05205f446f23705ed4d8121c29
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   URITemplate: 0dbf40f0e378eb9c6d04cc08e6101fb82d126dc3

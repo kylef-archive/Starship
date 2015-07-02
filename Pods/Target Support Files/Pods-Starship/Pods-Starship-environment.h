@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_Hyperdrive 1
 #define COCOAPODS_VERSION_PATCH_Hyperdrive 0
 
+// JFTextFieldTableCell
+#define COCOAPODS_POD_AVAILABLE_JFTextFieldTableCell
+#define COCOAPODS_VERSION_MAJOR_JFTextFieldTableCell 1
+#define COCOAPODS_VERSION_MINOR_JFTextFieldTableCell 0
+#define COCOAPODS_VERSION_PATCH_JFTextFieldTableCell 0
+
 // Representor
 #define COCOAPODS_POD_AVAILABLE_Representor
 #define COCOAPODS_VERSION_MAJOR_Representor 0

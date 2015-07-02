@@ -5,6 +5,7 @@ target 'Starship' do
   pod 'Representor'
   pod 'Hyperdrive'
   pod 'SVProgressHUD'
+  pod 'JFTextFieldTableCell'
   pod 'VTAcknowledgementsViewController'
 end
 

@@ -17,6 +17,35 @@ enum StarshipResult {
 
 
 class StarshipViewModel {
+  // MARK: Entry
+
+  func enter(# uri:String, completion:(StarshipResult -> ())) {
+    let hyperdrive = Hyperdrive()
+    hyperdrive.enter(uri) { result in
+      switch result {
+      case .Success(let representor):
+        let viewModel = ResourceViewModel(hyperdrive: hyperdrive, representor: representor)
+        completion(.Success(viewModel))
+      case .Failure(let error):
+        completion(.Failure(error))
+      }
+    }
+  }
+
+  func enter(# apiary:String, completion:(StarshipResult -> ())) {
+    HyperBlueprint.enter(apiary: apiary) { result in
+      switch result {
+      case .Success(let hyperdrive, let representor):
+        let viewModel = ResourceViewModel(hyperdrive: hyperdrive, representor: representor)
+        completion(.Success(viewModel))
+      case .Failure(let error):
+        completion(.Failure(error))
+      }
+    }
+  }
+
+  // MARK: Examples
+
   private var examples:[(title:String, uri:String)] {
     return [
       (title: "Polls", uri: "https://polls.apiblueprint.org/"),
@@ -38,15 +67,6 @@ class StarshipViewModel {
   }
 
   func enterExample(index:Int, completion:(StarshipResult -> ())) {
-    let hyperdrive = Hyperdrive()
-    hyperdrive.enter(uriForExample(index)) { result in
-      switch result {
-      case .Success(let representor):
-        let viewModel = ResourceViewModel(hyperdrive: hyperdrive, representor: representor)
-        completion(.Success(viewModel))
-      case .Failure(let error):
-        completion(.Failure(error))
-      }
-    }
+    enter(uri: uriForExample(index), completion: completion)
   }
 }

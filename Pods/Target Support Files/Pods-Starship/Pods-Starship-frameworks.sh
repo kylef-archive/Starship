@@ -49,6 +49,7 @@ code_sign() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Hyperdrive.framework'
+  install_framework 'JFTextFieldTableCell.framework'
   install_framework 'Representor.framework'
   install_framework 'SVProgressHUD.framework'
   install_framework 'URITemplate.framework'
@@ -56,6 +57,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Hyperdrive.framework'
+  install_framework 'JFTextFieldTableCell.framework'
   install_framework 'Representor.framework'
   install_framework 'SVProgressHUD.framework'
   install_framework 'URITemplate.framework'
