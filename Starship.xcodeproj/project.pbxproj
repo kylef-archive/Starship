@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		27282BB61AE5AB2200BBDF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27282BB51AE5AB2200BBDF72 /* AppDelegate.swift */; };
-		27282BB81AE5AB2200BBDF72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27282BB71AE5AB2200BBDF72 /* ViewController.swift */; };
-		27282BBB1AE5AB2200BBDF72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27282BB91AE5AB2200BBDF72 /* Main.storyboard */; };
 		27282BBD1AE5AB2200BBDF72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27282BBC1AE5AB2200BBDF72 /* Images.xcassets */; };
 		27282BC01AE5AB2200BBDF72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27282BBE1AE5AB2200BBDF72 /* LaunchScreen.xib */; };
 		27282BCC1AE5AB2200BBDF72 /* StarshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27282BCB1AE5AB2200BBDF72 /* StarshipTests.swift */; };
+		279FC61A1B44BD24004B2FBA /* StarshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC6191B44BD24004B2FBA /* StarshipViewController.swift */; };
+		279FC61C1B44BE63004B2FBA /* StarshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */; };
+		27F668001B44A0F800D21EB3 /* ResourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F667FF1B44A0F800D21EB3 /* ResourceViewModel.swift */; };
+		27F668061B44A11F00D21EB3 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F668051B44A11F00D21EB3 /* ResourceViewController.swift */; };
+		9BF69FB323F7F9571C9AD93B /* Pods_Starship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF24E68D28AD299527A4E85 /* Pods_Starship.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,18 @@
 		27282BB01AE5AB2200BBDF72 /* Starship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27282BB41AE5AB2200BBDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27282BB51AE5AB2200BBDF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27282BB71AE5AB2200BBDF72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27282BBA1AE5AB2200BBDF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27282BBC1AE5AB2200BBDF72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27282BBF1AE5AB2200BBDF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27282BC51AE5AB2200BBDF72 /* StarshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27282BCA1AE5AB2200BBDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27282BCB1AE5AB2200BBDF72 /* StarshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipTests.swift; sourceTree = "<group>"; };
+		279FC6191B44BD24004B2FBA /* StarshipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipViewController.swift; sourceTree = "<group>"; };
+		279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarshipViewModel.swift; path = ViewModels/StarshipViewModel.swift; sourceTree = "<group>"; };
+		27F667FF1B44A0F800D21EB3 /* ResourceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceViewModel.swift; path = ViewModels/ResourceViewModel.swift; sourceTree = "<group>"; };
+		27F668051B44A11F00D21EB3 /* ResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		5F62786AD324323B989E2DAC /* Pods-Starship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starship.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starship/Pods-Starship.release.xcconfig"; sourceTree = "<group>"; };
+		8DF24E68D28AD299527A4E85 /* Pods_Starship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1503250A2DBBE772B2171F7 /* Pods-Starship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starship.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starship/Pods-Starship.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF69FB323F7F9571C9AD93B /* Pods_Starship.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0039DFD09710206E0C4F4B55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1503250A2DBBE772B2171F7 /* Pods-Starship.debug.xcconfig */,
+				5F62786AD324323B989E2DAC /* Pods-Starship.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		02A7CFF1ED13B19C00898F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF24E68D28AD299527A4E85 /* Pods_Starship.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27282BA71AE5AB2200BBDF72 = {
 			isa = PBXGroup;
 			children = (
 				27282BB21AE5AB2200BBDF72 /* Starship */,
 				27282BC81AE5AB2200BBDF72 /* StarshipTests */,
 				27282BB11AE5AB2200BBDF72 /* Products */,
+				0039DFD09710206E0C4F4B55 /* Pods */,
+				02A7CFF1ED13B19C00898F53 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -79,9 +107,9 @@
 		27282BB21AE5AB2200BBDF72 /* Starship */ = {
 			isa = PBXGroup;
 			children = (
+				27F668041B44A11F00D21EB3 /* ViewControllers */,
+				27F668011B44A0FA00D21EB3 /* ViewModels */,
 				27282BB51AE5AB2200BBDF72 /* AppDelegate.swift */,
-				27282BB71AE5AB2200BBDF72 /* ViewController.swift */,
-				27282BB91AE5AB2200BBDF72 /* Main.storyboard */,
 				27282BBC1AE5AB2200BBDF72 /* Images.xcassets */,
 				27282BBE1AE5AB2200BBDF72 /* LaunchScreen.xib */,
 				27282BB31AE5AB2200BBDF72 /* Supporting Files */,
@@ -114,6 +142,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27F668011B44A0FA00D21EB3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */,
+				27F667FF1B44A0F800D21EB3 /* ResourceViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		27F668041B44A11F00D21EB3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				279FC6191B44BD24004B2FBA /* StarshipViewController.swift */,
+				27F668051B44A11F00D21EB3 /* ResourceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27282BCF1AE5AB2200BBDF72 /* Build configuration list for PBXNativeTarget "Starship" */;
 			buildPhases = (
+				62E4CD87F461941A764CF5A2 /* Check Pods Manifest.lock */,
 				27282BAC1AE5AB2200BBDF72 /* Sources */,
 				27282BAD1AE5AB2200BBDF72 /* Frameworks */,
 				27282BAE1AE5AB2200BBDF72 /* Resources */,
+				E7430F5E71D6DBC63ECF9B52 /* Embed Pods Frameworks */,
+				0E21E57ADBB0821B53D5EBE8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27282BBB1AE5AB2200BBDF72 /* Main.storyboard in Resources */,
 				27282BC01AE5AB2200BBDF72 /* LaunchScreen.xib in Resources */,
 				27282BBD1AE5AB2200BBDF72 /* Images.xcassets in Resources */,
 			);
@@ -209,13 +257,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E21E57ADBB0821B53D5EBE8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starship/Pods-Starship-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E4CD87F461941A764CF5A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7430F5E71D6DBC63ECF9B52 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starship/Pods-Starship-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27282BAC1AE5AB2200BBDF72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27282BB81AE5AB2200BBDF72 /* ViewController.swift in Sources */,
+				279FC61A1B44BD24004B2FBA /* StarshipViewController.swift in Sources */,
+				27F668001B44A0F800D21EB3 /* ResourceViewModel.swift in Sources */,
 				27282BB61AE5AB2200BBDF72 /* AppDelegate.swift in Sources */,
+				279FC61C1B44BE63004B2FBA /* StarshipViewModel.swift in Sources */,
+				27F668061B44A11F00D21EB3 /* ResourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		27282BB91AE5AB2200BBDF72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27282BBA1AE5AB2200BBDF72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27282BBE1AE5AB2200BBDF72 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,6 +431,7 @@
 		};
 		27282BD01AE5AB2200BBDF72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1503250A2DBBE772B2171F7 /* Pods-Starship.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Starship/Info.plist;
@@ -350,6 +442,7 @@
 		};
 		27282BD11AE5AB2200BBDF72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F62786AD324323B989E2DAC /* Pods-Starship.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Starship/Info.plist;
@@ -411,6 +504,7 @@
 				27282BD11AE5AB2200BBDF72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27282BD21AE5AB2200BBDF72 /* Build configuration list for PBXNativeTarget "StarshipTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +513,7 @@
 				27282BD41AE5AB2200BBDF72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
