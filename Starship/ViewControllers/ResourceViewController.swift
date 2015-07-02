@@ -121,24 +121,10 @@ class ResourceViewController : UITableViewController {
       viewController.viewModel = viewModel?.viewModelForEmbeddedResource(indexPath.row)
       self.navigationController?.pushViewController(viewController, animated: true)
     case .Transitions:
-      SVProgressHUD.showWithMaskType(.Gradient)
-
-      viewModel?.performTransition(indexPath.row) { result in
-        SVProgressHUD.dismiss()
-
-        switch result {
-        case .Success(let viewModel):
-          let viewController = ResourceViewController(style: .Grouped)
-          viewController.viewModel = viewModel
-          self.navigationController?.pushViewController(viewController, animated: true)
-        case .Failure(let error):
-          let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
-          alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
-          self.presentViewController(alertController, animated: true, completion: nil)
-        }
+      if !presentTransition(indexPath.row) {
+        performTransition(indexPath.row)
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
       }
-
-      tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
   }
 
@@ -161,5 +147,39 @@ class ResourceViewController : UITableViewController {
     let cell = tableView.dequeueReusableCellWithIdentifier("Transition") as? UITableViewCell ?? UITableViewCell(style: .Default, reuseIdentifier: "Transition")
     cell.textLabel?.text = viewModel?.titleForTransition(index)
     return cell
+  }
+
+  func presentTransition(index:Int) -> Bool {
+    if let viewModel = viewModel?.viewModelForTransition(index) {
+      let viewController = TransitionViewController(style: .Grouped)
+      viewController.title = self.viewModel?.titleForTransition(index)
+      viewController.viewModel = viewModel
+      navigationController?.pushViewController(viewController, animated: true)
+      return true
+    }
+
+    return false
+  }
+
+  func performTransition(index:Int) {
+    SVProgressHUD.showWithMaskType(.Gradient)
+
+    viewModel?.performTransition(index) { result in
+      SVProgressHUD.dismiss()
+
+      switch result {
+      case .Success(let viewModel):
+        let viewController = ResourceViewController(style: .Grouped)
+        viewController.viewModel = viewModel
+        self.navigationController?.pushViewController(viewController, animated: true)
+      case .Failure(let error):
+        let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
+        alertController.addAction(UIAlertAction(title: "Re-try", style: .Default) { action in
+          self.performTransition(index)
+        })
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+        self.presentViewController(alertController, animated: true, completion: nil)
+      }
+    }
   }
 }

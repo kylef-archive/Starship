@@ -1,0 +1,6 @@
+framework module SwiftForms {
+  umbrella header "Pods-Starship-SwiftForms-umbrella.h"
+
+  export *
+  module * { export * }
+}

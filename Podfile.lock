@@ -28,6 +28,7 @@ PODS:
   - Representor/HTTP/Transition (0.6.0):
     - Representor/Core
   - SVProgressHUD (1.1.3)
+  - SwiftForms (1.0)
   - URITemplate (1.2.0)
   - VTAcknowledgementsViewController (0.14)
 
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - JFTextFieldTableCell
   - Representor
   - SVProgressHUD
+  - SwiftForms
   - VTAcknowledgementsViewController
 
 SPEC CHECKSUMS:
@@ -43,6 +45,7 @@ SPEC CHECKSUMS:
   JFTextFieldTableCell: 64f7584e35236d9b0ba9548d8194b4b4fe38f621
   Representor: 4e5f5bf36a899e05205f446f23705ed4d8121c29
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftForms: b16bf2978e6eb6617bc9f438322a1daa6c3d2dbd
   URITemplate: 0dbf40f0e378eb9c6d04cc08e6101fb82d126dc3
   VTAcknowledgementsViewController: 11a869dd69598a852f12699aeaf36e2589d3fc1b
 

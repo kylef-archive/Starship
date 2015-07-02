@@ -111,6 +111,16 @@ class ResourceViewModel {
     return transitions[index].relation
   }
 
+  func viewModelForTransition(index:Int) -> TransitionViewModel? {
+    let transition = transitions[index].transition
+
+    if (transition.parameters.count + transition.attributes.count) > 0 {
+      return TransitionViewModel(hyperdrive: hyperdrive, transition: transition)
+    }
+
+    return nil
+  }
+
   func performTransition(index:Int, completion:(ResourceViewModelResult -> ())) {
     hyperdrive.request(transitions[index].transition) { result in
       switch result {

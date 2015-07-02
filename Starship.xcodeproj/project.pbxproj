@@ -11,6 +11,8 @@
 		27282BBD1AE5AB2200BBDF72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27282BBC1AE5AB2200BBDF72 /* Images.xcassets */; };
 		27282BC01AE5AB2200BBDF72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27282BBE1AE5AB2200BBDF72 /* LaunchScreen.xib */; };
 		27282BCC1AE5AB2200BBDF72 /* StarshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27282BCB1AE5AB2200BBDF72 /* StarshipTests.swift */; };
+		2742DDA31B44FA3F0028B270 /* TransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742DDA21B44FA3F0028B270 /* TransitionViewModel.swift */; };
+		2742DDA51B44FA5E0028B270 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742DDA41B44FA5E0028B270 /* TransitionViewController.swift */; };
 		279FC61A1B44BD24004B2FBA /* StarshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC6191B44BD24004B2FBA /* StarshipViewController.swift */; };
 		279FC61C1B44BE63004B2FBA /* StarshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */; };
 		279FC61E1B44CD07004B2FBA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC61D1B44CD07004B2FBA /* AboutViewController.swift */; };
@@ -38,6 +40,8 @@
 		27282BC51AE5AB2200BBDF72 /* StarshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27282BCA1AE5AB2200BBDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27282BCB1AE5AB2200BBDF72 /* StarshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipTests.swift; sourceTree = "<group>"; };
+		2742DDA21B44FA3F0028B270 /* TransitionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionViewModel.swift; path = ViewModels/TransitionViewModel.swift; sourceTree = "<group>"; };
+		2742DDA41B44FA5E0028B270 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
 		279FC6191B44BD24004B2FBA /* StarshipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipViewController.swift; sourceTree = "<group>"; };
 		279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarshipViewModel.swift; path = ViewModels/StarshipViewModel.swift; sourceTree = "<group>"; };
 		279FC61D1B44CD07004B2FBA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 			children = (
 				279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */,
 				27F667FF1B44A0F800D21EB3 /* ResourceViewModel.swift */,
+				2742DDA21B44FA3F0028B270 /* TransitionViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			children = (
 				279FC6191B44BD24004B2FBA /* StarshipViewController.swift */,
 				27F668051B44A11F00D21EB3 /* ResourceViewController.swift */,
+				2742DDA41B44FA5E0028B270 /* TransitionViewController.swift */,
 				279FC61D1B44CD07004B2FBA /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
@@ -331,6 +337,8 @@
 			files = (
 				279FC61E1B44CD07004B2FBA /* AboutViewController.swift in Sources */,
 				279FC61A1B44BD24004B2FBA /* StarshipViewController.swift in Sources */,
+				2742DDA31B44FA3F0028B270 /* TransitionViewModel.swift in Sources */,
+				2742DDA51B44FA5E0028B270 /* TransitionViewController.swift in Sources */,
 				27F668001B44A0F800D21EB3 /* ResourceViewModel.swift in Sources */,
 				27282BB61AE5AB2200BBDF72 /* AppDelegate.swift in Sources */,
 				279FC61C1B44BE63004B2FBA /* StarshipViewModel.swift in Sources */,
