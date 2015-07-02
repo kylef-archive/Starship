@@ -3,7 +3,7 @@ use_frameworks!
 
 target 'Starship' do
   pod 'Representor'
-  pod 'Hyperdrive'
+  pod 'Hyperdrive', :head
   pod 'SVProgressHUD'
   pod 'JFTextFieldTableCell'
   pod 'SwiftForms'

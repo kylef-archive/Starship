@@ -7,721 +7,721 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02AA50462BC1F4B6F1A1BD8B /* Pods-Starship-Representor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F138DA6A24CD6A5CFB5307 /* Pods-Starship-Representor-dummy.m */; };
-		05E20DFBEE16D30FB0C4A806 /* VTAcknowledgementsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF459F35775051878C5C94A /* VTAcknowledgementsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F00A5942DE0CC7B6A2A6E35 /* Hyperdrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610A461D7FC29DC322558FF /* Hyperdrive.swift */; };
-		115E013B443FA8010A196A70 /* FormTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56639CACC2A1F5A0396D8063 /* FormTitleCell.swift */; };
-		13AE1D69C2E6140FB402C6EB /* HyperBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B008B844B737C7E64D42C2 /* HyperBlueprint.swift */; };
-		15AEB4A10636A29DF2CAF0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		1661CA3BCE9383982D6E0878 /* FormValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D6AE2F1F8B6A584574BE5 /* FormValueCell.swift */; };
-		1980FD2D476AA5FC64CCC8D5 /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1B9CBFCD0D56C593F6D7D /* FormTextFieldCell.swift */; };
-		1B6B0E7DCB210349AB00A98A /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CD7DFED1B8D74ACD26C105 /* FormSectionDescriptor.swift */; };
-		21EF62594224BF7E4A4679AC /* FormOptionsSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A90A84E1D5BFA4AF7FE23E /* FormOptionsSelectorController.swift */; };
-		23B6E53C33C12C4D0C4C05D5 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5B164AFF7E9EC6B3E0D0B /* Transition.swift */; };
-		251BDA4F8097C3243E97DB2C /* VTAcknowledgementsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0080DE8486D08FB18B0E2E86 /* VTAcknowledgementsViewController.bundle */; };
-		265B62F63C75DD65891456E2 /* URITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECA64ED056E5775B9ABB567 /* URITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26DC794ECF2DE1115ACCA382 /* Pods-Starship-SwiftForms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 439116C0AD4CAAD2D9AAFB6D /* Pods-Starship-SwiftForms-dummy.m */; };
-		26FD8E8441219063F7FA6208 /* FormBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96C65E568B525F37242A0D /* FormBaseCell.swift */; };
-		276FD4D6F21E856A091AC903 /* HTTPTransitionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A1C67E41039C4E157DD50 /* HTTPTransitionBuilder.swift */; };
-		287B1A58A9436C1E8B1A477F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		2AFDE002D6E8F60F32681A9C /* Representor.h in Headers */ = {isa = PBXBuildFile; fileRef = 067DD7738537A5A3F3F353B5 /* Representor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B501998589C08F884478D63 /* JFTextFieldTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4749E17BD99F8304065E5849 /* JFTextFieldTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EF0290E52307686711F16F3 /* Representor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382FE50497D16860F8D78B58 /* Representor.framework */; };
-		31F88A73D74275D7B725D267 /* VTAcknowledgementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB22D3B353A6B52C957D1B /* VTAcknowledgementViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		332F99EF68D1A9AE62F6795C /* Pods-Starship-Hyperdrive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7398011BCA2F9F85D8CB2 /* Pods-Starship-Hyperdrive-dummy.m */; };
-		34C8A0A6B4FC0B7590C44600 /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E798F6E4EE6CDFCCC7A79 /* FormTextViewCell.swift */; };
-		350EC13CD29CCE0B1B93C9F2 /* VTAcknowledgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EBFA02E2DB7EB1514646CB /* VTAcknowledgement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		35CD5719DD3E5E0E3376AC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		39D1E64104FE645F009D6472 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0020B6521A706E9D7B92CE11 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B24D9423FE118D4D702EA9F /* Representor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0304183CCFFF14AB98E0D1 /* Representor.swift */; };
-		40A8EFCE0776B90BDC8EAF5E /* TransitionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FE8AD4AA144E999956443B /* TransitionBuilder.swift */; };
-		46709F176CCF706629C74421 /* Blueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534E6D7F51D18B2BD498BCE0 /* Blueprint.swift */; };
-		46AFE4DD327B9339C23D6687 /* FormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BDF0F61CF676C1A0BD177F /* FormButtonCell.swift */; };
-		4A9329E51867844BF13633D6 /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF58DBB0D8F19F08CCDA7F /* URITemplate.swift */; };
-		50C3F3A0B5ADE589CF687727 /* Pods-Starship-URITemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2493D32DF1EF34FE64B3C5 /* Pods-Starship-URITemplate-dummy.m */; };
-		5178441CDE8FEB2E32F0BC1D /* Pods-Starship-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 039F4AA96EB8ED3F7CCFF452 /* Pods-Starship-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		573BBCB55D281240478891A8 /* Pods-Starship-JFTextFieldTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBF85D409CA3676C1DDEA2F /* Pods-Starship-JFTextFieldTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60B86B382D7E0E737F94A739 /* FormDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDED041C28C098152A2C09E /* FormDateCell.swift */; };
-		6C97B3A199C679EB8DB5559B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		6DA06FBC1AA1AF949AA279C2 /* VTAcknowledgementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3E588154ACF68043A3ECA9 /* VTAcknowledgementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E12953E968288E0DFD761FA /* VTAcknowledgement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1667E5BC2B24463B6E2A1C7A /* VTAcknowledgement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FFCBB095C6204C3C833A902 /* BlueprintTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBE113FC85D15855AD53F8 /* BlueprintTransition.swift */; };
-		70BE5A20DAE7E8F3141BCEBD /* Pods-Starship-URITemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4798D6007118B8DC7C516F2 /* Pods-Starship-URITemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		761BE5FD50CA6F5F4A43C4CC /* Pods-Starship-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F399299E2D8310ABA8FE156 /* Pods-Starship-dummy.m */; };
-		76FC0B306C35FD341A8889D3 /* FormSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FFEA1D243913841DA48112 /* FormSelectorCell.swift */; };
-		798F192CEE99B2301BF29828 /* HTTPDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCC2B4B09B93DAB154887B /* HTTPDeserialization.swift */; };
-		82BF429B2940C75C8D6F8625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		847DEEC8E6340ECA64F319E1 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2E3656DC1D023FD9149D53 /* SVProgressHUD.m */; };
-		854F12404A22B94C02F8B22E /* FormSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F04229D03221650AA4C7AC /* FormSelector.swift */; };
-		8978542AE646E2B9DE75BF80 /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE6ED3786FC0C24226B65E /* FormStepperCell.swift */; };
-		9302AAF17038B654C4174C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		96EC9A698CFAB14E252C3E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		98B28A68BA98BFCDF7D5E92E /* RepresentorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71048F3843D4AA9DC5951B68 /* RepresentorBuilder.swift */; };
-		9A6F9C5008D2A3FACE393255 /* VTAcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE2B034B281B8ACFEA24F8 /* VTAcknowledgementsViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9AD8123E0FD1CDBAAE9F6CE3 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17706E897A678BE90E3E7D66 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AFEB7BDEE220355DE47DB7F /* Pods-Starship-VTAcknowledgementsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342358465BB7870CB119729C /* Pods-Starship-VTAcknowledgementsViewController-dummy.m */; };
-		9FF2AFAEA3839A3A83087ADA /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCEFDCE101A11F7A397DD4A /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A46347E55F8AF4BFEBD84ABA /* Pods-Starship-JFTextFieldTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B777D3A806C1C055B8D47B /* Pods-Starship-JFTextFieldTableCell-dummy.m */; };
-		A9568ED3B2B19FBC82BB60D6 /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B1C887AE96DF66686666F0 /* FormSwitchCell.swift */; };
-		ADF5371B39EAC605DC1FE5CF /* Pods-Starship-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A590DBC9196E774130B272 /* Pods-Starship-SVProgressHUD-dummy.m */; };
-		B8E746D5401F5911827F1FB4 /* Pods-Starship-SwiftForms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D955FD5C32B10A74F96122 /* Pods-Starship-SwiftForms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB584AD3500A7221841CB10E /* FormRowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63B75EE82DB4B7AC5D792 /* FormRowDescriptor.swift */; };
-		C054EFFCF04D16A2AB25C84B /* FormDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A636D42434D679B46C34BCA /* FormDescriptor.swift */; };
-		CB47A0C1B51A796A8C69EE2B /* HTTPSirenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54A828032704845B4B96A53 /* HTTPSirenAdapter.swift */; };
-		CDDFD2A9B61EE460198BF363 /* JFTextFieldTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C879A8BC765317320728F8B0 /* JFTextFieldTableCell.m */; };
-		D0A20EF477FE30AA0F0DE97F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A3CCA179844E23FF2D95D4 /* SVIndefiniteAnimatedView.m */; };
-		DA1468C7D75BEBA8C8B850A8 /* HTTPHALAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EE0B7D819165AB804CC40 /* HTTPHALAdapter.swift */; };
-		E128A48FBD3E06A3499BAE99 /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E07410D43E5DC3A17A996B1 /* FormSliderCell.swift */; };
-		E37AF6CF1BBE55983835DB5D /* HTTPTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B027ADDF97C29D8F8C89C05 /* HTTPTransition.swift */; };
-		E3CA3B249876309AF488E6FC /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC860134CDCE3B898B59AF2C /* URITemplate.framework */; };
-		E6B20701E1899CB84D9371E5 /* Pods-Starship-Representor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E21E8A6A0D503480D1B0890 /* Pods-Starship-Representor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9E2A51F78B270B7F191940E /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D94A0D8F4F8431A525E8F9 /* FormCheckCell.swift */; };
-		EA3E6750CDB67EE1987716E2 /* FormSegmentedControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE8C0431708A32A8879F07 /* FormSegmentedControlCell.swift */; };
-		EBA7C6EA92ACBAB8D504C5E4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29E84FECFEA950499FBC075F /* SVProgressHUD.bundle */; };
-		ED6D6FDF69C66B73CA74786A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627D1803F557F9F30E94645 /* Foundation.framework */; };
-		EE787C96A535205DF9386CC2 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE4D673EA9900C25C336692 /* FormPickerCell.swift */; };
-		F26FC2DF67D5944192570EBE /* Pods-Starship-Hyperdrive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB4DEF690FB0DC6F30F1AA3 /* Pods-Starship-Hyperdrive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F671FF4CD7D93D7CFCAE0A11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145176803EB3375553A31EDD /* QuartzCore.framework */; };
-		FA84415054DF4459DA83D4B3 /* Pods-Starship-SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EB1A3DDC2FA2A9C73CA7C6 /* Pods-Starship-SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBE14519CDEC0C0FAF2B069A /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D558C1B507F0FEB6ECABD01 /* FormViewController.swift */; };
+		02683C89446376831965703E /* Pods-Starship-Representor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFE26B7E9D28C9D9BEAB5D /* Pods-Starship-Representor-dummy.m */; };
+		0581D82F4A395FAF72A23EBE /* FormSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198ECB623EE2E6DD6399DC8 /* FormSelectorCell.swift */; };
+		07C681006EF762F93C73DCA4 /* FormDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E5A12B111FE5FA8A37AAC /* FormDescriptor.swift */; };
+		0D19F9172200C38C2E30C62A /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6050BF96BA832E3E804819F /* FormSwitchCell.swift */; };
+		0F1BBA49139034CEECB2D387 /* Hyperdrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AE6FE351DED44CC804F56 /* Hyperdrive.swift */; };
+		131245F4180660CA23DAA6BD /* FormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948E324F68809AF400001978 /* FormButtonCell.swift */; };
+		170E2C90F4016A7E5E845931 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F288B799B054CFF2FE4FB /* FormViewController.swift */; };
+		19536AEA4CB87897050E9B80 /* FormDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B68F2A89EB79983FAF8E58 /* FormDateCell.swift */; };
+		1A1A6EC223EAC381A52484FC /* Representor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE506B5244624A90F988718D /* Representor.framework */; };
+		1C1B1F0C037388C7EA7BFF34 /* Pods-Starship-SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 377E7AC0AE45BDC143531451 /* Pods-Starship-SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D75E9B3002061011CE00339 /* HTTPSirenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D60EBC96C65344B2D84E3 /* HTTPSirenAdapter.swift */; };
+		20C361B61869DD57C12D86F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		20DF904E00275A983AE97E82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3774C0A050C88535C177C4 /* QuartzCore.framework */; };
+		239F05912F066E54B007FF01 /* Pods-Starship-SwiftForms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F441808061EC5440E70808F5 /* Pods-Starship-SwiftForms-dummy.m */; };
+		33385F4F9263AD851CC50F0E /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFEFEA721722DF2756E2F1 /* FormSectionDescriptor.swift */; };
+		413C77F44B4E81DA3E179D69 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4400CD4CB95E158BD059889 /* FormPickerCell.swift */; };
+		448FF3AAF4FBF72C0F1E3496 /* FormOptionsSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EBD3ECBA5E2B5EE94EFD55 /* FormOptionsSelectorController.swift */; };
+		48666B5DF19C338911AC9B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		48F3E6D59657B6F104CF98B7 /* FormSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC988DF29CAC433BF4E566 /* FormSelector.swift */; };
+		4D3A3F32AEA75A6CD85BAFB8 /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5EAADCBD9E42D708968FF5 /* FormStepperCell.swift */; };
+		4D5E25A0D1600FEB5BB2ED3A /* Pods-Starship-SwiftForms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 299D27B1B2E8E731B2B89519 /* Pods-Starship-SwiftForms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		512FC88525597A73D96FC9B8 /* Pods-Starship-URITemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF744E63D9159FBB9B49DCA8 /* Pods-Starship-URITemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556BD49D633C10BBEA5D658A /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C195358E8118A3BFE097A4 /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE92D6237B95BB4180B97CD /* VTAcknowledgementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C2F096613F53AE28BD8A96 /* VTAcknowledgementViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D388FBA43592C1C07E8D968 /* HTTPTransitionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AD3E36060901A5A2C8571 /* HTTPTransitionBuilder.swift */; };
+		5D76034D46FE88BF35FF00FF /* Pods-Starship-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E35456FBFAE75D01414AB33E /* Pods-Starship-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F18C100675CD1697EDC31F7 /* VTAcknowledgementsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF7F0B4A9B141C5A34EF9B2 /* VTAcknowledgementsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EDF1845035A6963C09178F /* Pods-Starship-JFTextFieldTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7214007638B4033FF94B7BD /* Pods-Starship-JFTextFieldTableCell-dummy.m */; };
+		628094F3C6130D4BEF7AC701 /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BE91D5C22C77302AE1A9D /* FormTextViewCell.swift */; };
+		647A1DB4084E8DD39F59DD9B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA86C457F649BE30A8469AC /* SVProgressHUD.m */; };
+		66B6CD7A56EEC1AF5DC29889 /* Pods-Starship-Hyperdrive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432741AF2D798AC67FB495D /* Pods-Starship-Hyperdrive-dummy.m */; };
+		690FE04C395630A0A47AF8A4 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6315A16EB0D6A2C5C843D4 /* URITemplate.framework */; };
+		70CA9EC12A9186F50EC3684F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		724E24C820E62A8E706A6F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		750037FF61AF926E59FDAE81 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC7AA9C91CB5456B44746F0 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7818A5474A271610281AF255 /* Representor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BCD6CA990FE60DF695F73 /* Representor.swift */; };
+		7EA0C304CC960BA7E649BDAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		8095486E26743CA0ECAD7C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		82CBBC08679A4E07F23959D9 /* VTAcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF0FCD7D56F877449EDF32F /* VTAcknowledgementsViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		858AE7E7116A8F1571B462E8 /* FormTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56993E7CE8B9AD186AFD4878 /* FormTitleCell.swift */; };
+		86C461AA3EDB251007403656 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E45BF97CCD25A72B1BF65C /* SVIndefiniteAnimatedView.m */; };
+		8744CC53BC2DEB8358690B5F /* FormSegmentedControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFBAA4F053C522AAAC0CB67 /* FormSegmentedControlCell.swift */; };
+		8B878EDA5B09CB2687D4E347 /* BlueprintTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ED67C079D199DFC064F04 /* BlueprintTransition.swift */; };
+		8CFA186270BD9552FE203DB5 /* Pods-Starship-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F01768BDB106356A30ECA828 /* Pods-Starship-dummy.m */; };
+		91C8A9A8584AF25E26713BFA /* Pods-Starship-JFTextFieldTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB49CFA99247E11FCA9BC35E /* Pods-Starship-JFTextFieldTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B3726C9BD7EC6E4346B9E9 /* JFTextFieldTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3844B87FF22300DF5372E /* JFTextFieldTableCell.m */; };
+		AAC16B3D8AF18C7D886E3F91 /* Pods-Starship-URITemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F70DDAF6142DD13EB71DF /* Pods-Starship-URITemplate-dummy.m */; };
+		AB07D185181070C540A0FAF8 /* Pods-Starship-VTAcknowledgementsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD60BA180DC9782FD04DB288 /* Pods-Starship-VTAcknowledgementsViewController-dummy.m */; };
+		ADE2AB4670BD18B68EC93451 /* Representor.h in Headers */ = {isa = PBXBuildFile; fileRef = 763C12F54106D9DB17CC4C1E /* Representor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC991D03A7629B931AD0BF5 /* JFTextFieldTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AD0E8CB627AC88DA607E8E /* JFTextFieldTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B067BBC507D4B050075AFADF /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2171D8DFA48B5D7CA6111D /* Transition.swift */; };
+		C13A2555D4164FDFD0006F31 /* Pods-Starship-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9331EB46F5CF247FE5A7FACE /* Pods-Starship-SVProgressHUD-dummy.m */; };
+		C597737E874F7EE8C651FF72 /* HTTPTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C6A1C5D045E08BB4E4E83 /* HTTPTransition.swift */; };
+		C5C334E62D52751CE8098522 /* RepresentorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FFBCD6CC9A161BCD3CAF5 /* RepresentorBuilder.swift */; };
+		C640D6C27B563CED5947BBBC /* FormValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941485050BB1361B2431B36C /* FormValueCell.swift */; };
+		C7B90349A9D245D27D269DE7 /* TransitionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC689482CAA2505E57DBCD9D /* TransitionBuilder.swift */; };
+		CC2F96A8E92033756D0A2E2F /* HTTPHALAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53BE8BCBF2C273A3809EA7 /* HTTPHALAdapter.swift */; };
+		CC76F257818750E094464686 /* FormRowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A8BDBA3647B6D8DF774D10 /* FormRowDescriptor.swift */; };
+		CDA5E496CC757BA780FA453F /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9350142671FF8CD50FE1AE7 /* FormTextFieldCell.swift */; };
+		CE4C44D1AB6E4B7BDB98642D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		D15993E546D0EDF8C805A3CA /* VTAcknowledgement.m in Sources */ = {isa = PBXBuildFile; fileRef = B06A43E3190140445A06554B /* VTAcknowledgement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3A34ED90E9616E2A9393203 /* VTAcknowledgementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6035A51BF8CBF7C56E649DC9 /* VTAcknowledgementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92119BB438591A68D2886F7 /* VTAcknowledgement.h in Headers */ = {isa = PBXBuildFile; fileRef = A12A994EB7ABA9BF84B8983C /* VTAcknowledgement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD44E558838B1658786AADA /* HyperBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608ECB9E9684174A38B20F2E /* HyperBlueprint.swift */; };
+		DE225A6A40FAF98AFF56868C /* Pods-Starship-Hyperdrive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E05B5CC11E98B01F319B19 /* Pods-Starship-Hyperdrive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F7451D6B18678E5DC820F8 /* FormBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B046CD0B4313F06FACB68 /* FormBaseCell.swift */; };
+		E40AB8C77616D7AA3345918D /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7690A3D7AB52C69CD5E406 /* URITemplate.swift */; };
+		E51907756F3487E2C550DDF6 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7163CB10435199941DC511 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E83BE093D46537BBED578996 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8248F7CA183E8C8001CAA840 /* SVProgressHUD.bundle */; };
+		EA0840BD2EB95248EEF5D2BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70B4C6216D47FE41797A1B /* Foundation.framework */; };
+		EA8B43C77D8D655F467A8E20 /* Pods-Starship-Representor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E842E781FAE65269A5422B74 /* Pods-Starship-Representor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC825C8803962E7623EFB52 /* Blueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C7637DB7E109C53CDB89C6 /* Blueprint.swift */; };
+		ED3BE356DF354FCE0516EC5E /* VTAcknowledgementsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB7C06C766BDB2E126F0F952 /* VTAcknowledgementsViewController.bundle */; };
+		F3ED93B0449A81BFC3C87ED0 /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB1A0E684453E3A9A7F271 /* FormCheckCell.swift */; };
+		F59D351EF02876579D154FFE /* HTTPDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D313159DE654A3B7A4893AE7 /* HTTPDeserialization.swift */; };
+		FB3A27FC02F3C77F2DD826AA /* URITemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 273B20C0E204AE74B9DF99D7 /* URITemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD67C187488A4CC620365839 /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2060214B35E9806AE9228A /* FormSliderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		289AA18CAA1D724E7C827BCF /* PBXContainerItemProxy */ = {
+		045B9F768180C28DBBDD911A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D695C2782D0A281E49D5C62F;
+			remoteGlobalIDString = 9CD6525F4085A7E00C4E5F2F;
 			remoteInfo = "Pods-Starship-URITemplate";
 		};
-		4154A4F9CF097961B2039ED1 /* PBXContainerItemProxy */ = {
+		112F38C050D5C4A9C9AD2F43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C6A5887A1F300F856B211A84;
-			remoteInfo = "Pods-Starship-SwiftForms";
-		};
-		444C848FF5305340E11D67A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A98F057F038F910A685934E;
+			remoteGlobalIDString = 595427BBB1D2ADB99BF00510;
 			remoteInfo = "Pods-Starship-Representor";
 		};
-		6A5FA42744F6F822958931C8 /* PBXContainerItemProxy */ = {
+		135644D85C8E9D4B9925D5FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C28189CB1CF98FC649D19841;
-			remoteInfo = "Pods-Starship-Hyperdrive";
-		};
-		7FE8C38F2E96E0FA06FB0BDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED5D19B552D329C9E42B555D;
-			remoteInfo = "Pods-Starship-SVProgressHUD";
-		};
-		8106C95CCC0AA3A061A71F1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7086BB73D88E53EB413ABE0C;
-			remoteInfo = "Pods-Starship-VTAcknowledgementsViewController";
-		};
-		AB5D7F519ECB626B2066B309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A98F057F038F910A685934E;
-			remoteInfo = "Pods-Starship-Representor";
-		};
-		CD731AE6857ECA8A6E5EDF17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B22CD7EDD9814FDE8594C57B;
+			remoteGlobalIDString = 4D38969B72A6BBA10BF7FF44;
 			remoteInfo = "Pods-Starship-JFTextFieldTableCell";
 		};
-		EDF0468BB559D8BC9E177576 /* PBXContainerItemProxy */ = {
+		386E502B89EC89A1842138DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7059A5088124BDC6EA40CB96 /* Project object */;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D695C2782D0A281E49D5C62F;
+			remoteGlobalIDString = 9CD6525F4085A7E00C4E5F2F;
 			remoteInfo = "Pods-Starship-URITemplate";
+		};
+		8E24A4CF39B9B90951CBF787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1DF1805BF5125482BBB50B5;
+			remoteInfo = "Pods-Starship-SVProgressHUD";
+		};
+		AF8A40811AE01BC8A1DC639F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8863DEA43AC6B4447F735556;
+			remoteInfo = "Pods-Starship-VTAcknowledgementsViewController";
+		};
+		CF463EF056D0314D2D29B3B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73FC0B0FD09200EFCA88DAA7;
+			remoteInfo = "Pods-Starship-Hyperdrive";
+		};
+		EBBC04ADFA24727ABAB25DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595427BBB1D2ADB99BF00510;
+			remoteInfo = "Pods-Starship-Representor";
+		};
+		F429C466CC1FFA01D5CA7362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE63D68DF84C0BBE9D3A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC58AE7010FD59904CD6DDD3;
+			remoteInfo = "Pods-Starship-SwiftForms";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0020B6521A706E9D7B92CE11 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		0080DE8486D08FB18B0E2E86 /* VTAcknowledgementsViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = VTAcknowledgementsViewController.bundle; sourceTree = "<group>"; };
-		0225DC9F9D9D9C0648FFA09C /* Pods-Starship-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
-		039F4AA96EB8ED3F7CCFF452 /* Pods-Starship-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-umbrella.h"; sourceTree = "<group>"; };
-		03CD7DFED1B8D74ACD26C105 /* FormSectionDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSectionDescriptor.swift; path = SwiftForms/descriptors/FormSectionDescriptor.swift; sourceTree = "<group>"; };
-		048FBE2890066CB26F791FF7 /* Pods-Starship-SwiftForms-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SwiftForms-Private.xcconfig"; sourceTree = "<group>"; };
-		0610A461D7FC29DC322558FF /* Hyperdrive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperdrive.swift; path = Hyperdrive/Hyperdrive.swift; sourceTree = "<group>"; };
-		0627D1803F557F9F30E94645 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		067DD7738537A5A3F3F353B5 /* Representor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Representor.h; path = Representor/Representor.h; sourceTree = "<group>"; };
-		06F04229D03221650AA4C7AC /* FormSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelector.swift; path = SwiftForms/controllers/FormSelector.swift; sourceTree = "<group>"; };
-		08EB1A3DDC2FA2A9C73CA7C6 /* Pods-Starship-SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		0EDB1AD152D5E13AB2B18997 /* Pods-Starship-JFTextFieldTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-JFTextFieldTableCell-prefix.pch"; sourceTree = "<group>"; };
-		1006C02624C98B4DA706AFD6 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11D955FD5C32B10A74F96122 /* Pods-Starship-SwiftForms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SwiftForms-umbrella.h"; sourceTree = "<group>"; };
-		125B8DCA1675547E398735E6 /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig"; sourceTree = "<group>"; };
-		145176803EB3375553A31EDD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		1667E5BC2B24463B6E2A1C7A /* VTAcknowledgement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgement.h; path = Classes/VTAcknowledgement.h; sourceTree = "<group>"; };
-		17706E897A678BE90E3E7D66 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		185E798F6E4EE6CDFCCC7A79 /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = SwiftForms/cells/FormTextViewCell.swift; sourceTree = "<group>"; };
-		187B3EB254457282A3FFB84F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		197D6AE2F1F8B6A584574BE5 /* FormValueCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValueCell.swift; path = SwiftForms/cells/base/FormValueCell.swift; sourceTree = "<group>"; };
-		1BDED041C28C098152A2C09E /* FormDateCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDateCell.swift; path = SwiftForms/cells/FormDateCell.swift; sourceTree = "<group>"; };
-		1DCEFDCE101A11F7A397DD4A /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-VTAcknowledgementsViewController-umbrella.h"; sourceTree = "<group>"; };
-		207A42FE4D9BD9648DF41B7B /* Pods-Starship-Hyperdrive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-Hyperdrive.modulemap"; sourceTree = "<group>"; };
-		2204B92542A39AD6F4C6173C /* Pods-Starship-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
-		23A590DBC9196E774130B272 /* Pods-Starship-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		24618BED663103F386AE960D /* Pods-Starship-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		24FB22D3B353A6B52C957D1B /* VTAcknowledgementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementViewController.m; path = Classes/VTAcknowledgementViewController.m; sourceTree = "<group>"; };
-		27ABED6BE99E32AC7E18B366 /* VTAcknowledgementsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTAcknowledgementsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E84FECFEA950499FBC075F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		2A636D42434D679B46C34BCA /* FormDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDescriptor.swift; path = SwiftForms/descriptors/FormDescriptor.swift; sourceTree = "<group>"; };
-		2C7E30719A9B7BDF67A42935 /* Pods-Starship-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Starship-resources.sh"; sourceTree = "<group>"; };
-		2E07410D43E5DC3A17A996B1 /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = SwiftForms/cells/FormSliderCell.swift; sourceTree = "<group>"; };
-		2E21E8A6A0D503480D1B0890 /* Pods-Starship-Representor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Representor-umbrella.h"; sourceTree = "<group>"; };
-		2EBDFD9E59CBEEA0D1617395 /* Pods-Starship-URITemplate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-URITemplate.xcconfig"; sourceTree = "<group>"; };
-		2F3E588154ACF68043A3ECA9 /* VTAcknowledgementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementViewController.h; path = Classes/VTAcknowledgementViewController.h; sourceTree = "<group>"; };
-		32F138DA6A24CD6A5CFB5307 /* Pods-Starship-Representor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-Representor-dummy.m"; sourceTree = "<group>"; };
-		342358465BB7870CB119729C /* Pods-Starship-VTAcknowledgementsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-VTAcknowledgementsViewController-dummy.m"; sourceTree = "<group>"; };
-		382FE50497D16860F8D78B58 /* Representor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Representor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38A71724510777A905209FE3 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-JFTextFieldTableCell-Private.xcconfig"; sourceTree = "<group>"; };
-		39A3CCA179844E23FF2D95D4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		39AD66E0B75947C004BD657F /* Pods-Starship-URITemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-URITemplate.modulemap"; sourceTree = "<group>"; };
-		3E1F6747DC4BE01F2E7D6637 /* Pods-Starship-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-environment.h"; sourceTree = "<group>"; };
-		3EB4DEF690FB0DC6F30F1AA3 /* Pods-Starship-Hyperdrive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Hyperdrive-umbrella.h"; sourceTree = "<group>"; };
-		42BDF0F61CF676C1A0BD177F /* FormButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormButtonCell.swift; path = SwiftForms/cells/FormButtonCell.swift; sourceTree = "<group>"; };
-		439116C0AD4CAAD2D9AAFB6D /* Pods-Starship-SwiftForms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-SwiftForms-dummy.m"; sourceTree = "<group>"; };
-		45D0CEDE8FF06A8EE7D84C41 /* JFTextFieldTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JFTextFieldTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4749E17BD99F8304065E5849 /* JFTextFieldTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JFTextFieldTableCell.h; path = src/JFTextFieldTableCell.h; sourceTree = "<group>"; };
-		47CCC178FF9194346F7120E8 /* Pods-Starship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship.debug.xcconfig"; sourceTree = "<group>"; };
-		49430521EF4FF5D27FD42F79 /* Pods_Starship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA2641DBF8A0604100B95D2 /* Pods-Starship-URITemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-URITemplate-prefix.pch"; sourceTree = "<group>"; };
-		4AE63B75EE82DB4B7AC5D792 /* FormRowDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormRowDescriptor.swift; path = SwiftForms/descriptors/FormRowDescriptor.swift; sourceTree = "<group>"; };
-		4ED9018FE6D48ADF997B6C5F /* Pods-Starship-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Starship-acknowledgements.plist"; sourceTree = "<group>"; };
-		4EF459F35775051878C5C94A /* VTAcknowledgementsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementsViewController.h; path = Classes/VTAcknowledgementsViewController.h; sourceTree = "<group>"; };
-		4F399299E2D8310ABA8FE156 /* Pods-Starship-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-dummy.m"; sourceTree = "<group>"; };
-		50EBFA02E2DB7EB1514646CB /* VTAcknowledgement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgement.m; path = Classes/VTAcknowledgement.m; sourceTree = "<group>"; };
-		51FFEA1D243913841DA48112 /* FormSelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorCell.swift; path = SwiftForms/cells/FormSelectorCell.swift; sourceTree = "<group>"; };
-		528EFA7CBC2FF430605530CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		534E6D7F51D18B2BD498BCE0 /* Blueprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blueprint.swift; path = Representor/HTTP/APIBlueprint/Blueprint.swift; sourceTree = "<group>"; };
-		56639CACC2A1F5A0396D8063 /* FormTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTitleCell.swift; path = SwiftForms/cells/base/FormTitleCell.swift; sourceTree = "<group>"; };
-		596876840BC93C425DC1042F /* Pods-Starship-SwiftForms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-SwiftForms.modulemap"; sourceTree = "<group>"; };
-		599A1C67E41039C4E157DD50 /* HTTPTransitionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTransitionBuilder.swift; path = Representor/HTTP/HTTPTransitionBuilder.swift; sourceTree = "<group>"; };
-		59FE8AD4AA144E999956443B /* TransitionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionBuilder.swift; path = Representor/Builder/TransitionBuilder.swift; sourceTree = "<group>"; };
-		5B2493D32DF1EF34FE64B3C5 /* Pods-Starship-URITemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-URITemplate-dummy.m"; sourceTree = "<group>"; };
-		5D558C1B507F0FEB6ECABD01 /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = SwiftForms/controllers/FormViewController.swift; sourceTree = "<group>"; };
-		60B8F1FF9C67CD8715C8CB5C /* Pods-Starship-Hyperdrive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Hyperdrive-prefix.pch"; sourceTree = "<group>"; };
-		69209DCA58C0C0EF21FFEE9D /* Pods-Starship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship.release.xcconfig"; sourceTree = "<group>"; };
-		6ECA64ED056E5775B9ABB567 /* URITemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URITemplate.h; path = URITemplate/URITemplate.h; sourceTree = "<group>"; };
-		71048F3843D4AA9DC5951B68 /* RepresentorBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepresentorBuilder.swift; path = Representor/Builder/RepresentorBuilder.swift; sourceTree = "<group>"; };
-		71BE2B034B281B8ACFEA24F8 /* VTAcknowledgementsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementsViewController.m; path = Classes/VTAcknowledgementsViewController.m; sourceTree = "<group>"; };
-		72DF58DBB0D8F19F08CCDA7F /* URITemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URITemplate.swift; path = URITemplate/URITemplate.swift; sourceTree = "<group>"; };
-		73DC2BF7C9F977A712B97F57 /* Pods-Starship-Hyperdrive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Hyperdrive.xcconfig"; sourceTree = "<group>"; };
-		7469FCB73703140E699020CD /* Pods-Starship-Representor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Representor.xcconfig"; sourceTree = "<group>"; };
-		77373CC371481DDB255456B7 /* Pods-Starship.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship.modulemap"; sourceTree = "<group>"; };
-		796B3915D5A762B1C9BE2C9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843DB307A5B4C778D7BB456D /* SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88E7398011BCA2F9F85D8CB2 /* Pods-Starship-Hyperdrive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-Hyperdrive-dummy.m"; sourceTree = "<group>"; };
-		8A19CF15053CB2C054E2ADD2 /* Representor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Representor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E0ABB55839706A36DE5F221 /* Pods-Starship-JFTextFieldTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-JFTextFieldTableCell.xcconfig"; sourceTree = "<group>"; };
-		8EC0CA307C54EBD123F9A5C2 /* Pods-Starship-VTAcknowledgementsViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-VTAcknowledgementsViewController-prefix.pch"; sourceTree = "<group>"; };
-		8EC79DDCFBEF9EE515BE4524 /* Pods-Starship-URITemplate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-URITemplate-Private.xcconfig"; sourceTree = "<group>"; };
-		9185F056F91263B202768565 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C558633F37F725FFE68C3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9401B7EB6C00FA6363228DE5 /* Pods-Starship-SwiftForms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SwiftForms.xcconfig"; sourceTree = "<group>"; };
-		9892F787B9DBEDBDDAFB8207 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99B4BD63CE0CC617F263BDC7 /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B027ADDF97C29D8F8C89C05 /* HTTPTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTransition.swift; path = Representor/HTTP/HTTPTransition.swift; sourceTree = "<group>"; };
-		9B84F5725065364EC124AE65 /* Pods-Starship-JFTextFieldTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-JFTextFieldTableCell.modulemap"; sourceTree = "<group>"; };
-		9E0304183CCFFF14AB98E0D1 /* Representor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Representor.swift; path = Representor/Representor.swift; sourceTree = "<group>"; };
-		9E54FE36CC814914AC4081E3 /* Hyperdrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hyperdrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2EE8C0431708A32A8879F07 /* FormSegmentedControlCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedControlCell.swift; path = SwiftForms/cells/FormSegmentedControlCell.swift; sourceTree = "<group>"; };
-		A7B008B844B737C7E64D42C2 /* HyperBlueprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HyperBlueprint.swift; path = Hyperdrive/HyperBlueprint.swift; sourceTree = "<group>"; };
-		A8AE6ED3786FC0C24226B65E /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = SwiftForms/cells/FormStepperCell.swift; sourceTree = "<group>"; };
-		A94EE0B7D819165AB804CC40 /* HTTPHALAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHALAdapter.swift; path = Representor/HTTP/Adapters/HTTPHALAdapter.swift; sourceTree = "<group>"; };
-		AD96C65E568B525F37242A0D /* FormBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormBaseCell.swift; path = SwiftForms/cells/base/FormBaseCell.swift; sourceTree = "<group>"; };
-		AEBF85D409CA3676C1DDEA2F /* Pods-Starship-JFTextFieldTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-JFTextFieldTableCell-umbrella.h"; sourceTree = "<group>"; };
-		B4798D6007118B8DC7C516F2 /* Pods-Starship-URITemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-URITemplate-umbrella.h"; sourceTree = "<group>"; };
-		B7BBE113FC85D15855AD53F8 /* BlueprintTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintTransition.swift; path = Representor/HTTP/APIBlueprint/BlueprintTransition.swift; sourceTree = "<group>"; };
-		B8627B70232D186FCA6D6247 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBF75451D266A46E8BD4B7B4 /* Pods-Starship-SwiftForms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SwiftForms-prefix.pch"; sourceTree = "<group>"; };
-		BD2C652A261461158865B0CC /* Pods-Starship-Representor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-Representor.modulemap"; sourceTree = "<group>"; };
-		BDC5B164AFF7E9EC6B3E0D0B /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Representor/Transition.swift; sourceTree = "<group>"; };
-		C0481C8B5FFD449A14DA04D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B777D3A806C1C055B8D47B /* Pods-Starship-JFTextFieldTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-JFTextFieldTableCell-dummy.m"; sourceTree = "<group>"; };
-		C5A90A84E1D5BFA4AF7FE23E /* FormOptionsSelectorController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormOptionsSelectorController.swift; path = SwiftForms/controllers/FormOptionsSelectorController.swift; sourceTree = "<group>"; };
-		C5D94A0D8F4F8431A525E8F9 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = SwiftForms/cells/FormCheckCell.swift; sourceTree = "<group>"; };
-		C879A8BC765317320728F8B0 /* JFTextFieldTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JFTextFieldTableCell.m; path = src/JFTextFieldTableCell.m; sourceTree = "<group>"; };
-		CAE4D673EA9900C25C336692 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = SwiftForms/cells/FormPickerCell.swift; sourceTree = "<group>"; };
-		CBE01BD5DADB62BE56C8171D /* Pods-Starship-VTAcknowledgementsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-VTAcknowledgementsViewController.modulemap"; sourceTree = "<group>"; };
-		CCCCC2B4B09B93DAB154887B /* HTTPDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPDeserialization.swift; path = Representor/HTTP/HTTPDeserialization.swift; sourceTree = "<group>"; };
-		CEA1B9CBFCD0D56C593F6D7D /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = SwiftForms/cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
-		D6FD775EABC7E921DC619E49 /* Pods-Starship-Representor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Representor-prefix.pch"; sourceTree = "<group>"; };
-		DD9AA65468CBCC696115D7A8 /* Pods-Starship-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Starship-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE2E3656DC1D023FD9149D53 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		E54A828032704845B4B96A53 /* HTTPSirenAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPSirenAdapter.swift; path = Representor/HTTP/Adapters/HTTPSirenAdapter.swift; sourceTree = "<group>"; };
-		E8B1C887AE96DF66686666F0 /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = SwiftForms/cells/FormSwitchCell.swift; sourceTree = "<group>"; };
-		E8B39D6F8B17C8E6E57CB7B7 /* Pods-Starship-VTAcknowledgementsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-VTAcknowledgementsViewController.xcconfig"; sourceTree = "<group>"; };
-		EB5B8CC469635470B0F4E86D /* Pods-Starship-SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-SVProgressHUD.modulemap"; sourceTree = "<group>"; };
-		EC860134CDCE3B898B59AF2C /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECA49D60CFA4EC2A9E14164C /* Pods-Starship-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Starship-frameworks.sh"; sourceTree = "<group>"; };
-		ECA872ADD0091035CB231744 /* Pods-Starship-Hyperdrive-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Hyperdrive-Private.xcconfig"; sourceTree = "<group>"; };
-		EEB51FA5ABDFAD5E30C8F747 /* Pods-Starship-Representor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Representor-Private.xcconfig"; sourceTree = "<group>"; };
-		F1AF39172231D23A2C3F9B92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EF2C39611596C5A6029AD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060E5FA1D17A899094903C29 /* Pods-Starship-URITemplate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-URITemplate.xcconfig"; sourceTree = "<group>"; };
+		06ADE2853C5C21397CFC9875 /* Pods-Starship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship.debug.xcconfig"; sourceTree = "<group>"; };
+		08C7637DB7E109C53CDB89C6 /* Blueprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blueprint.swift; path = Representor/HTTP/APIBlueprint/Blueprint.swift; sourceTree = "<group>"; };
+		09FD2C4ECB14163C90088220 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0AA86C457F649BE30A8469AC /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		0CF0FCD7D56F877449EDF32F /* VTAcknowledgementsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementsViewController.m; path = Classes/VTAcknowledgementsViewController.m; sourceTree = "<group>"; };
+		0CFBAA4F053C522AAAC0CB67 /* FormSegmentedControlCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedControlCell.swift; path = SwiftForms/cells/FormSegmentedControlCell.swift; sourceTree = "<group>"; };
+		10D06252A9372F913EDB5211 /* Pods-Starship-VTAcknowledgementsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-VTAcknowledgementsViewController.xcconfig"; sourceTree = "<group>"; };
+		13C9C5B0912BC83D0813A08F /* Pods-Starship-SwiftForms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SwiftForms.xcconfig"; sourceTree = "<group>"; };
+		14D98A46E67E91E097C23823 /* Pods-Starship-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		183F57076CFA7B51B983B1B3 /* JFTextFieldTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JFTextFieldTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACD47E092111D05DEB2F6AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF711F9C53B445B6C8A5451 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-JFTextFieldTableCell-Private.xcconfig"; sourceTree = "<group>"; };
+		1E53BE8BCBF2C273A3809EA7 /* HTTPHALAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHALAdapter.swift; path = Representor/HTTP/Adapters/HTTPHALAdapter.swift; sourceTree = "<group>"; };
+		1FABEE39394893D123C9226A /* Pods-Starship-VTAcknowledgementsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-VTAcknowledgementsViewController.modulemap"; sourceTree = "<group>"; };
+		21E45BF97CCD25A72B1BF65C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2285FF480054F99A36CEF86B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DB95D666BC1806B42DE279 /* Pods-Starship-Hyperdrive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Hyperdrive-prefix.pch"; sourceTree = "<group>"; };
+		22E63CAA79952853FFF91FB0 /* Pods-Starship.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship.modulemap"; sourceTree = "<group>"; };
+		236D2666A61BE790122FF569 /* Pods_Starship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239C351FC5B8A97CBEE5508D /* Pods-Starship-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		23FE0EF6050B35B29D569DF0 /* Pods-Starship-SwiftForms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-SwiftForms.modulemap"; sourceTree = "<group>"; };
+		2579154EACE2B19EDCA1B973 /* Pods-Starship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship.release.xcconfig"; sourceTree = "<group>"; };
+		273B20C0E204AE74B9DF99D7 /* URITemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URITemplate.h; path = URITemplate/URITemplate.h; sourceTree = "<group>"; };
+		27C195358E8118A3BFE097A4 /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-VTAcknowledgementsViewController-umbrella.h"; sourceTree = "<group>"; };
+		299D27B1B2E8E731B2B89519 /* Pods-Starship-SwiftForms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SwiftForms-umbrella.h"; sourceTree = "<group>"; };
+		2B2171D8DFA48B5D7CA6111D /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Representor/Transition.swift; sourceTree = "<group>"; };
+		333E57A2BCE7EAC49679FD89 /* Pods-Starship-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Starship-acknowledgements.markdown"; sourceTree = "<group>"; };
+		377E7AC0AE45BDC143531451 /* Pods-Starship-SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		3A774704B8ED0DABDC8048D0 /* SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6315A16EB0D6A2C5C843D4 /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7163CB10435199941DC511 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3E1CD2854828C13FCD87F356 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44757B1B3356CF39B582BC32 /* Pods-Starship-SwiftForms-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SwiftForms-Private.xcconfig"; sourceTree = "<group>"; };
+		44EBD3ECBA5E2B5EE94EFD55 /* FormOptionsSelectorController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormOptionsSelectorController.swift; path = SwiftForms/controllers/FormOptionsSelectorController.swift; sourceTree = "<group>"; };
+		4A6606013E171DA303318ECA /* Pods-Starship-URITemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-URITemplate.modulemap"; sourceTree = "<group>"; };
+		4C9C6A1C5D045E08BB4E4E83 /* HTTPTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTransition.swift; path = Representor/HTTP/HTTPTransition.swift; sourceTree = "<group>"; };
+		4D2060214B35E9806AE9228A /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = SwiftForms/cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		4D3774C0A050C88535C177C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5098269AFB0B2ECFD0ED3CAF /* Pods-Starship-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Starship-resources.sh"; sourceTree = "<group>"; };
+		522B74FD10AE3CF0ECFACB58 /* Pods-Starship-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-environment.h"; sourceTree = "<group>"; };
+		527D60EBC96C65344B2D84E3 /* HTTPSirenAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPSirenAdapter.swift; path = Representor/HTTP/Adapters/HTTPSirenAdapter.swift; sourceTree = "<group>"; };
+		5432741AF2D798AC67FB495D /* Pods-Starship-Hyperdrive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-Hyperdrive-dummy.m"; sourceTree = "<group>"; };
+		56993E7CE8B9AD186AFD4878 /* FormTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTitleCell.swift; path = SwiftForms/cells/base/FormTitleCell.swift; sourceTree = "<group>"; };
+		57A6E89186B2C646E2D8DC51 /* Pods-Starship-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Starship-frameworks.sh"; sourceTree = "<group>"; };
+		5853D77D91A8BF9BD88151B7 /* Representor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Representor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC7AA9C91CB5456B44746F0 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		5D5ED67C079D199DFC064F04 /* BlueprintTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueprintTransition.swift; path = Representor/HTTP/APIBlueprint/BlueprintTransition.swift; sourceTree = "<group>"; };
+		5FEFE26B7E9D28C9D9BEAB5D /* Pods-Starship-Representor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-Representor-dummy.m"; sourceTree = "<group>"; };
+		6035A51BF8CBF7C56E649DC9 /* VTAcknowledgementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementViewController.h; path = Classes/VTAcknowledgementViewController.h; sourceTree = "<group>"; };
+		608ECB9E9684174A38B20F2E /* HyperBlueprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HyperBlueprint.swift; path = Hyperdrive/HyperBlueprint.swift; sourceTree = "<group>"; };
+		61C2F096613F53AE28BD8A96 /* VTAcknowledgementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementViewController.m; path = Classes/VTAcknowledgementViewController.m; sourceTree = "<group>"; };
+		64AD0E8CB627AC88DA607E8E /* JFTextFieldTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JFTextFieldTableCell.h; path = src/JFTextFieldTableCell.h; sourceTree = "<group>"; };
+		6530642A8D2C240732559833 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691E841AC69E8E4C6E6507A3 /* Pods-Starship-JFTextFieldTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-JFTextFieldTableCell.xcconfig"; sourceTree = "<group>"; };
+		69D0CE499E130DF71C04B305 /* Pods-Starship-SwiftForms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SwiftForms-prefix.pch"; sourceTree = "<group>"; };
+		6A5EAADCBD9E42D708968FF5 /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = SwiftForms/cells/FormStepperCell.swift; sourceTree = "<group>"; };
+		6BF69ACEBD37F530BC6CDA43 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF334A19D72D554BB2FCA2 /* Pods-Starship-VTAcknowledgementsViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-VTAcknowledgementsViewController-prefix.pch"; sourceTree = "<group>"; };
+		731B046CD0B4313F06FACB68 /* FormBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormBaseCell.swift; path = SwiftForms/cells/base/FormBaseCell.swift; sourceTree = "<group>"; };
+		74E05B5CC11E98B01F319B19 /* Pods-Starship-Hyperdrive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Hyperdrive-umbrella.h"; sourceTree = "<group>"; };
+		763C12F54106D9DB17CC4C1E /* Representor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Representor.h; path = Representor/Representor.h; sourceTree = "<group>"; };
+		811BCD6CA990FE60DF695F73 /* Representor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Representor.swift; path = Representor/Representor.swift; sourceTree = "<group>"; };
+		8248F7CA183E8C8001CAA840 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		8D9F288B799B054CFF2FE4FB /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = SwiftForms/controllers/FormViewController.swift; sourceTree = "<group>"; };
+		8F0744E9491D4C8B7329118D /* Pods-Starship-JFTextFieldTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-JFTextFieldTableCell-prefix.pch"; sourceTree = "<group>"; };
+		91C616260D6C0B932EF31C03 /* Pods-Starship-Representor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Representor-Private.xcconfig"; sourceTree = "<group>"; };
+		9331EB46F5CF247FE5A7FACE /* Pods-Starship-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		941485050BB1361B2431B36C /* FormValueCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormValueCell.swift; path = SwiftForms/cells/base/FormValueCell.swift; sourceTree = "<group>"; };
+		948E324F68809AF400001978 /* FormButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormButtonCell.swift; path = SwiftForms/cells/FormButtonCell.swift; sourceTree = "<group>"; };
+		97E3844B87FF22300DF5372E /* JFTextFieldTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JFTextFieldTableCell.m; path = src/JFTextFieldTableCell.m; sourceTree = "<group>"; };
+		994AD3E36060901A5A2C8571 /* HTTPTransitionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTransitionBuilder.swift; path = Representor/HTTP/HTTPTransitionBuilder.swift; sourceTree = "<group>"; };
+		9E0AE6FE351DED44CC804F56 /* Hyperdrive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperdrive.swift; path = Hyperdrive/Hyperdrive.swift; sourceTree = "<group>"; };
+		9E70B4C6216D47FE41797A1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9F39B701CF1171D06C9C21DF /* Pods-Starship-Hyperdrive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-Hyperdrive.modulemap"; sourceTree = "<group>"; };
+		A12A994EB7ABA9BF84B8983C /* VTAcknowledgement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgement.h; path = Classes/VTAcknowledgement.h; sourceTree = "<group>"; };
+		A1D1ACFAEBE360B988ED58F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D68C344B884BE58B635869 /* Pods-Starship-SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-SVProgressHUD.modulemap"; sourceTree = "<group>"; };
+		A234D3B35EEE8323E48DA75B /* Pods-Starship-JFTextFieldTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-JFTextFieldTableCell.modulemap"; sourceTree = "<group>"; };
+		A50EA822E5811D1C5E20F50C /* Hyperdrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hyperdrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D27099862F220FBFDBCC39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7214007638B4033FF94B7BD /* Pods-Starship-JFTextFieldTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-JFTextFieldTableCell-dummy.m"; sourceTree = "<group>"; };
+		A94BE91D5C22C77302AE1A9D /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = SwiftForms/cells/FormTextViewCell.swift; sourceTree = "<group>"; };
+		AB49CFA99247E11FCA9BC35E /* Pods-Starship-JFTextFieldTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-JFTextFieldTableCell-umbrella.h"; sourceTree = "<group>"; };
+		ABCFEFEA721722DF2756E2F1 /* FormSectionDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSectionDescriptor.swift; path = SwiftForms/descriptors/FormSectionDescriptor.swift; sourceTree = "<group>"; };
+		AD34A0F0890FB9BDB0D698AC /* Pods-Starship-Representor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Representor.xcconfig"; sourceTree = "<group>"; };
+		B06A43E3190140445A06554B /* VTAcknowledgement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgement.m; path = Classes/VTAcknowledgement.m; sourceTree = "<group>"; };
+		B6CFD1D179326FE575A228D4 /* Pods-Starship-URITemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-URITemplate-prefix.pch"; sourceTree = "<group>"; };
+		BB7C06C766BDB2E126F0F952 /* VTAcknowledgementsViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = VTAcknowledgementsViewController.bundle; sourceTree = "<group>"; };
+		C004E702B1DEF707928861BE /* Pods-Starship-Representor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Representor-prefix.pch"; sourceTree = "<group>"; };
+		C6B68F2A89EB79983FAF8E58 /* FormDateCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDateCell.swift; path = SwiftForms/cells/FormDateCell.swift; sourceTree = "<group>"; };
+		CEDB1A0E684453E3A9A7F271 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = SwiftForms/cells/FormCheckCell.swift; sourceTree = "<group>"; };
+		CEF7F0B4A9B141C5A34EF9B2 /* VTAcknowledgementsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementsViewController.h; path = Classes/VTAcknowledgementsViewController.h; sourceTree = "<group>"; };
+		CF163604F8294E60E9DB3CAF /* Pods-Starship-Hyperdrive-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Hyperdrive-Private.xcconfig"; sourceTree = "<group>"; };
+		CF9F70DDAF6142DD13EB71DF /* Pods-Starship-URITemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-URITemplate-dummy.m"; sourceTree = "<group>"; };
+		D0A1E2F93597C984DD2AC18A /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		D313159DE654A3B7A4893AE7 /* HTTPDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPDeserialization.swift; path = Representor/HTTP/HTTPDeserialization.swift; sourceTree = "<group>"; };
+		D643F26CCB6B02E65AB69FBA /* Pods-Starship-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		DBF7924F9E7D80597A5510BD /* URITemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URITemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE506B5244624A90F988718D /* Representor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Representor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF744E63D9159FBB9B49DCA8 /* Pods-Starship-URITemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-URITemplate-umbrella.h"; sourceTree = "<group>"; };
+		E35456FBFAE75D01414AB33E /* Pods-Starship-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-umbrella.h"; sourceTree = "<group>"; };
+		E80DD36B7C2AB815176C18E2 /* Pods-Starship-URITemplate-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-URITemplate-Private.xcconfig"; sourceTree = "<group>"; };
+		E842E781FAE65269A5422B74 /* Pods-Starship-Representor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Representor-umbrella.h"; sourceTree = "<group>"; };
+		E9A8BDBA3647B6D8DF774D10 /* FormRowDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormRowDescriptor.swift; path = SwiftForms/descriptors/FormRowDescriptor.swift; sourceTree = "<group>"; };
+		EC689482CAA2505E57DBCD9D /* TransitionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionBuilder.swift; path = Representor/Builder/TransitionBuilder.swift; sourceTree = "<group>"; };
+		EF0593846C545FAC7575A093 /* Pods-Starship-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Starship-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF9E5A12B111FE5FA8A37AAC /* FormDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDescriptor.swift; path = SwiftForms/descriptors/FormDescriptor.swift; sourceTree = "<group>"; };
+		F01768BDB106356A30ECA828 /* Pods-Starship-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-dummy.m"; sourceTree = "<group>"; };
+		F1847457132062AF5E9104F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F198ECB623EE2E6DD6399DC8 /* FormSelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorCell.swift; path = SwiftForms/cells/FormSelectorCell.swift; sourceTree = "<group>"; };
+		F4400CD4CB95E158BD059889 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = SwiftForms/cells/FormPickerCell.swift; sourceTree = "<group>"; };
+		F441808061EC5440E70808F5 /* Pods-Starship-SwiftForms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-SwiftForms-dummy.m"; sourceTree = "<group>"; };
+		F591B044DC86AEBA41C3B0C0 /* VTAcknowledgementsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTAcknowledgementsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6050BF96BA832E3E804819F /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = SwiftForms/cells/FormSwitchCell.swift; sourceTree = "<group>"; };
+		F76FFBCD6CC9A161BCD3CAF5 /* RepresentorBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepresentorBuilder.swift; path = Representor/Builder/RepresentorBuilder.swift; sourceTree = "<group>"; };
+		F8FC988DF29CAC433BF4E566 /* FormSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelector.swift; path = SwiftForms/controllers/FormSelector.swift; sourceTree = "<group>"; };
+		F9350142671FF8CD50FE1AE7 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = SwiftForms/cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
+		FA7690A3D7AB52C69CD5E406 /* URITemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URITemplate.swift; path = URITemplate/URITemplate.swift; sourceTree = "<group>"; };
+		FD60BA180DC9782FD04DB288 /* Pods-Starship-VTAcknowledgementsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-VTAcknowledgementsViewController-dummy.m"; sourceTree = "<group>"; };
+		FEFF79B712D0E13CB13184EC /* Pods-Starship-Representor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-Representor.modulemap"; sourceTree = "<group>"; };
+		FF36FD0B3E43D12FDE7FF80E /* Pods-Starship-Hyperdrive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Hyperdrive.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CB1A0E7700BC740CA7CE0A7 /* Frameworks */ = {
+		08EF19D2E6631CF70C88BDE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96EC9A698CFAB14E252C3E0E /* Foundation.framework in Frameworks */,
+				EA0840BD2EB95248EEF5D2BD /* Foundation.framework in Frameworks */,
+				20DF904E00275A983AE97E82 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		652F2A9FED861E4061F64962 /* Frameworks */ = {
+		47AA8A9DAD1152B5A551B2BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BF429B2940C75C8D6F8625 /* Foundation.framework in Frameworks */,
+				48666B5DF19C338911AC9B7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A3A4164C491ECF60AA9F483 /* Frameworks */ = {
+		4FB0A344EB267C8293A740EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9302AAF17038B654C4174C60 /* Foundation.framework in Frameworks */,
+				724E24C820E62A8E706A6F44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B550757414B99D752D7820E /* Frameworks */ = {
+		8C4B76121029B208CDC75200 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6D6FDF69C66B73CA74786A /* Foundation.framework in Frameworks */,
-				2EF0290E52307686711F16F3 /* Representor.framework in Frameworks */,
-				E3CA3B249876309AF488E6FC /* URITemplate.framework in Frameworks */,
+				70CA9EC12A9186F50EC3684F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB33C2064B649B6B8ED1948 /* Frameworks */ = {
+		BC7B64B2A3513C9781B79659 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15AEB4A10636A29DF2CAF0B2 /* Foundation.framework in Frameworks */,
+				CE4C44D1AB6E4B7BDB98642D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDA6A153988B675706B0C544 /* Frameworks */ = {
+		CCE5F5BA798D3B5B6ABC568B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CD5719DD3E5E0E3376AC66 /* Foundation.framework in Frameworks */,
+				8095486E26743CA0ECAD7C84 /* Foundation.framework in Frameworks */,
+				1A1A6EC223EAC381A52484FC /* Representor.framework in Frameworks */,
+				690FE04C395630A0A47AF8A4 /* URITemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E37DFB6BDE8BD63F42940A5E /* Frameworks */ = {
+		DC93F96CDBC14F3D9EAA7B4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287B1A58A9436C1E8B1A477F /* Foundation.framework in Frameworks */,
+				7EA0C304CC960BA7E649BDAE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCA29BBEABCEB9A19EFEC3C1 /* Frameworks */ = {
+		E1AAC01AD2941DDE7C08EF4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C97B3A199C679EB8DB5559B /* Foundation.framework in Frameworks */,
-				F671FF4CD7D93D7CFCAE0A11 /* QuartzCore.framework in Frameworks */,
+				20C361B61869DD57C12D86F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0878B5038D24C4CBE3A595B1 /* Resources */ = {
+		0770A6AA58F4100BCAC5ACCA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				29E84FECFEA950499FBC075F /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		09217714847695DE0329CC5F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0627D1803F557F9F30E94645 /* Foundation.framework */,
-				145176803EB3375553A31EDD /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		140F2A5D3AA9FCB63D9D1262 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				528EFA7CBC2FF430605530CA /* Info.plist */,
-				CBE01BD5DADB62BE56C8171D /* Pods-Starship-VTAcknowledgementsViewController.modulemap */,
-				E8B39D6F8B17C8E6E57CB7B7 /* Pods-Starship-VTAcknowledgementsViewController.xcconfig */,
-				125B8DCA1675547E398735E6 /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */,
-				342358465BB7870CB119729C /* Pods-Starship-VTAcknowledgementsViewController-dummy.m */,
-				8EC0CA307C54EBD123F9A5C2 /* Pods-Starship-VTAcknowledgementsViewController-prefix.pch */,
-				1DCEFDCE101A11F7A397DD4A /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Starship-VTAcknowledgementsViewController";
-			sourceTree = "<group>";
-		};
-		17298AA74E91E6BE02C75A43 = {
-			isa = PBXGroup;
-			children = (
-				9185F056F91263B202768565 /* Podfile */,
-				E31BDCEB38E9839858BADD27 /* Frameworks */,
-				EC4F7EE581401A379285A5B3 /* Pods */,
-				8AD539BD30EAD398E712629C /* Products */,
-				257B2098EDF9E2AE204D8402 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		1EE7BB067E7CEB000B7FDF1B /* VTAcknowledgementsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				1667E5BC2B24463B6E2A1C7A /* VTAcknowledgement.h */,
-				50EBFA02E2DB7EB1514646CB /* VTAcknowledgement.m */,
-				2F3E588154ACF68043A3ECA9 /* VTAcknowledgementViewController.h */,
-				24FB22D3B353A6B52C957D1B /* VTAcknowledgementViewController.m */,
-				4EF459F35775051878C5C94A /* VTAcknowledgementsViewController.h */,
-				71BE2B034B281B8ACFEA24F8 /* VTAcknowledgementsViewController.m */,
-				89E93989A948D8841D9B50C0 /* Resources */,
-				140F2A5D3AA9FCB63D9D1262 /* Support Files */,
-			);
-			path = VTAcknowledgementsViewController;
-			sourceTree = "<group>";
-		};
-		21380EA44DAC746B8A260223 /* Adapters */ = {
-			isa = PBXGroup;
-			children = (
-				78FBD8C8C5E7DEB6D84DE0BD /* APIBlueprint */,
-				3A7AB5999741EE58646782D0 /* HAL */,
-				EAE5D03037200DC1108A8586 /* Siren */,
-			);
-			name = Adapters;
-			sourceTree = "<group>";
-		};
-		257B2098EDF9E2AE204D8402 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE6039D8B0523C46B8885A0C /* Pods-Starship */,
+				D97C150F0ED34EDDE8216893 /* Pods-Starship */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2B5757929927A658E47BCE66 /* Core */ = {
+		131E86CD0A10B82F8DDB7BCE = {
 			isa = PBXGroup;
 			children = (
-				067DD7738537A5A3F3F353B5 /* Representor.h */,
-				9E0304183CCFFF14AB98E0D1 /* Representor.swift */,
-				71048F3843D4AA9DC5951B68 /* RepresentorBuilder.swift */,
-				BDC5B164AFF7E9EC6B3E0D0B /* Transition.swift */,
-				59FE8AD4AA144E999956443B /* TransitionBuilder.swift */,
+				09FD2C4ECB14163C90088220 /* Podfile */,
+				BB4646A99FA2019D15A85C39 /* Frameworks */,
+				4728CBAFFFA2E4E1ED549E8F /* Pods */,
+				483486C7DD9B9DB57B61864E /* Products */,
+				0770A6AA58F4100BCAC5ACCA /* Targets Support Files */,
 			);
-			name = Core;
 			sourceTree = "<group>";
 		};
-		2B89DC4AAF2C55F4C4BD730E /* Support Files */ = {
+		17F9C3CC989ECA98E6C3D5EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9892F787B9DBEDBDDAFB8207 /* Info.plist */,
-				9B84F5725065364EC124AE65 /* Pods-Starship-JFTextFieldTableCell.modulemap */,
-				8E0ABB55839706A36DE5F221 /* Pods-Starship-JFTextFieldTableCell.xcconfig */,
-				38A71724510777A905209FE3 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */,
-				C2B777D3A806C1C055B8D47B /* Pods-Starship-JFTextFieldTableCell-dummy.m */,
-				0EDB1AD152D5E13AB2B18997 /* Pods-Starship-JFTextFieldTableCell-prefix.pch */,
-				AEBF85D409CA3676C1DDEA2F /* Pods-Starship-JFTextFieldTableCell-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Starship-JFTextFieldTableCell";
-			sourceTree = "<group>";
-		};
-		2ECEA966D612C6E17131F4B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				187B3EB254457282A3FFB84F /* Info.plist */,
-				207A42FE4D9BD9648DF41B7B /* Pods-Starship-Hyperdrive.modulemap */,
-				73DC2BF7C9F977A712B97F57 /* Pods-Starship-Hyperdrive.xcconfig */,
-				ECA872ADD0091035CB231744 /* Pods-Starship-Hyperdrive-Private.xcconfig */,
-				88E7398011BCA2F9F85D8CB2 /* Pods-Starship-Hyperdrive-dummy.m */,
-				60B8F1FF9C67CD8715C8CB5C /* Pods-Starship-Hyperdrive-prefix.pch */,
-				3EB4DEF690FB0DC6F30F1AA3 /* Pods-Starship-Hyperdrive-umbrella.h */,
+				6530642A8D2C240732559833 /* Info.plist */,
+				9F39B701CF1171D06C9C21DF /* Pods-Starship-Hyperdrive.modulemap */,
+				FF36FD0B3E43D12FDE7FF80E /* Pods-Starship-Hyperdrive.xcconfig */,
+				CF163604F8294E60E9DB3CAF /* Pods-Starship-Hyperdrive-Private.xcconfig */,
+				5432741AF2D798AC67FB495D /* Pods-Starship-Hyperdrive-dummy.m */,
+				22DB95D666BC1806B42DE279 /* Pods-Starship-Hyperdrive-prefix.pch */,
+				74E05B5CC11E98B01F319B19 /* Pods-Starship-Hyperdrive-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Starship-Hyperdrive";
 			sourceTree = "<group>";
 		};
-		388B794DCE96A5D1AE5FEB3F /* Support Files */ = {
+		21D21FE642063181AFF9D04E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0481C8B5FFD449A14DA04D2 /* Info.plist */,
-				596876840BC93C425DC1042F /* Pods-Starship-SwiftForms.modulemap */,
-				9401B7EB6C00FA6363228DE5 /* Pods-Starship-SwiftForms.xcconfig */,
-				048FBE2890066CB26F791FF7 /* Pods-Starship-SwiftForms-Private.xcconfig */,
-				439116C0AD4CAAD2D9AAFB6D /* Pods-Starship-SwiftForms-dummy.m */,
-				BBF75451D266A46E8BD4B7B4 /* Pods-Starship-SwiftForms-prefix.pch */,
-				11D955FD5C32B10A74F96122 /* Pods-Starship-SwiftForms-umbrella.h */,
+				F1847457132062AF5E9104F3 /* Info.plist */,
+				1FABEE39394893D123C9226A /* Pods-Starship-VTAcknowledgementsViewController.modulemap */,
+				10D06252A9372F913EDB5211 /* Pods-Starship-VTAcknowledgementsViewController.xcconfig */,
+				D0A1E2F93597C984DD2AC18A /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */,
+				FD60BA180DC9782FD04DB288 /* Pods-Starship-VTAcknowledgementsViewController-dummy.m */,
+				71AF334A19D72D554BB2FCA2 /* Pods-Starship-VTAcknowledgementsViewController-prefix.pch */,
+				27C195358E8118A3BFE097A4 /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pods-Starship-SwiftForms";
+			path = "../Target Support Files/Pods-Starship-VTAcknowledgementsViewController";
 			sourceTree = "<group>";
 		};
-		3A7AB5999741EE58646782D0 /* HAL */ = {
+		274A195945D4A00ED2AF9AA2 /* Siren */ = {
 			isa = PBXGroup;
 			children = (
-				A94EE0B7D819165AB804CC40 /* HTTPHALAdapter.swift */,
+				527D60EBC96C65344B2D84E3 /* HTTPSirenAdapter.swift */,
 			);
-			name = HAL;
+			name = Siren;
 			sourceTree = "<group>";
 		};
-		3C896986609B09D454598575 /* Transition */ = {
+		291C066C658CEB429527E65B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B027ADDF97C29D8F8C89C05 /* HTTPTransition.swift */,
-				599A1C67E41039C4E157DD50 /* HTTPTransitionBuilder.swift */,
-			);
-			name = Transition;
-			sourceTree = "<group>";
-		};
-		4E7E1C54ADC1459C6836C621 /* Representor */ = {
-			isa = PBXGroup;
-			children = (
-				2B5757929927A658E47BCE66 /* Core */,
-				D53A978F9B59354E2A80B729 /* HTTP */,
-				8E0634077BBA62A6F96C431E /* Support Files */,
-			);
-			path = Representor;
-			sourceTree = "<group>";
-		};
-		641D90070A1BE673E39A346E /* JFTextFieldTableCell */ = {
-			isa = PBXGroup;
-			children = (
-				4749E17BD99F8304065E5849 /* JFTextFieldTableCell.h */,
-				C879A8BC765317320728F8B0 /* JFTextFieldTableCell.m */,
-				2B89DC4AAF2C55F4C4BD730E /* Support Files */,
-			);
-			path = JFTextFieldTableCell;
-			sourceTree = "<group>";
-		};
-		67A18B884492181CFE2AB8F8 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				17706E897A678BE90E3E7D66 /* SVIndefiniteAnimatedView.h */,
-				39A3CCA179844E23FF2D95D4 /* SVIndefiniteAnimatedView.m */,
-				0020B6521A706E9D7B92CE11 /* SVProgressHUD.h */,
-				DE2E3656DC1D023FD9149D53 /* SVProgressHUD.m */,
-				0878B5038D24C4CBE3A595B1 /* Resources */,
-				D3A3F60D983F17532F6A26BE /* Support Files */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		78FBD8C8C5E7DEB6D84DE0BD /* APIBlueprint */ = {
-			isa = PBXGroup;
-			children = (
-				534E6D7F51D18B2BD498BCE0 /* Blueprint.swift */,
-				B7BBE113FC85D15855AD53F8 /* BlueprintTransition.swift */,
-			);
-			name = APIBlueprint;
-			sourceTree = "<group>";
-		};
-		89E93989A948D8841D9B50C0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0080DE8486D08FB18B0E2E86 /* VTAcknowledgementsViewController.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		8AD539BD30EAD398E712629C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9E54FE36CC814914AC4081E3 /* Hyperdrive.framework */,
-				45D0CEDE8FF06A8EE7D84C41 /* JFTextFieldTableCell.framework */,
-				49430521EF4FF5D27FD42F79 /* Pods_Starship.framework */,
-				8A19CF15053CB2C054E2ADD2 /* Representor.framework */,
-				1006C02624C98B4DA706AFD6 /* SVProgressHUD.framework */,
-				843DB307A5B4C778D7BB456D /* SwiftForms.framework */,
-				99B4BD63CE0CC617F263BDC7 /* URITemplate.framework */,
-				27ABED6BE99E32AC7E18B366 /* VTAcknowledgementsViewController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8E0634077BBA62A6F96C431E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8627B70232D186FCA6D6247 /* Info.plist */,
-				BD2C652A261461158865B0CC /* Pods-Starship-Representor.modulemap */,
-				7469FCB73703140E699020CD /* Pods-Starship-Representor.xcconfig */,
-				EEB51FA5ABDFAD5E30C8F747 /* Pods-Starship-Representor-Private.xcconfig */,
-				32F138DA6A24CD6A5CFB5307 /* Pods-Starship-Representor-dummy.m */,
-				D6FD775EABC7E921DC619E49 /* Pods-Starship-Representor-prefix.pch */,
-				2E21E8A6A0D503480D1B0890 /* Pods-Starship-Representor-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Starship-Representor";
-			sourceTree = "<group>";
-		};
-		CFE0AEAEB667B7DBE1E88F3D /* Hyperdrive */ = {
-			isa = PBXGroup;
-			children = (
-				A7B008B844B737C7E64D42C2 /* HyperBlueprint.swift */,
-				0610A461D7FC29DC322558FF /* Hyperdrive.swift */,
-				2ECEA966D612C6E17131F4B0 /* Support Files */,
-			);
-			path = Hyperdrive;
-			sourceTree = "<group>";
-		};
-		D3A3F60D983F17532F6A26BE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				796B3915D5A762B1C9BE2C9C /* Info.plist */,
-				EB5B8CC469635470B0F4E86D /* Pods-Starship-SVProgressHUD.modulemap */,
-				0225DC9F9D9D9C0648FFA09C /* Pods-Starship-SVProgressHUD.xcconfig */,
-				2204B92542A39AD6F4C6173C /* Pods-Starship-SVProgressHUD-Private.xcconfig */,
-				23A590DBC9196E774130B272 /* Pods-Starship-SVProgressHUD-dummy.m */,
-				24618BED663103F386AE960D /* Pods-Starship-SVProgressHUD-prefix.pch */,
-				08EB1A3DDC2FA2A9C73CA7C6 /* Pods-Starship-SVProgressHUD-umbrella.h */,
+				05EF2C39611596C5A6029AD0 /* Info.plist */,
+				A1D68C344B884BE58B635869 /* Pods-Starship-SVProgressHUD.modulemap */,
+				239C351FC5B8A97CBEE5508D /* Pods-Starship-SVProgressHUD.xcconfig */,
+				D643F26CCB6B02E65AB69FBA /* Pods-Starship-SVProgressHUD-Private.xcconfig */,
+				9331EB46F5CF247FE5A7FACE /* Pods-Starship-SVProgressHUD-dummy.m */,
+				14D98A46E67E91E097C23823 /* Pods-Starship-SVProgressHUD-prefix.pch */,
+				377E7AC0AE45BDC143531451 /* Pods-Starship-SVProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Starship-SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		D53A978F9B59354E2A80B729 /* HTTP */ = {
+		3C1E3EAF9A4A2D461E50B4FB /* Transition */ = {
 			isa = PBXGroup;
 			children = (
-				21380EA44DAC746B8A260223 /* Adapters */,
-				FA68F9C137CB1CF6CEAEB1F0 /* Deserialization */,
-				3C896986609B09D454598575 /* Transition */,
+				4C9C6A1C5D045E08BB4E4E83 /* HTTPTransition.swift */,
+				994AD3E36060901A5A2C8571 /* HTTPTransitionBuilder.swift */,
 			);
-			name = HTTP;
+			name = Transition;
 			sourceTree = "<group>";
 		};
-		DFC6CE00CAD3A989A6C25D3D /* SwiftForms */ = {
+		4728CBAFFFA2E4E1ED549E8F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD96C65E568B525F37242A0D /* FormBaseCell.swift */,
-				42BDF0F61CF676C1A0BD177F /* FormButtonCell.swift */,
-				C5D94A0D8F4F8431A525E8F9 /* FormCheckCell.swift */,
-				1BDED041C28C098152A2C09E /* FormDateCell.swift */,
-				2A636D42434D679B46C34BCA /* FormDescriptor.swift */,
-				C5A90A84E1D5BFA4AF7FE23E /* FormOptionsSelectorController.swift */,
-				CAE4D673EA9900C25C336692 /* FormPickerCell.swift */,
-				4AE63B75EE82DB4B7AC5D792 /* FormRowDescriptor.swift */,
-				03CD7DFED1B8D74ACD26C105 /* FormSectionDescriptor.swift */,
-				A2EE8C0431708A32A8879F07 /* FormSegmentedControlCell.swift */,
-				06F04229D03221650AA4C7AC /* FormSelector.swift */,
-				51FFEA1D243913841DA48112 /* FormSelectorCell.swift */,
-				2E07410D43E5DC3A17A996B1 /* FormSliderCell.swift */,
-				A8AE6ED3786FC0C24226B65E /* FormStepperCell.swift */,
-				E8B1C887AE96DF66686666F0 /* FormSwitchCell.swift */,
-				CEA1B9CBFCD0D56C593F6D7D /* FormTextFieldCell.swift */,
-				185E798F6E4EE6CDFCCC7A79 /* FormTextViewCell.swift */,
-				56639CACC2A1F5A0396D8063 /* FormTitleCell.swift */,
-				197D6AE2F1F8B6A584574BE5 /* FormValueCell.swift */,
-				5D558C1B507F0FEB6ECABD01 /* FormViewController.swift */,
-				388B794DCE96A5D1AE5FEB3F /* Support Files */,
+				A1C72BD37FE8E9FC2811AE5E /* Hyperdrive */,
+				96AE40932D847923216299D5 /* JFTextFieldTableCell */,
+				CC3E2258BB5E1752FF744722 /* Representor */,
+				8FC0BFA577A51262A87F07B8 /* SVProgressHUD */,
+				ADE9C69599052C0CD1BA0920 /* SwiftForms */,
+				9288B9F928E1A00C03896355 /* URITemplate */,
+				DEE16C97283F135B69AC7741 /* VTAcknowledgementsViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		483486C7DD9B9DB57B61864E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50EA822E5811D1C5E20F50C /* Hyperdrive.framework */,
+				183F57076CFA7B51B983B1B3 /* JFTextFieldTableCell.framework */,
+				236D2666A61BE790122FF569 /* Pods_Starship.framework */,
+				5853D77D91A8BF9BD88151B7 /* Representor.framework */,
+				6BF69ACEBD37F530BC6CDA43 /* SVProgressHUD.framework */,
+				3A774704B8ED0DABDC8048D0 /* SwiftForms.framework */,
+				DBF7924F9E7D80597A5510BD /* URITemplate.framework */,
+				F591B044DC86AEBA41C3B0C0 /* VTAcknowledgementsViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB3378457887328157FB150 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				F48D1CBFEB5B9FACC43BD121 /* APIBlueprint */,
+				A70CE129CAF59FBB3129AE4A /* HAL */,
+				274A195945D4A00ED2AF9AA2 /* Siren */,
+			);
+			name = Adapters;
+			sourceTree = "<group>";
+		};
+		51B25B60F07D038E5035EBDB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9E70B4C6216D47FE41797A1B /* Foundation.framework */,
+				4D3774C0A050C88535C177C4 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		648BB7B1D160D5632F6E11D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8248F7CA183E8C8001CAA840 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64D34C7139FA2F14FD106889 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1D1ACFAEBE360B988ED58F8 /* Info.plist */,
+				23FE0EF6050B35B29D569DF0 /* Pods-Starship-SwiftForms.modulemap */,
+				13C9C5B0912BC83D0813A08F /* Pods-Starship-SwiftForms.xcconfig */,
+				44757B1B3356CF39B582BC32 /* Pods-Starship-SwiftForms-Private.xcconfig */,
+				F441808061EC5440E70808F5 /* Pods-Starship-SwiftForms-dummy.m */,
+				69D0CE499E130DF71C04B305 /* Pods-Starship-SwiftForms-prefix.pch */,
+				299D27B1B2E8E731B2B89519 /* Pods-Starship-SwiftForms-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Starship-SwiftForms";
+			sourceTree = "<group>";
+		};
+		8FC0BFA577A51262A87F07B8 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3C7163CB10435199941DC511 /* SVIndefiniteAnimatedView.h */,
+				21E45BF97CCD25A72B1BF65C /* SVIndefiniteAnimatedView.m */,
+				5BC7AA9C91CB5456B44746F0 /* SVProgressHUD.h */,
+				0AA86C457F649BE30A8469AC /* SVProgressHUD.m */,
+				648BB7B1D160D5632F6E11D9 /* Resources */,
+				291C066C658CEB429527E65B /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		9288B9F928E1A00C03896355 /* URITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				273B20C0E204AE74B9DF99D7 /* URITemplate.h */,
+				FA7690A3D7AB52C69CD5E406 /* URITemplate.swift */,
+				B3304A1DEC82F8E62E5400B6 /* Support Files */,
+			);
+			path = URITemplate;
+			sourceTree = "<group>";
+		};
+		969ACA802C29D83325A4AB81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				763C12F54106D9DB17CC4C1E /* Representor.h */,
+				811BCD6CA990FE60DF695F73 /* Representor.swift */,
+				F76FFBCD6CC9A161BCD3CAF5 /* RepresentorBuilder.swift */,
+				2B2171D8DFA48B5D7CA6111D /* Transition.swift */,
+				EC689482CAA2505E57DBCD9D /* TransitionBuilder.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		96AE40932D847923216299D5 /* JFTextFieldTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				64AD0E8CB627AC88DA607E8E /* JFTextFieldTableCell.h */,
+				97E3844B87FF22300DF5372E /* JFTextFieldTableCell.m */,
+				D547ADB28918C86642C64F50 /* Support Files */,
+			);
+			path = JFTextFieldTableCell;
+			sourceTree = "<group>";
+		};
+		9FC148E4A3EAA892383B22FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2285FF480054F99A36CEF86B /* Info.plist */,
+				FEFF79B712D0E13CB13184EC /* Pods-Starship-Representor.modulemap */,
+				AD34A0F0890FB9BDB0D698AC /* Pods-Starship-Representor.xcconfig */,
+				91C616260D6C0B932EF31C03 /* Pods-Starship-Representor-Private.xcconfig */,
+				5FEFE26B7E9D28C9D9BEAB5D /* Pods-Starship-Representor-dummy.m */,
+				C004E702B1DEF707928861BE /* Pods-Starship-Representor-prefix.pch */,
+				E842E781FAE65269A5422B74 /* Pods-Starship-Representor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Starship-Representor";
+			sourceTree = "<group>";
+		};
+		A1C72BD37FE8E9FC2811AE5E /* Hyperdrive */ = {
+			isa = PBXGroup;
+			children = (
+				608ECB9E9684174A38B20F2E /* HyperBlueprint.swift */,
+				9E0AE6FE351DED44CC804F56 /* Hyperdrive.swift */,
+				17F9C3CC989ECA98E6C3D5EB /* Support Files */,
+			);
+			path = Hyperdrive;
+			sourceTree = "<group>";
+		};
+		A70CE129CAF59FBB3129AE4A /* HAL */ = {
+			isa = PBXGroup;
+			children = (
+				1E53BE8BCBF2C273A3809EA7 /* HTTPHALAdapter.swift */,
+			);
+			name = HAL;
+			sourceTree = "<group>";
+		};
+		ADE9C69599052C0CD1BA0920 /* SwiftForms */ = {
+			isa = PBXGroup;
+			children = (
+				731B046CD0B4313F06FACB68 /* FormBaseCell.swift */,
+				948E324F68809AF400001978 /* FormButtonCell.swift */,
+				CEDB1A0E684453E3A9A7F271 /* FormCheckCell.swift */,
+				C6B68F2A89EB79983FAF8E58 /* FormDateCell.swift */,
+				EF9E5A12B111FE5FA8A37AAC /* FormDescriptor.swift */,
+				44EBD3ECBA5E2B5EE94EFD55 /* FormOptionsSelectorController.swift */,
+				F4400CD4CB95E158BD059889 /* FormPickerCell.swift */,
+				E9A8BDBA3647B6D8DF774D10 /* FormRowDescriptor.swift */,
+				ABCFEFEA721722DF2756E2F1 /* FormSectionDescriptor.swift */,
+				0CFBAA4F053C522AAAC0CB67 /* FormSegmentedControlCell.swift */,
+				F8FC988DF29CAC433BF4E566 /* FormSelector.swift */,
+				F198ECB623EE2E6DD6399DC8 /* FormSelectorCell.swift */,
+				4D2060214B35E9806AE9228A /* FormSliderCell.swift */,
+				6A5EAADCBD9E42D708968FF5 /* FormStepperCell.swift */,
+				F6050BF96BA832E3E804819F /* FormSwitchCell.swift */,
+				F9350142671FF8CD50FE1AE7 /* FormTextFieldCell.swift */,
+				A94BE91D5C22C77302AE1A9D /* FormTextViewCell.swift */,
+				56993E7CE8B9AD186AFD4878 /* FormTitleCell.swift */,
+				941485050BB1361B2431B36C /* FormValueCell.swift */,
+				8D9F288B799B054CFF2FE4FB /* FormViewController.swift */,
+				64D34C7139FA2F14FD106889 /* Support Files */,
 			);
 			path = SwiftForms;
 			sourceTree = "<group>";
 		};
-		E31BDCEB38E9839858BADD27 /* Frameworks */ = {
+		B3304A1DEC82F8E62E5400B6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				382FE50497D16860F8D78B58 /* Representor.framework */,
-				EC860134CDCE3B898B59AF2C /* URITemplate.framework */,
-				09217714847695DE0329CC5F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E775562EBFE25E20A75CF63A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				93C558633F37F725FFE68C3F /* Info.plist */,
-				39AD66E0B75947C004BD657F /* Pods-Starship-URITemplate.modulemap */,
-				2EBDFD9E59CBEEA0D1617395 /* Pods-Starship-URITemplate.xcconfig */,
-				8EC79DDCFBEF9EE515BE4524 /* Pods-Starship-URITemplate-Private.xcconfig */,
-				5B2493D32DF1EF34FE64B3C5 /* Pods-Starship-URITemplate-dummy.m */,
-				4AA2641DBF8A0604100B95D2 /* Pods-Starship-URITemplate-prefix.pch */,
-				B4798D6007118B8DC7C516F2 /* Pods-Starship-URITemplate-umbrella.h */,
+				1ACD47E092111D05DEB2F6AD /* Info.plist */,
+				4A6606013E171DA303318ECA /* Pods-Starship-URITemplate.modulemap */,
+				060E5FA1D17A899094903C29 /* Pods-Starship-URITemplate.xcconfig */,
+				E80DD36B7C2AB815176C18E2 /* Pods-Starship-URITemplate-Private.xcconfig */,
+				CF9F70DDAF6142DD13EB71DF /* Pods-Starship-URITemplate-dummy.m */,
+				B6CFD1D179326FE575A228D4 /* Pods-Starship-URITemplate-prefix.pch */,
+				DF744E63D9159FBB9B49DCA8 /* Pods-Starship-URITemplate-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Starship-URITemplate";
 			sourceTree = "<group>";
 		};
-		EAE5D03037200DC1108A8586 /* Siren */ = {
+		BB4646A99FA2019D15A85C39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E54A828032704845B4B96A53 /* HTTPSirenAdapter.swift */,
+				DE506B5244624A90F988718D /* Representor.framework */,
+				3C6315A16EB0D6A2C5C843D4 /* URITemplate.framework */,
+				51B25B60F07D038E5035EBDB /* iOS */,
 			);
-			name = Siren;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC4F7EE581401A379285A5B3 /* Pods */ = {
+		CC3E2258BB5E1752FF744722 /* Representor */ = {
 			isa = PBXGroup;
 			children = (
-				CFE0AEAEB667B7DBE1E88F3D /* Hyperdrive */,
-				641D90070A1BE673E39A346E /* JFTextFieldTableCell */,
-				4E7E1C54ADC1459C6836C621 /* Representor */,
-				67A18B884492181CFE2AB8F8 /* SVProgressHUD */,
-				DFC6CE00CAD3A989A6C25D3D /* SwiftForms */,
-				EFD9679EF8C93630841394BE /* URITemplate */,
-				1EE7BB067E7CEB000B7FDF1B /* VTAcknowledgementsViewController */,
+				969ACA802C29D83325A4AB81 /* Core */,
+				D14C07B8877E94CAFF3D8ADF /* HTTP */,
+				9FC148E4A3EAA892383B22FC /* Support Files */,
 			);
-			name = Pods;
+			path = Representor;
 			sourceTree = "<group>";
 		};
-		EE6039D8B0523C46B8885A0C /* Pods-Starship */ = {
+		D14C07B8877E94CAFF3D8ADF /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
-				F1AF39172231D23A2C3F9B92 /* Info.plist */,
-				77373CC371481DDB255456B7 /* Pods-Starship.modulemap */,
-				DD9AA65468CBCC696115D7A8 /* Pods-Starship-acknowledgements.markdown */,
-				4ED9018FE6D48ADF997B6C5F /* Pods-Starship-acknowledgements.plist */,
-				4F399299E2D8310ABA8FE156 /* Pods-Starship-dummy.m */,
-				3E1F6747DC4BE01F2E7D6637 /* Pods-Starship-environment.h */,
-				ECA49D60CFA4EC2A9E14164C /* Pods-Starship-frameworks.sh */,
-				2C7E30719A9B7BDF67A42935 /* Pods-Starship-resources.sh */,
-				039F4AA96EB8ED3F7CCFF452 /* Pods-Starship-umbrella.h */,
-				47CCC178FF9194346F7120E8 /* Pods-Starship.debug.xcconfig */,
-				69209DCA58C0C0EF21FFEE9D /* Pods-Starship.release.xcconfig */,
+				4BB3378457887328157FB150 /* Adapters */,
+				FC2B4553958E1F1364F064F5 /* Deserialization */,
+				3C1E3EAF9A4A2D461E50B4FB /* Transition */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		D547ADB28918C86642C64F50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D27099862F220FBFDBCC39 /* Info.plist */,
+				A234D3B35EEE8323E48DA75B /* Pods-Starship-JFTextFieldTableCell.modulemap */,
+				691E841AC69E8E4C6E6507A3 /* Pods-Starship-JFTextFieldTableCell.xcconfig */,
+				1DF711F9C53B445B6C8A5451 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */,
+				A7214007638B4033FF94B7BD /* Pods-Starship-JFTextFieldTableCell-dummy.m */,
+				8F0744E9491D4C8B7329118D /* Pods-Starship-JFTextFieldTableCell-prefix.pch */,
+				AB49CFA99247E11FCA9BC35E /* Pods-Starship-JFTextFieldTableCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Starship-JFTextFieldTableCell";
+			sourceTree = "<group>";
+		};
+		D97C150F0ED34EDDE8216893 /* Pods-Starship */ = {
+			isa = PBXGroup;
+			children = (
+				3E1CD2854828C13FCD87F356 /* Info.plist */,
+				22E63CAA79952853FFF91FB0 /* Pods-Starship.modulemap */,
+				333E57A2BCE7EAC49679FD89 /* Pods-Starship-acknowledgements.markdown */,
+				EF0593846C545FAC7575A093 /* Pods-Starship-acknowledgements.plist */,
+				F01768BDB106356A30ECA828 /* Pods-Starship-dummy.m */,
+				522B74FD10AE3CF0ECFACB58 /* Pods-Starship-environment.h */,
+				57A6E89186B2C646E2D8DC51 /* Pods-Starship-frameworks.sh */,
+				5098269AFB0B2ECFD0ED3CAF /* Pods-Starship-resources.sh */,
+				E35456FBFAE75D01414AB33E /* Pods-Starship-umbrella.h */,
+				06ADE2853C5C21397CFC9875 /* Pods-Starship.debug.xcconfig */,
+				2579154EACE2B19EDCA1B973 /* Pods-Starship.release.xcconfig */,
 			);
 			name = "Pods-Starship";
 			path = "Target Support Files/Pods-Starship";
 			sourceTree = "<group>";
 		};
-		EFD9679EF8C93630841394BE /* URITemplate */ = {
+		DEE16C97283F135B69AC7741 /* VTAcknowledgementsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6ECA64ED056E5775B9ABB567 /* URITemplate.h */,
-				72DF58DBB0D8F19F08CCDA7F /* URITemplate.swift */,
-				E775562EBFE25E20A75CF63A /* Support Files */,
+				A12A994EB7ABA9BF84B8983C /* VTAcknowledgement.h */,
+				B06A43E3190140445A06554B /* VTAcknowledgement.m */,
+				6035A51BF8CBF7C56E649DC9 /* VTAcknowledgementViewController.h */,
+				61C2F096613F53AE28BD8A96 /* VTAcknowledgementViewController.m */,
+				CEF7F0B4A9B141C5A34EF9B2 /* VTAcknowledgementsViewController.h */,
+				0CF0FCD7D56F877449EDF32F /* VTAcknowledgementsViewController.m */,
+				E641C9C1601FA4F3033F575F /* Resources */,
+				21D21FE642063181AFF9D04E /* Support Files */,
 			);
-			path = URITemplate;
+			path = VTAcknowledgementsViewController;
 			sourceTree = "<group>";
 		};
-		FA68F9C137CB1CF6CEAEB1F0 /* Deserialization */ = {
+		E641C9C1601FA4F3033F575F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CCCCC2B4B09B93DAB154887B /* HTTPDeserialization.swift */,
+				BB7C06C766BDB2E126F0F952 /* VTAcknowledgementsViewController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F48D1CBFEB5B9FACC43BD121 /* APIBlueprint */ = {
+			isa = PBXGroup;
+			children = (
+				08C7637DB7E109C53CDB89C6 /* Blueprint.swift */,
+				5D5ED67C079D199DFC064F04 /* BlueprintTransition.swift */,
+			);
+			name = APIBlueprint;
+			sourceTree = "<group>";
+		};
+		FC2B4553958E1F1364F064F5 /* Deserialization */ = {
+			isa = PBXGroup;
+			children = (
+				D313159DE654A3B7A4893AE7 /* HTTPDeserialization.swift */,
 			);
 			name = Deserialization;
 			sourceTree = "<group>";
@@ -729,123 +729,112 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		25E2D916A9D0A8625FFF35AE /* Headers */ = {
+		175A78AC3BB5A301334B9389 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B501998589C08F884478D63 /* JFTextFieldTableCell.h in Headers */,
-				573BBCB55D281240478891A8 /* Pods-Starship-JFTextFieldTableCell-umbrella.h in Headers */,
+				512FC88525597A73D96FC9B8 /* Pods-Starship-URITemplate-umbrella.h in Headers */,
+				FB3A27FC02F3C77F2DD826AA /* URITemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D2DDE4EA4805D7E10C632DD /* Headers */ = {
+		277345443F424DEBC5615529 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BE5A20DAE7E8F3141BCEBD /* Pods-Starship-URITemplate-umbrella.h in Headers */,
-				265B62F63C75DD65891456E2 /* URITemplate.h in Headers */,
+				AEC991D03A7629B931AD0BF5 /* JFTextFieldTableCell.h in Headers */,
+				91C8A9A8584AF25E26713BFA /* Pods-Starship-JFTextFieldTableCell-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F523CE32E1E3DCC95F709A6 /* Headers */ = {
+		4540D6F4FBB9FBFE8CD017F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26FC2DF67D5944192570EBE /* Pods-Starship-Hyperdrive-umbrella.h in Headers */,
+				556BD49D633C10BBEA5D658A /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h in Headers */,
+				D92119BB438591A68D2886F7 /* VTAcknowledgement.h in Headers */,
+				D3A34ED90E9616E2A9393203 /* VTAcknowledgementViewController.h in Headers */,
+				5F18C100675CD1697EDC31F7 /* VTAcknowledgementsViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9526ED09671AE4A1AA3B3F6B /* Headers */ = {
+		60C0C4FEC86C51D01BBADC44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E746D5401F5911827F1FB4 /* Pods-Starship-SwiftForms-umbrella.h in Headers */,
+				5D76034D46FE88BF35FF00FF /* Pods-Starship-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F594F164EDBBE85D7443515 /* Headers */ = {
+		90B461E6C2C347E2807C123B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5178441CDE8FEB2E32F0BC1D /* Pods-Starship-umbrella.h in Headers */,
+				EA8B43C77D8D655F467A8E20 /* Pods-Starship-Representor-umbrella.h in Headers */,
+				ADE2AB4670BD18B68EC93451 /* Representor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A36B855B4666A9E0791A5B67 /* Headers */ = {
+		D8B15A6D3749CE7BE2B5254E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B20701E1899CB84D9371E5 /* Pods-Starship-Representor-umbrella.h in Headers */,
-				2AFDE002D6E8F60F32681A9C /* Representor.h in Headers */,
+				1C1B1F0C037388C7EA7BFF34 /* Pods-Starship-SVProgressHUD-umbrella.h in Headers */,
+				E51907756F3487E2C550DDF6 /* SVIndefiniteAnimatedView.h in Headers */,
+				750037FF61AF926E59FDAE81 /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86E5D4F4541899C47DF8C9D /* Headers */ = {
+		EC4047D8DC78E211473522BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA84415054DF4459DA83D4B3 /* Pods-Starship-SVProgressHUD-umbrella.h in Headers */,
-				9AD8123E0FD1CDBAAE9F6CE3 /* SVIndefiniteAnimatedView.h in Headers */,
-				39D1E64104FE645F009D6472 /* SVProgressHUD.h in Headers */,
+				4D5E25A0D1600FEB5BB2ED3A /* Pods-Starship-SwiftForms-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9F53D9B81D812F66F0DDB7C /* Headers */ = {
+		FBB13266A47E3DF3F39B1D33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF2AFAEA3839A3A83087ADA /* Pods-Starship-VTAcknowledgementsViewController-umbrella.h in Headers */,
-				6E12953E968288E0DFD761FA /* VTAcknowledgement.h in Headers */,
-				6DA06FBC1AA1AF949AA279C2 /* VTAcknowledgementViewController.h in Headers */,
-				05E20DFBEE16D30FB0C4A806 /* VTAcknowledgementsViewController.h in Headers */,
+				DE225A6A40FAF98AFF56868C /* Pods-Starship-Hyperdrive-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A98F057F038F910A685934E /* Pods-Starship-Representor */ = {
+		294FD5F61D172786E89C74DB /* Pods-Starship */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC7D065F33E4294490F63BB6 /* Build configuration list for PBXNativeTarget "Pods-Starship-Representor" */;
+			buildConfigurationList = D36E31FC5562994DAEF92638 /* Build configuration list for PBXNativeTarget "Pods-Starship" */;
 			buildPhases = (
-				CE1062AF49E1D6502584C863 /* Sources */,
-				1CB1A0E7700BC740CA7CE0A7 /* Frameworks */,
-				A36B855B4666A9E0791A5B67 /* Headers */,
+				4EF79C6E3DF1306AB8511C2D /* Sources */,
+				4FB0A344EB267C8293A740EB /* Frameworks */,
+				60C0C4FEC86C51D01BBADC44 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D88AD40FE6206A84A27AF142 /* PBXTargetDependency */,
+				FF6AF2865AC8C2A3A4E58241 /* PBXTargetDependency */,
+				FADB6D789E717ADDC503C392 /* PBXTargetDependency */,
+				9BACDEABEFA6A58750C66EB8 /* PBXTargetDependency */,
+				B79FA1EDBBEA54A9C65F1E7F /* PBXTargetDependency */,
+				EE93D0DE2D190CC65A3B938D /* PBXTargetDependency */,
+				03F54FEF51C489CB2F18F587 /* PBXTargetDependency */,
 			);
-			name = "Pods-Starship-Representor";
-			productName = "Pods-Starship-Representor";
-			productReference = 8A19CF15053CB2C054E2ADD2 /* Representor.framework */;
+			name = "Pods-Starship";
+			productName = "Pods-Starship";
+			productReference = 236D2666A61BE790122FF569 /* Pods_Starship.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7086BB73D88E53EB413ABE0C /* Pods-Starship-VTAcknowledgementsViewController */ = {
+		4D38969B72A6BBA10BF7FF44 /* Pods-Starship-JFTextFieldTableCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17F9FF0B5213D099E6068108 /* Build configuration list for PBXNativeTarget "Pods-Starship-VTAcknowledgementsViewController" */;
+			buildConfigurationList = DCB628DE9F8407D79E211782 /* Build configuration list for PBXNativeTarget "Pods-Starship-JFTextFieldTableCell" */;
 			buildPhases = (
-				4C5AA3138CB50B77E3EEA404 /* Sources */,
-				DDA6A153988B675706B0C544 /* Frameworks */,
-				F9F53D9B81D812F66F0DDB7C /* Headers */,
-				8E80CD410613D2833DB737E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Starship-VTAcknowledgementsViewController";
-			productName = "Pods-Starship-VTAcknowledgementsViewController";
-			productReference = 27ABED6BE99E32AC7E18B366 /* VTAcknowledgementsViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B22CD7EDD9814FDE8594C57B /* Pods-Starship-JFTextFieldTableCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 370171149011C9D299D0FD2F /* Build configuration list for PBXNativeTarget "Pods-Starship-JFTextFieldTableCell" */;
-			buildPhases = (
-				5861E29B1555C9FDEBADBE66 /* Sources */,
-				6A3A4164C491ECF60AA9F483 /* Frameworks */,
-				25E2D916A9D0A8625FFF35AE /* Headers */,
+				52B5D5247C245885ABE082B8 /* Sources */,
+				47AA8A9DAD1152B5A551B2BC /* Frameworks */,
+				277345443F424DEBC5615529 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -853,52 +842,70 @@
 			);
 			name = "Pods-Starship-JFTextFieldTableCell";
 			productName = "Pods-Starship-JFTextFieldTableCell";
-			productReference = 45D0CEDE8FF06A8EE7D84C41 /* JFTextFieldTableCell.framework */;
+			productReference = 183F57076CFA7B51B983B1B3 /* JFTextFieldTableCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C28189CB1CF98FC649D19841 /* Pods-Starship-Hyperdrive */ = {
+		595427BBB1D2ADB99BF00510 /* Pods-Starship-Representor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F502905C895A3E6A3671F19 /* Build configuration list for PBXNativeTarget "Pods-Starship-Hyperdrive" */;
+			buildConfigurationList = 3CF8B1B7DE067F07235D5948 /* Build configuration list for PBXNativeTarget "Pods-Starship-Representor" */;
 			buildPhases = (
-				8CE73E38898656827992F7D5 /* Sources */,
-				8B550757414B99D752D7820E /* Frameworks */,
-				3F523CE32E1E3DCC95F709A6 /* Headers */,
+				454C1A3BF7DB50EFED3A8F6C /* Sources */,
+				BC7B64B2A3513C9781B79659 /* Frameworks */,
+				90B461E6C2C347E2807C123B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5112EB84C857AAD8C5BB68B4 /* PBXTargetDependency */,
-				222840311C64BA4D3970BEF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Starship-Representor";
+			productName = "Pods-Starship-Representor";
+			productReference = 5853D77D91A8BF9BD88151B7 /* Representor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73FC0B0FD09200EFCA88DAA7 /* Pods-Starship-Hyperdrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3C07DFD6F24AAB50C1DF28 /* Build configuration list for PBXNativeTarget "Pods-Starship-Hyperdrive" */;
+			buildPhases = (
+				4B1284309D483049992DCC16 /* Sources */,
+				CCE5F5BA798D3B5B6ABC568B /* Frameworks */,
+				FBB13266A47E3DF3F39B1D33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842C6E41D5C6C0270A0CD7FC /* PBXTargetDependency */,
+				F3152BC7B7467F3C2852AFCD /* PBXTargetDependency */,
 			);
 			name = "Pods-Starship-Hyperdrive";
 			productName = "Pods-Starship-Hyperdrive";
-			productReference = 9E54FE36CC814914AC4081E3 /* Hyperdrive.framework */;
+			productReference = A50EA822E5811D1C5E20F50C /* Hyperdrive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C6A5887A1F300F856B211A84 /* Pods-Starship-SwiftForms */ = {
+		8863DEA43AC6B4447F735556 /* Pods-Starship-VTAcknowledgementsViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAD6BC2DF865F1ED8092A9C5 /* Build configuration list for PBXNativeTarget "Pods-Starship-SwiftForms" */;
+			buildConfigurationList = 62C820AE79DC231BCE0C748F /* Build configuration list for PBXNativeTarget "Pods-Starship-VTAcknowledgementsViewController" */;
 			buildPhases = (
-				C552D4FA24CA1A8B3C65CD24 /* Sources */,
-				652F2A9FED861E4061F64962 /* Frameworks */,
-				9526ED09671AE4A1AA3B3F6B /* Headers */,
+				7BFC8617E13C1D7B6C82A17B /* Sources */,
+				8C4B76121029B208CDC75200 /* Frameworks */,
+				4540D6F4FBB9FBFE8CD017F6 /* Headers */,
+				8B46E48C8E25B40070E548D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Starship-SwiftForms";
-			productName = "Pods-Starship-SwiftForms";
-			productReference = 843DB307A5B4C778D7BB456D /* SwiftForms.framework */;
+			name = "Pods-Starship-VTAcknowledgementsViewController";
+			productName = "Pods-Starship-VTAcknowledgementsViewController";
+			productReference = F591B044DC86AEBA41C3B0C0 /* VTAcknowledgementsViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D695C2782D0A281E49D5C62F /* Pods-Starship-URITemplate */ = {
+		9CD6525F4085A7E00C4E5F2F /* Pods-Starship-URITemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9058ADF27660CB38FD778488 /* Build configuration list for PBXNativeTarget "Pods-Starship-URITemplate" */;
+			buildConfigurationList = 1BC27DC993E06D8D89CD32CA /* Build configuration list for PBXNativeTarget "Pods-Starship-URITemplate" */;
 			buildPhases = (
-				0C0F7FB321F6A2322F173A41 /* Sources */,
-				BFB33C2064B649B6B8ED1948 /* Frameworks */,
-				3D2DDE4EA4805D7E10C632DD /* Headers */,
+				099DC79B57B75810CD7B839E /* Sources */,
+				DC93F96CDBC14F3D9EAA7B4F /* Frameworks */,
+				175A78AC3BB5A301334B9389 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -906,41 +913,17 @@
 			);
 			name = "Pods-Starship-URITemplate";
 			productName = "Pods-Starship-URITemplate";
-			productReference = 99B4BD63CE0CC617F263BDC7 /* URITemplate.framework */;
+			productReference = DBF7924F9E7D80597A5510BD /* URITemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB5219B8D0281CDBCB310025 /* Pods-Starship */ = {
+		C1DF1805BF5125482BBB50B5 /* Pods-Starship-SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 014E4ACC9779F42421B67516 /* Build configuration list for PBXNativeTarget "Pods-Starship" */;
+			buildConfigurationList = 131F19E6A61AA9D5F9D538EE /* Build configuration list for PBXNativeTarget "Pods-Starship-SVProgressHUD" */;
 			buildPhases = (
-				18D6468662EE8E3A23DE18F8 /* Sources */,
-				E37DFB6BDE8BD63F42940A5E /* Frameworks */,
-				9F594F164EDBBE85D7443515 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				211D24EB828D1B65F4EB487D /* PBXTargetDependency */,
-				0E7ACF90067F1F16A45F92BD /* PBXTargetDependency */,
-				EA3E17860F920E1824AE453C /* PBXTargetDependency */,
-				874C5A66546B5D1B58F86A3B /* PBXTargetDependency */,
-				0D288860163A8DD5DC1916E7 /* PBXTargetDependency */,
-				96F33E88A187FB6D37705335 /* PBXTargetDependency */,
-				0FCF421B76D009C6BE5D77DB /* PBXTargetDependency */,
-			);
-			name = "Pods-Starship";
-			productName = "Pods-Starship";
-			productReference = 49430521EF4FF5D27FD42F79 /* Pods_Starship.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ED5D19B552D329C9E42B555D /* Pods-Starship-SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51FBCDB78278701E37B5B5D0 /* Build configuration list for PBXNativeTarget "Pods-Starship-SVProgressHUD" */;
-			buildPhases = (
-				08E4E823977ACE8CB381D980 /* Sources */,
-				FCA29BBEABCEB9A19EFEC3C1 /* Frameworks */,
-				E86E5D4F4541899C47DF8C9D /* Headers */,
-				214A0D9BC1E73DF42A9211B3 /* Resources */,
+				4D5A94888B41530CACFAC6BF /* Sources */,
+				08EF19D2E6631CF70C88BDE1 /* Frameworks */,
+				D8B15A6D3749CE7BE2B5254E /* Headers */,
+				42677173C7A57962B3DB8354 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -948,228 +931,408 @@
 			);
 			name = "Pods-Starship-SVProgressHUD";
 			productName = "Pods-Starship-SVProgressHUD";
-			productReference = 1006C02624C98B4DA706AFD6 /* SVProgressHUD.framework */;
+			productReference = 6BF69ACEBD37F530BC6CDA43 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC58AE7010FD59904CD6DDD3 /* Pods-Starship-SwiftForms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55BC0A42392C0C9E421BA3B /* Build configuration list for PBXNativeTarget "Pods-Starship-SwiftForms" */;
+			buildPhases = (
+				2BA2CECB027B5323A48B2107 /* Sources */,
+				E1AAC01AD2941DDE7C08EF4C /* Frameworks */,
+				EC4047D8DC78E211473522BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Starship-SwiftForms";
+			productName = "Pods-Starship-SwiftForms";
+			productReference = 3A774704B8ED0DABDC8048D0 /* SwiftForms.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7059A5088124BDC6EA40CB96 /* Project object */ = {
+		EEE63D68DF84C0BBE9D3A85A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 8B7634BF392E1C6F28A58B6E /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 560EA648E6FF933C4111D5C3 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 17298AA74E91E6BE02C75A43;
-			productRefGroup = 8AD539BD30EAD398E712629C /* Products */;
+			mainGroup = 131E86CD0A10B82F8DDB7BCE;
+			productRefGroup = 483486C7DD9B9DB57B61864E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB5219B8D0281CDBCB310025 /* Pods-Starship */,
-				C28189CB1CF98FC649D19841 /* Pods-Starship-Hyperdrive */,
-				B22CD7EDD9814FDE8594C57B /* Pods-Starship-JFTextFieldTableCell */,
-				2A98F057F038F910A685934E /* Pods-Starship-Representor */,
-				ED5D19B552D329C9E42B555D /* Pods-Starship-SVProgressHUD */,
-				C6A5887A1F300F856B211A84 /* Pods-Starship-SwiftForms */,
-				D695C2782D0A281E49D5C62F /* Pods-Starship-URITemplate */,
-				7086BB73D88E53EB413ABE0C /* Pods-Starship-VTAcknowledgementsViewController */,
+				294FD5F61D172786E89C74DB /* Pods-Starship */,
+				73FC0B0FD09200EFCA88DAA7 /* Pods-Starship-Hyperdrive */,
+				4D38969B72A6BBA10BF7FF44 /* Pods-Starship-JFTextFieldTableCell */,
+				595427BBB1D2ADB99BF00510 /* Pods-Starship-Representor */,
+				C1DF1805BF5125482BBB50B5 /* Pods-Starship-SVProgressHUD */,
+				FC58AE7010FD59904CD6DDD3 /* Pods-Starship-SwiftForms */,
+				9CD6525F4085A7E00C4E5F2F /* Pods-Starship-URITemplate */,
+				8863DEA43AC6B4447F735556 /* Pods-Starship-VTAcknowledgementsViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		214A0D9BC1E73DF42A9211B3 /* Resources */ = {
+		42677173C7A57962B3DB8354 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA7C6EA92ACBAB8D504C5E4 /* SVProgressHUD.bundle in Resources */,
+				E83BE093D46537BBED578996 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E80CD410613D2833DB737E4 /* Resources */ = {
+		8B46E48C8E25B40070E548D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251BDA4F8097C3243E97DB2C /* VTAcknowledgementsViewController.bundle in Resources */,
+				ED3BE356DF354FCE0516EC5E /* VTAcknowledgementsViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08E4E823977ACE8CB381D980 /* Sources */ = {
+		099DC79B57B75810CD7B839E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF5371B39EAC605DC1FE5CF /* Pods-Starship-SVProgressHUD-dummy.m in Sources */,
-				D0A20EF477FE30AA0F0DE97F /* SVIndefiniteAnimatedView.m in Sources */,
-				847DEEC8E6340ECA64F319E1 /* SVProgressHUD.m in Sources */,
+				AAC16B3D8AF18C7D886E3F91 /* Pods-Starship-URITemplate-dummy.m in Sources */,
+				E40AB8C77616D7AA3345918D /* URITemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C0F7FB321F6A2322F173A41 /* Sources */ = {
+		2BA2CECB027B5323A48B2107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C3F3A0B5ADE589CF687727 /* Pods-Starship-URITemplate-dummy.m in Sources */,
-				4A9329E51867844BF13633D6 /* URITemplate.swift in Sources */,
+				E0F7451D6B18678E5DC820F8 /* FormBaseCell.swift in Sources */,
+				131245F4180660CA23DAA6BD /* FormButtonCell.swift in Sources */,
+				F3ED93B0449A81BFC3C87ED0 /* FormCheckCell.swift in Sources */,
+				19536AEA4CB87897050E9B80 /* FormDateCell.swift in Sources */,
+				07C681006EF762F93C73DCA4 /* FormDescriptor.swift in Sources */,
+				448FF3AAF4FBF72C0F1E3496 /* FormOptionsSelectorController.swift in Sources */,
+				413C77F44B4E81DA3E179D69 /* FormPickerCell.swift in Sources */,
+				CC76F257818750E094464686 /* FormRowDescriptor.swift in Sources */,
+				33385F4F9263AD851CC50F0E /* FormSectionDescriptor.swift in Sources */,
+				8744CC53BC2DEB8358690B5F /* FormSegmentedControlCell.swift in Sources */,
+				48F3E6D59657B6F104CF98B7 /* FormSelector.swift in Sources */,
+				0581D82F4A395FAF72A23EBE /* FormSelectorCell.swift in Sources */,
+				FD67C187488A4CC620365839 /* FormSliderCell.swift in Sources */,
+				4D3A3F32AEA75A6CD85BAFB8 /* FormStepperCell.swift in Sources */,
+				0D19F9172200C38C2E30C62A /* FormSwitchCell.swift in Sources */,
+				CDA5E496CC757BA780FA453F /* FormTextFieldCell.swift in Sources */,
+				628094F3C6130D4BEF7AC701 /* FormTextViewCell.swift in Sources */,
+				858AE7E7116A8F1571B462E8 /* FormTitleCell.swift in Sources */,
+				C640D6C27B563CED5947BBBC /* FormValueCell.swift in Sources */,
+				170E2C90F4016A7E5E845931 /* FormViewController.swift in Sources */,
+				239F05912F066E54B007FF01 /* Pods-Starship-SwiftForms-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18D6468662EE8E3A23DE18F8 /* Sources */ = {
+		454C1A3BF7DB50EFED3A8F6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761BE5FD50CA6F5F4A43C4CC /* Pods-Starship-dummy.m in Sources */,
+				EAC825C8803962E7623EFB52 /* Blueprint.swift in Sources */,
+				8B878EDA5B09CB2687D4E347 /* BlueprintTransition.swift in Sources */,
+				F59D351EF02876579D154FFE /* HTTPDeserialization.swift in Sources */,
+				CC2F96A8E92033756D0A2E2F /* HTTPHALAdapter.swift in Sources */,
+				1D75E9B3002061011CE00339 /* HTTPSirenAdapter.swift in Sources */,
+				C597737E874F7EE8C651FF72 /* HTTPTransition.swift in Sources */,
+				5D388FBA43592C1C07E8D968 /* HTTPTransitionBuilder.swift in Sources */,
+				02683C89446376831965703E /* Pods-Starship-Representor-dummy.m in Sources */,
+				7818A5474A271610281AF255 /* Representor.swift in Sources */,
+				C5C334E62D52751CE8098522 /* RepresentorBuilder.swift in Sources */,
+				B067BBC507D4B050075AFADF /* Transition.swift in Sources */,
+				C7B90349A9D245D27D269DE7 /* TransitionBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C5AA3138CB50B77E3EEA404 /* Sources */ = {
+		4B1284309D483049992DCC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFEB7BDEE220355DE47DB7F /* Pods-Starship-VTAcknowledgementsViewController-dummy.m in Sources */,
-				350EC13CD29CCE0B1B93C9F2 /* VTAcknowledgement.m in Sources */,
-				31F88A73D74275D7B725D267 /* VTAcknowledgementViewController.m in Sources */,
-				9A6F9C5008D2A3FACE393255 /* VTAcknowledgementsViewController.m in Sources */,
+				DBD44E558838B1658786AADA /* HyperBlueprint.swift in Sources */,
+				0F1BBA49139034CEECB2D387 /* Hyperdrive.swift in Sources */,
+				66B6CD7A56EEC1AF5DC29889 /* Pods-Starship-Hyperdrive-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5861E29B1555C9FDEBADBE66 /* Sources */ = {
+		4D5A94888B41530CACFAC6BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDFD2A9B61EE460198BF363 /* JFTextFieldTableCell.m in Sources */,
-				A46347E55F8AF4BFEBD84ABA /* Pods-Starship-JFTextFieldTableCell-dummy.m in Sources */,
+				C13A2555D4164FDFD0006F31 /* Pods-Starship-SVProgressHUD-dummy.m in Sources */,
+				86C461AA3EDB251007403656 /* SVIndefiniteAnimatedView.m in Sources */,
+				647A1DB4084E8DD39F59DD9B /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CE73E38898656827992F7D5 /* Sources */ = {
+		4EF79C6E3DF1306AB8511C2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AE1D69C2E6140FB402C6EB /* HyperBlueprint.swift in Sources */,
-				0F00A5942DE0CC7B6A2A6E35 /* Hyperdrive.swift in Sources */,
-				332F99EF68D1A9AE62F6795C /* Pods-Starship-Hyperdrive-dummy.m in Sources */,
+				8CFA186270BD9552FE203DB5 /* Pods-Starship-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C552D4FA24CA1A8B3C65CD24 /* Sources */ = {
+		52B5D5247C245885ABE082B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26FD8E8441219063F7FA6208 /* FormBaseCell.swift in Sources */,
-				46AFE4DD327B9339C23D6687 /* FormButtonCell.swift in Sources */,
-				E9E2A51F78B270B7F191940E /* FormCheckCell.swift in Sources */,
-				60B86B382D7E0E737F94A739 /* FormDateCell.swift in Sources */,
-				C054EFFCF04D16A2AB25C84B /* FormDescriptor.swift in Sources */,
-				21EF62594224BF7E4A4679AC /* FormOptionsSelectorController.swift in Sources */,
-				EE787C96A535205DF9386CC2 /* FormPickerCell.swift in Sources */,
-				BB584AD3500A7221841CB10E /* FormRowDescriptor.swift in Sources */,
-				1B6B0E7DCB210349AB00A98A /* FormSectionDescriptor.swift in Sources */,
-				EA3E6750CDB67EE1987716E2 /* FormSegmentedControlCell.swift in Sources */,
-				854F12404A22B94C02F8B22E /* FormSelector.swift in Sources */,
-				76FC0B306C35FD341A8889D3 /* FormSelectorCell.swift in Sources */,
-				E128A48FBD3E06A3499BAE99 /* FormSliderCell.swift in Sources */,
-				8978542AE646E2B9DE75BF80 /* FormStepperCell.swift in Sources */,
-				A9568ED3B2B19FBC82BB60D6 /* FormSwitchCell.swift in Sources */,
-				1980FD2D476AA5FC64CCC8D5 /* FormTextFieldCell.swift in Sources */,
-				34C8A0A6B4FC0B7590C44600 /* FormTextViewCell.swift in Sources */,
-				115E013B443FA8010A196A70 /* FormTitleCell.swift in Sources */,
-				1661CA3BCE9383982D6E0878 /* FormValueCell.swift in Sources */,
-				FBE14519CDEC0C0FAF2B069A /* FormViewController.swift in Sources */,
-				26DC794ECF2DE1115ACCA382 /* Pods-Starship-SwiftForms-dummy.m in Sources */,
+				95B3726C9BD7EC6E4346B9E9 /* JFTextFieldTableCell.m in Sources */,
+				61EDF1845035A6963C09178F /* Pods-Starship-JFTextFieldTableCell-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE1062AF49E1D6502584C863 /* Sources */ = {
+		7BFC8617E13C1D7B6C82A17B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46709F176CCF706629C74421 /* Blueprint.swift in Sources */,
-				6FFCBB095C6204C3C833A902 /* BlueprintTransition.swift in Sources */,
-				798F192CEE99B2301BF29828 /* HTTPDeserialization.swift in Sources */,
-				DA1468C7D75BEBA8C8B850A8 /* HTTPHALAdapter.swift in Sources */,
-				CB47A0C1B51A796A8C69EE2B /* HTTPSirenAdapter.swift in Sources */,
-				E37AF6CF1BBE55983835DB5D /* HTTPTransition.swift in Sources */,
-				276FD4D6F21E856A091AC903 /* HTTPTransitionBuilder.swift in Sources */,
-				02AA50462BC1F4B6F1A1BD8B /* Pods-Starship-Representor-dummy.m in Sources */,
-				3B24D9423FE118D4D702EA9F /* Representor.swift in Sources */,
-				98B28A68BA98BFCDF7D5E92E /* RepresentorBuilder.swift in Sources */,
-				23B6E53C33C12C4D0C4C05D5 /* Transition.swift in Sources */,
-				40A8EFCE0776B90BDC8EAF5E /* TransitionBuilder.swift in Sources */,
+				AB07D185181070C540A0FAF8 /* Pods-Starship-VTAcknowledgementsViewController-dummy.m in Sources */,
+				D15993E546D0EDF8C805A3CA /* VTAcknowledgement.m in Sources */,
+				5AE92D6237B95BB4180B97CD /* VTAcknowledgementViewController.m in Sources */,
+				82CBBC08679A4E07F23959D9 /* VTAcknowledgementsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D288860163A8DD5DC1916E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Starship-SwiftForms";
-			target = C6A5887A1F300F856B211A84 /* Pods-Starship-SwiftForms */;
-			targetProxy = 4154A4F9CF097961B2039ED1 /* PBXContainerItemProxy */;
-		};
-		0E7ACF90067F1F16A45F92BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Starship-JFTextFieldTableCell";
-			target = B22CD7EDD9814FDE8594C57B /* Pods-Starship-JFTextFieldTableCell */;
-			targetProxy = CD731AE6857ECA8A6E5EDF17 /* PBXContainerItemProxy */;
-		};
-		0FCF421B76D009C6BE5D77DB /* PBXTargetDependency */ = {
+		03F54FEF51C489CB2F18F587 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Starship-VTAcknowledgementsViewController";
-			target = 7086BB73D88E53EB413ABE0C /* Pods-Starship-VTAcknowledgementsViewController */;
-			targetProxy = 8106C95CCC0AA3A061A71F1B /* PBXContainerItemProxy */;
+			target = 8863DEA43AC6B4447F735556 /* Pods-Starship-VTAcknowledgementsViewController */;
+			targetProxy = AF8A40811AE01BC8A1DC639F /* PBXContainerItemProxy */;
 		};
-		211D24EB828D1B65F4EB487D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Starship-Hyperdrive";
-			target = C28189CB1CF98FC649D19841 /* Pods-Starship-Hyperdrive */;
-			targetProxy = 6A5FA42744F6F822958931C8 /* PBXContainerItemProxy */;
-		};
-		222840311C64BA4D3970BEF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Starship-URITemplate";
-			target = D695C2782D0A281E49D5C62F /* Pods-Starship-URITemplate */;
-			targetProxy = 289AA18CAA1D724E7C827BCF /* PBXContainerItemProxy */;
-		};
-		5112EB84C857AAD8C5BB68B4 /* PBXTargetDependency */ = {
+		842C6E41D5C6C0270A0CD7FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Starship-Representor";
-			target = 2A98F057F038F910A685934E /* Pods-Starship-Representor */;
-			targetProxy = AB5D7F519ECB626B2066B309 /* PBXContainerItemProxy */;
+			target = 595427BBB1D2ADB99BF00510 /* Pods-Starship-Representor */;
+			targetProxy = EBBC04ADFA24727ABAB25DFF /* PBXContainerItemProxy */;
 		};
-		874C5A66546B5D1B58F86A3B /* PBXTargetDependency */ = {
+		9BACDEABEFA6A58750C66EB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Starship-SVProgressHUD";
-			target = ED5D19B552D329C9E42B555D /* Pods-Starship-SVProgressHUD */;
-			targetProxy = 7FE8C38F2E96E0FA06FB0BDC /* PBXContainerItemProxy */;
+			target = C1DF1805BF5125482BBB50B5 /* Pods-Starship-SVProgressHUD */;
+			targetProxy = 8E24A4CF39B9B90951CBF787 /* PBXContainerItemProxy */;
 		};
-		96F33E88A187FB6D37705335 /* PBXTargetDependency */ = {
+		B79FA1EDBBEA54A9C65F1E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Starship-SwiftForms";
+			target = FC58AE7010FD59904CD6DDD3 /* Pods-Starship-SwiftForms */;
+			targetProxy = F429C466CC1FFA01D5CA7362 /* PBXContainerItemProxy */;
+		};
+		D88AD40FE6206A84A27AF142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Starship-Hyperdrive";
+			target = 73FC0B0FD09200EFCA88DAA7 /* Pods-Starship-Hyperdrive */;
+			targetProxy = CF463EF056D0314D2D29B3B9 /* PBXContainerItemProxy */;
+		};
+		EE93D0DE2D190CC65A3B938D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Starship-URITemplate";
-			target = D695C2782D0A281E49D5C62F /* Pods-Starship-URITemplate */;
-			targetProxy = EDF0468BB559D8BC9E177576 /* PBXContainerItemProxy */;
+			target = 9CD6525F4085A7E00C4E5F2F /* Pods-Starship-URITemplate */;
+			targetProxy = 386E502B89EC89A1842138DB /* PBXContainerItemProxy */;
 		};
-		EA3E17860F920E1824AE453C /* PBXTargetDependency */ = {
+		F3152BC7B7467F3C2852AFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Starship-URITemplate";
+			target = 9CD6525F4085A7E00C4E5F2F /* Pods-Starship-URITemplate */;
+			targetProxy = 045B9F768180C28DBBDD911A /* PBXContainerItemProxy */;
+		};
+		FADB6D789E717ADDC503C392 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Starship-Representor";
-			target = 2A98F057F038F910A685934E /* Pods-Starship-Representor */;
-			targetProxy = 444C848FF5305340E11D67A9 /* PBXContainerItemProxy */;
+			target = 595427BBB1D2ADB99BF00510 /* Pods-Starship-Representor */;
+			targetProxy = 112F38C050D5C4A9C9AD2F43 /* PBXContainerItemProxy */;
+		};
+		FF6AF2865AC8C2A3A4E58241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Starship-JFTextFieldTableCell";
+			target = 4D38969B72A6BBA10BF7FF44 /* Pods-Starship-JFTextFieldTableCell */;
+			targetProxy = 135644D85C8E9D4B9925D5FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03B674FF1FF5830730882385 /* Debug */ = {
+		052C6168340426912C93E9AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB51FA5ABDFAD5E30C8F747 /* Pods-Starship-Representor-Private.xcconfig */;
+			baseConfigurationReference = 1DF711F9C53B445B6C8A5451 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-JFTextFieldTableCell/Pods-Starship-JFTextFieldTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-JFTextFieldTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-JFTextFieldTableCell/Pods-Starship-JFTextFieldTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JFTextFieldTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36310C1F000463B4FA6A5E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D643F26CCB6B02E65AB69FBA /* Pods-Starship-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51377955F50C07ACBE9117EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44757B1B3356CF39B582BC32 /* Pods-Starship-SwiftForms-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SwiftForms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftForms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B78CBC4BB342EB4393F161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80DD36B7C2AB815176C18E2 /* Pods-Starship-URITemplate-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-URITemplate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = URITemplate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F59A61B810EDED3B5521357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A1E2F93597C984DD2AC18A /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VTAcknowledgementsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6894C1B81C3106067E9F1E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C616260D6C0B932EF31C03 /* Pods-Starship-Representor-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-Representor/Pods-Starship-Representor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-Representor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-Representor/Pods-Starship-Representor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Representor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CEF3533D34D305F5AE0CF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C616260D6C0B932EF31C03 /* Pods-Starship-Representor-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1195,291 +1358,9 @@
 			};
 			name = Debug;
 		};
-		1418713826D36702BA9760FC /* Debug */ = {
+		6D516639E2E033314C5FF8D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 048FBE2890066CB26F791FF7 /* Pods-Starship-SwiftForms-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SwiftForms/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftForms;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		30238ACDCB1C1BD60CF9CCEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 125B8DCA1675547E398735E6 /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VTAcknowledgementsViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3371C8F347C68EE3E7D77C43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECA872ADD0091035CB231744 /* Pods-Starship-Hyperdrive-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Hyperdrive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3400A2F533422536D3A40D82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 125B8DCA1675547E398735E6 /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = VTAcknowledgementsViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3CC8FB444C615964B971A405 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38A71724510777A905209FE3 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-JFTextFieldTableCell/Pods-Starship-JFTextFieldTableCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-JFTextFieldTableCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-JFTextFieldTableCell/Pods-Starship-JFTextFieldTableCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JFTextFieldTableCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4241BF76DCCE1840320AFF64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		440647843DE3B721C9AB58CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC79DDCFBEF9EE515BE4524 /* Pods-Starship-URITemplate-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-URITemplate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = URITemplate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4B0C44BDB7670B77A4E9CD74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69209DCA58C0C0EF21FFEE9D /* Pods-Starship.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship/Pods-Starship.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Starship;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		640CF116887F91A898BAF461 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 048FBE2890066CB26F791FF7 /* Pods-Starship-SwiftForms-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SwiftForms/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftForms;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		85969B46342C454AC180EA8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC79DDCFBEF9EE515BE4524 /* Pods-Starship-URITemplate-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-URITemplate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = URITemplate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AE53123E1330E2C1B7139741 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38A71724510777A905209FE3 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */;
+			baseConfigurationReference = 1DF711F9C53B445B6C8A5451 /* Pods-Starship-JFTextFieldTableCell-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1504,9 +1385,36 @@
 			};
 			name = Debug;
 		};
-		DCB88EED5743075710277072 /* Debug */ = {
+		7232604460C54EE1FF9F705A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47CCC178FF9194346F7120E8 /* Pods-Starship.debug.xcconfig */;
+			baseConfigurationReference = D0A1E2F93597C984DD2AC18A /* Pods-Starship-VTAcknowledgementsViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-VTAcknowledgementsViewController/Pods-Starship-VTAcknowledgementsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VTAcknowledgementsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7678957705B0C6D3527E4B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ADE2853C5C21397CFC9875 /* Pods-Starship.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1534,7 +1442,7 @@
 			};
 			name = Debug;
 		};
-		E4E7CC5F4A87553E7BC3D920 /* Debug */ = {
+		7780725461431B5F8F029BEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1573,9 +1481,9 @@
 			};
 			name = Debug;
 		};
-		E78B306F6719C36FBA07C8FB /* Release */ = {
+		7CF38319C36B8ABA3E3BC0C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEB51FA5ABDFAD5E30C8F747 /* Pods-Starship-Representor-Private.xcconfig */;
+			baseConfigurationReference = E80DD36B7C2AB815176C18E2 /* Pods-Starship-URITemplate-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1584,25 +1492,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-Representor/Pods-Starship-Representor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-Representor/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-URITemplate/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-Representor/Pods-Starship-Representor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Representor;
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-URITemplate/Pods-Starship-URITemplate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = URITemplate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F3E1CFE8FACB2589C9B4B8BA /* Release */ = {
+		9CB42074B69D00C65B140D5F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2204B92542A39AD6F4C6173C /* Pods-Starship-SVProgressHUD-Private.xcconfig */;
+			baseConfigurationReference = 2579154EACE2B19EDCA1B973 /* Pods-Starship.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1611,14 +1520,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship/Pods-Starship.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SVProgressHUD;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Starship;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1627,9 +1538,43 @@
 			};
 			name = Release;
 		};
-		F62122FAB6FE5D1C54A90A05 /* Debug */ = {
+		A1EB943FCF90A66A7180CF43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2204B92542A39AD6F4C6173C /* Pods-Starship-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6ECC8CC51F5D01DDD1B8184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D643F26CCB6B02E65AB69FBA /* Pods-Starship-SVProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1654,9 +1599,64 @@
 			};
 			name = Debug;
 		};
-		FA5866591A4053A659B2D3A1 /* Release */ = {
+		D11AECF3E5540C4F97CCF64D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECA872ADD0091035CB231744 /* Pods-Starship-Hyperdrive-Private.xcconfig */;
+			baseConfigurationReference = 44757B1B3356CF39B582BC32 /* Pods-Starship-SwiftForms-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SwiftForms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SwiftForms/Pods-Starship-SwiftForms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftForms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D127829942D8D99C5F5291AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF163604F8294E60E9DB3CAF /* Pods-Starship-Hyperdrive-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hyperdrive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3BABA4EF1B596BFE3BAC8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF163604F8294E60E9DB3CAF /* Pods-Starship-Hyperdrive-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1684,88 +1684,88 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		014E4ACC9779F42421B67516 /* Build configuration list for PBXNativeTarget "Pods-Starship" */ = {
+		131F19E6A61AA9D5F9D538EE /* Build configuration list for PBXNativeTarget "Pods-Starship-SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCB88EED5743075710277072 /* Debug */,
-				4B0C44BDB7670B77A4E9CD74 /* Release */,
+				B6ECC8CC51F5D01DDD1B8184 /* Debug */,
+				36310C1F000463B4FA6A5E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17F9FF0B5213D099E6068108 /* Build configuration list for PBXNativeTarget "Pods-Starship-VTAcknowledgementsViewController" */ = {
+		1BC27DC993E06D8D89CD32CA /* Build configuration list for PBXNativeTarget "Pods-Starship-URITemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3400A2F533422536D3A40D82 /* Debug */,
-				30238ACDCB1C1BD60CF9CCEA /* Release */,
+				7CF38319C36B8ABA3E3BC0C3 /* Debug */,
+				55B78CBC4BB342EB4393F161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		370171149011C9D299D0FD2F /* Build configuration list for PBXNativeTarget "Pods-Starship-JFTextFieldTableCell" */ = {
+		3CF8B1B7DE067F07235D5948 /* Build configuration list for PBXNativeTarget "Pods-Starship-Representor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE53123E1330E2C1B7139741 /* Debug */,
-				3CC8FB444C615964B971A405 /* Release */,
+				6CEF3533D34D305F5AE0CF23 /* Debug */,
+				6894C1B81C3106067E9F1E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51FBCDB78278701E37B5B5D0 /* Build configuration list for PBXNativeTarget "Pods-Starship-SVProgressHUD" */ = {
+		560EA648E6FF933C4111D5C3 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F62122FAB6FE5D1C54A90A05 /* Debug */,
-				F3E1CFE8FACB2589C9B4B8BA /* Release */,
+				7780725461431B5F8F029BEF /* Debug */,
+				A1EB943FCF90A66A7180CF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F502905C895A3E6A3671F19 /* Build configuration list for PBXNativeTarget "Pods-Starship-Hyperdrive" */ = {
+		62C820AE79DC231BCE0C748F /* Build configuration list for PBXNativeTarget "Pods-Starship-VTAcknowledgementsViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3371C8F347C68EE3E7D77C43 /* Debug */,
-				FA5866591A4053A659B2D3A1 /* Release */,
+				7232604460C54EE1FF9F705A /* Debug */,
+				5F59A61B810EDED3B5521357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B7634BF392E1C6F28A58B6E /* Build configuration list for PBXProject "Pods" */ = {
+		A55BC0A42392C0C9E421BA3B /* Build configuration list for PBXNativeTarget "Pods-Starship-SwiftForms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4E7CC5F4A87553E7BC3D920 /* Debug */,
-				4241BF76DCCE1840320AFF64 /* Release */,
+				51377955F50C07ACBE9117EF /* Debug */,
+				D11AECF3E5540C4F97CCF64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9058ADF27660CB38FD778488 /* Build configuration list for PBXNativeTarget "Pods-Starship-URITemplate" */ = {
+		D36E31FC5562994DAEF92638 /* Build configuration list for PBXNativeTarget "Pods-Starship" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				440647843DE3B721C9AB58CA /* Debug */,
-				85969B46342C454AC180EA8B /* Release */,
+				7678957705B0C6D3527E4B3D /* Debug */,
+				9CB42074B69D00C65B140D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC7D065F33E4294490F63BB6 /* Build configuration list for PBXNativeTarget "Pods-Starship-Representor" */ = {
+		DCB628DE9F8407D79E211782 /* Build configuration list for PBXNativeTarget "Pods-Starship-JFTextFieldTableCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03B674FF1FF5830730882385 /* Debug */,
-				E78B306F6719C36FBA07C8FB /* Release */,
+				6D516639E2E033314C5FF8D3 /* Debug */,
+				052C6168340426912C93E9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAD6BC2DF865F1ED8092A9C5 /* Build configuration list for PBXNativeTarget "Pods-Starship-SwiftForms" */ = {
+		EE3C07DFD6F24AAB50C1DF28 /* Build configuration list for PBXNativeTarget "Pods-Starship-Hyperdrive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1418713826D36702BA9760FC /* Debug */,
-				640CF116887F91A898BAF461 /* Release */,
+				D127829942D8D99C5F5291AC /* Debug */,
+				F3BABA4EF1B596BFE3BAC8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7059A5088124BDC6EA40CB96 /* Project object */;
+	rootObject = EEE63D68DF84C0BBE9D3A85A /* Project object */;
 }
