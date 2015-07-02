@@ -62,6 +62,11 @@ class TransitionViewModel {
   }
 
   func perform(completion:((ResourceViewModelResult) -> ())) {
+    var attributes:[String:String]?
+    if self.attributes.count > 0 {
+      attributes = self.attributes
+    }
+
     hyperdrive.request(transition, parameters: parameters, attributes: attributes) { result in
       switch result {
       case .Success(let representor):
