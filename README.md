@@ -1,4 +1,4 @@
-<img src="Starship/Images.xcassets/AppIcon.appiconset/Icon-60@3x.png" width=90 height=90/>
+<img src="https://raw.githubusercontent.com/the-hypermedia-project/Hyperdrive/master/Hyperdrive.png" />
 
 # Starship
 
