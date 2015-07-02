@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1057DEF4C8E1C653FC52827C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4F0D9AD5332390BB32280B /* Foundation.framework */; };
+		2096FBD5069C5390F32BEB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4F0D9AD5332390BB32280B /* Foundation.framework */; };
+		35AAEFF4E34A3833297D6665 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECCEB8CEE4927CFE119E420 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE9C3CF47366642CC07FDED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D8771832F8C8DC1B439EE9 /* QuartzCore.framework */; };
+		467FF90D17E446E321BA18F1 /* Pods-Starship-Hyperdrive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C94274E2CEC22A916CD5D441 /* Pods-Starship-Hyperdrive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586895EE2DFC9F5DCD0B95AC /* Pods-Starship-Hyperdrive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA26136AE5805738284B087 /* Pods-Starship-Hyperdrive-dummy.m */; };
+		6BA47852A5423395B141B7EA /* Pods-Starship-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 553EBCB0745D6058C4D329AC /* Pods-Starship-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83932E7C1BC49E46DAFCC26A /* Pods-Starship-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E868652840636BCC602100C2 /* Pods-Starship-dummy.m */; };
+		8739BE6B0C4E97748A47D59E /* HyperBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B716C78E963021BAA378FC2C /* HyperBlueprint.swift */; };
+		AE694583C118351E578C2BF0 /* Pods-Starship-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC0A291ED1EDC8CE538B3 /* Pods-Starship-SVProgressHUD-dummy.m */; };
+		B3869F1CBCF17AC7D8EFB0A2 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5110F1453777D5FD830A9163 /* SVIndefiniteAnimatedView.m */; };
+		B6156867172AD56CB4F08F50 /* Pods-Starship-SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5091E5D8CDC92ADE6E99B6 /* Pods-Starship-SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AF5BBCBF96AB87A2166404 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B19AD841F5F3B97E17872484 /* SVProgressHUD.m */; };
+		CCC4D81031E7758B38F9C94E /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F462F510BEF55AB3A504BB4D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72C676687CB28EBCA573B02 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8F1BA1D501578283127C3B7 /* SVProgressHUD.bundle */; };
+		E252DC4F0708451E678BD4E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4F0D9AD5332390BB32280B /* Foundation.framework */; };
+		E61E59E65E187D7F667C278A /* Hyperdrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F93C5B99CAEBBDC534FDB /* Hyperdrive.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB2ED75EE90D4714990235C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC6147E4979781CA0D648B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4144B2B647A2D604449D76F0;
+			remoteInfo = "Pods-Starship-Hyperdrive";
+		};
+		5A9C23D737C8DCCBFE1DBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC6147E4979781CA0D648B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A2680BBBC947CF27D23A9F3;
+			remoteInfo = "Pods-Starship-SVProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AFD6A90DC1D0C7ADA94295 /* Pods-Starship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship.debug.xcconfig"; sourceTree = "<group>"; };
+		1390010C139191BD3908A968 /* Pods-Starship-SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-SVProgressHUD.modulemap"; sourceTree = "<group>"; };
+		1B5091E5D8CDC92ADE6E99B6 /* Pods-Starship-SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		1C8628D7E208EB3F93C55A9D /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6F93C5B99CAEBBDC534FDB /* Hyperdrive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperdrive.swift; path = Hyperdrive/Hyperdrive.swift; sourceTree = "<group>"; };
+		2ECCEB8CEE4927CFE119E420 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3993DF9354F375B6D61005E4 /* Hyperdrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hyperdrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D8771832F8C8DC1B439EE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		486F29ECE36ECB41B268C393 /* Pods-Starship-Hyperdrive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Hyperdrive-prefix.pch"; sourceTree = "<group>"; };
+		4BE0FAD693A153B03761DD79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA26136AE5805738284B087 /* Pods-Starship-Hyperdrive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-Hyperdrive-dummy.m"; sourceTree = "<group>"; };
+		5110F1453777D5FD830A9163 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		553EBCB0745D6058C4D329AC /* Pods-Starship-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-umbrella.h"; sourceTree = "<group>"; };
+		572599A017B97571B67E13E3 /* Pods_Starship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3AC0A291ED1EDC8CE538B3 /* Pods-Starship-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		68462121F182BAA60905AD50 /* Pods-Starship-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		6E784C207E973F69A1C302BA /* Pods-Starship-Hyperdrive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship-Hyperdrive.modulemap"; sourceTree = "<group>"; };
+		7C800A12B57D3EB8BC1253B0 /* Pods-Starship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship.release.xcconfig"; sourceTree = "<group>"; };
+		80AD9CDBD5B726E1DA52B931 /* Pods-Starship-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Starship-acknowledgements.plist"; sourceTree = "<group>"; };
+		90A4AB5208DE7C462F5D9519 /* Pods-Starship-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Starship-resources.sh"; sourceTree = "<group>"; };
+		95D9F3805DD857B336E7CDA4 /* Pods-Starship-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		9B5A56D7C0E7946035221B12 /* Pods-Starship-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		A10957ED79515423AC1F6B25 /* Pods-Starship-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-environment.h"; sourceTree = "<group>"; };
+		AAFAA8B1700D543F92211978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCF352F9F6FB3D8DAF5EEC7 /* Pods-Starship-Hyperdrive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Hyperdrive.xcconfig"; sourceTree = "<group>"; };
+		AE4F0D9AD5332390BB32280B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B19AD841F5F3B97E17872484 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		B716C78E963021BAA378FC2C /* HyperBlueprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HyperBlueprint.swift; path = Hyperdrive/HyperBlueprint.swift; sourceTree = "<group>"; };
+		B8F1BA1D501578283127C3B7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B95762D31CEE2D71D8823983 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB55747A75985808CA41E01A /* URITemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URITemplate.h; path = URITemplate/URITemplate.h; sourceTree = "<group>"; };
+		C628358DEFF60797EA0AD342 /* Representor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Representor.h; path = Representor/Representor.h; sourceTree = "<group>"; };
+		C6AEBF4F288E03DB3791AA21 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C94274E2CEC22A916CD5D441 /* Pods-Starship-Hyperdrive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Starship-Hyperdrive-umbrella.h"; sourceTree = "<group>"; };
+		D01B376FCECA4017C3319D81 /* Pods-Starship-Hyperdrive-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Starship-Hyperdrive-Private.xcconfig"; sourceTree = "<group>"; };
+		D559A8555C97CFA91026DE55 /* Pods-Starship-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Starship-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3BB4D7A567E6D95B3CAAB08 /* Pods-Starship.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Starship.modulemap"; sourceTree = "<group>"; };
+		E868652840636BCC602100C2 /* Pods-Starship-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Starship-dummy.m"; sourceTree = "<group>"; };
+		F3CB5C616DFC7A007924082B /* Pods-Starship-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Starship-frameworks.sh"; sourceTree = "<group>"; };
+		F462F510BEF55AB3A504BB4D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486F208E336AD0200EB3F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2096FBD5069C5390F32BEB9C /* Foundation.framework in Frameworks */,
+				3CE9C3CF47366642CC07FDED /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68C6799D5C5A69A364F51043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E252DC4F0708451E678BD4E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F01206DA0FDA0EB6AD9B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1057DEF4C8E1C653FC52827C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07ADADB5F3CC18E37D569D0F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2ECCEB8CEE4927CFE119E420 /* SVIndefiniteAnimatedView.h */,
+				5110F1453777D5FD830A9163 /* SVIndefiniteAnimatedView.m */,
+				F462F510BEF55AB3A504BB4D /* SVProgressHUD.h */,
+				B19AD841F5F3B97E17872484 /* SVProgressHUD.m */,
+				5BDAF931BB6E4CC72B6C4159 /* Resources */,
+				80C7B0E9A23F8E1D7D6CD714 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		130EC62AF94866CA56BECBC3 = {
+			isa = PBXGroup;
+			children = (
+				C6AEBF4F288E03DB3791AA21 /* Podfile */,
+				FDC29F398D12FDA668061721 /* Frameworks */,
+				3928F78FCF0D1D3B9799F67D /* Pods */,
+				61A652B6004871ED348B5E48 /* Products */,
+				B7E407A728736A053F44C5EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		3928F78FCF0D1D3B9799F67D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D13F5DCECAC51F5B759DF56D /* Hyperdrive */,
+				C7C9C147A1A0B493033C7096 /* Representor */,
+				07ADADB5F3CC18E37D569D0F /* SVProgressHUD */,
+				6FF3A85BB721D3A40B5E52BE /* URITemplate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BDAF931BB6E4CC72B6C4159 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8F1BA1D501578283127C3B7 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		61A652B6004871ED348B5E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3993DF9354F375B6D61005E4 /* Hyperdrive.framework */,
+				572599A017B97571B67E13E3 /* Pods_Starship.framework */,
+				1C8628D7E208EB3F93C55A9D /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF3A85BB721D3A40B5E52BE /* URITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BB55747A75985808CA41E01A /* URITemplate.h */,
+			);
+			path = URITemplate;
+			sourceTree = "<group>";
+		};
+		80C7B0E9A23F8E1D7D6CD714 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95762D31CEE2D71D8823983 /* Info.plist */,
+				1390010C139191BD3908A968 /* Pods-Starship-SVProgressHUD.modulemap */,
+				68462121F182BAA60905AD50 /* Pods-Starship-SVProgressHUD.xcconfig */,
+				95D9F3805DD857B336E7CDA4 /* Pods-Starship-SVProgressHUD-Private.xcconfig */,
+				5F3AC0A291ED1EDC8CE538B3 /* Pods-Starship-SVProgressHUD-dummy.m */,
+				9B5A56D7C0E7946035221B12 /* Pods-Starship-SVProgressHUD-prefix.pch */,
+				1B5091E5D8CDC92ADE6E99B6 /* Pods-Starship-SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Starship-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		82466367C5A76EA62200CBCB /* Pods-Starship */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0FAD693A153B03761DD79 /* Info.plist */,
+				E3BB4D7A567E6D95B3CAAB08 /* Pods-Starship.modulemap */,
+				D559A8555C97CFA91026DE55 /* Pods-Starship-acknowledgements.markdown */,
+				80AD9CDBD5B726E1DA52B931 /* Pods-Starship-acknowledgements.plist */,
+				E868652840636BCC602100C2 /* Pods-Starship-dummy.m */,
+				A10957ED79515423AC1F6B25 /* Pods-Starship-environment.h */,
+				F3CB5C616DFC7A007924082B /* Pods-Starship-frameworks.sh */,
+				90A4AB5208DE7C462F5D9519 /* Pods-Starship-resources.sh */,
+				553EBCB0745D6058C4D329AC /* Pods-Starship-umbrella.h */,
+				07AFD6A90DC1D0C7ADA94295 /* Pods-Starship.debug.xcconfig */,
+				7C800A12B57D3EB8BC1253B0 /* Pods-Starship.release.xcconfig */,
+			);
+			name = "Pods-Starship";
+			path = "Target Support Files/Pods-Starship";
+			sourceTree = "<group>";
+		};
+		8FEA0F58CAC584101F18C828 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFAA8B1700D543F92211978 /* Info.plist */,
+				6E784C207E973F69A1C302BA /* Pods-Starship-Hyperdrive.modulemap */,
+				ACCF352F9F6FB3D8DAF5EEC7 /* Pods-Starship-Hyperdrive.xcconfig */,
+				D01B376FCECA4017C3319D81 /* Pods-Starship-Hyperdrive-Private.xcconfig */,
+				4DA26136AE5805738284B087 /* Pods-Starship-Hyperdrive-dummy.m */,
+				486F29ECE36ECB41B268C393 /* Pods-Starship-Hyperdrive-prefix.pch */,
+				C94274E2CEC22A916CD5D441 /* Pods-Starship-Hyperdrive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Starship-Hyperdrive";
+			sourceTree = "<group>";
+		};
+		B6211BE543A4593DCB2C87B8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C628358DEFF60797EA0AD342 /* Representor.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B7E407A728736A053F44C5EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82466367C5A76EA62200CBCB /* Pods-Starship */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C7C9C147A1A0B493033C7096 /* Representor */ = {
+			isa = PBXGroup;
+			children = (
+				B6211BE543A4593DCB2C87B8 /* Core */,
+			);
+			path = Representor;
+			sourceTree = "<group>";
+		};
+		D13F5DCECAC51F5B759DF56D /* Hyperdrive */ = {
+			isa = PBXGroup;
+			children = (
+				B716C78E963021BAA378FC2C /* HyperBlueprint.swift */,
+				2C6F93C5B99CAEBBDC534FDB /* Hyperdrive.swift */,
+				8FEA0F58CAC584101F18C828 /* Support Files */,
+			);
+			path = Hyperdrive;
+			sourceTree = "<group>";
+		};
+		D451663C3DF3DC85B2AB2AB4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F0D9AD5332390BB32280B /* Foundation.framework */,
+				42D8771832F8C8DC1B439EE9 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDC29F398D12FDA668061721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D451663C3DF3DC85B2AB2AB4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		550AA0078014A7C4D20E85B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467FF90D17E446E321BA18F1 /* Pods-Starship-Hyperdrive-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66423B97C1207AC097FBFE44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6156867172AD56CB4F08F50 /* Pods-Starship-SVProgressHUD-umbrella.h in Headers */,
+				35AAEFF4E34A3833297D6665 /* SVIndefiniteAnimatedView.h in Headers */,
+				CCC4D81031E7758B38F9C94E /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF64BD95891C0E8D7848BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA47852A5423395B141B7EA /* Pods-Starship-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4144B2B647A2D604449D76F0 /* Pods-Starship-Hyperdrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43F4A3AC184F013F352B224 /* Build configuration list for PBXNativeTarget "Pods-Starship-Hyperdrive" */;
+			buildPhases = (
+				D11E71DBBF3CBE00C22CFCA1 /* Sources */,
+				68C6799D5C5A69A364F51043 /* Frameworks */,
+				550AA0078014A7C4D20E85B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Starship-Hyperdrive";
+			productName = "Pods-Starship-Hyperdrive";
+			productReference = 3993DF9354F375B6D61005E4 /* Hyperdrive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63B5CB52CCACF53768AF065D /* Pods-Starship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22536280462B44F9DDDAD1F0 /* Build configuration list for PBXNativeTarget "Pods-Starship" */;
+			buildPhases = (
+				4BF484D67CA4F3A74C272909 /* Sources */,
+				C8F01206DA0FDA0EB6AD9B2E /* Frameworks */,
+				79FF64BD95891C0E8D7848BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657E930B541229CF25624B92 /* PBXTargetDependency */,
+				D278BA72D930F7A8B51F66AC /* PBXTargetDependency */,
+			);
+			name = "Pods-Starship";
+			productName = "Pods-Starship";
+			productReference = 572599A017B97571B67E13E3 /* Pods_Starship.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A2680BBBC947CF27D23A9F3 /* Pods-Starship-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76536A0EC0209EB4250A2A9B /* Build configuration list for PBXNativeTarget "Pods-Starship-SVProgressHUD" */;
+			buildPhases = (
+				FDDE7A7E76BF314F6B9879F3 /* Sources */,
+				486F208E336AD0200EB3F649 /* Frameworks */,
+				66423B97C1207AC097FBFE44 /* Headers */,
+				5EA64DC9BBA7EFA9787F9BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Starship-SVProgressHUD";
+			productName = "Pods-Starship-SVProgressHUD";
+			productReference = 1C8628D7E208EB3F93C55A9D /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC6147E4979781CA0D648B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = DA015182186C14329E0DC0CB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 130EC62AF94866CA56BECBC3;
+			productRefGroup = 61A652B6004871ED348B5E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B5CB52CCACF53768AF065D /* Pods-Starship */,
+				4144B2B647A2D604449D76F0 /* Pods-Starship-Hyperdrive */,
+				7A2680BBBC947CF27D23A9F3 /* Pods-Starship-SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA64DC9BBA7EFA9787F9BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72C676687CB28EBCA573B02 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF484D67CA4F3A74C272909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83932E7C1BC49E46DAFCC26A /* Pods-Starship-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11E71DBBF3CBE00C22CFCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8739BE6B0C4E97748A47D59E /* HyperBlueprint.swift in Sources */,
+				E61E59E65E187D7F667C278A /* Hyperdrive.swift in Sources */,
+				586895EE2DFC9F5DCD0B95AC /* Pods-Starship-Hyperdrive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDE7A7E76BF314F6B9879F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE694583C118351E578C2BF0 /* Pods-Starship-SVProgressHUD-dummy.m in Sources */,
+				B3869F1CBCF17AC7D8EFB0A2 /* SVIndefiniteAnimatedView.m in Sources */,
+				C1AF5BBCBF96AB87A2166404 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657E930B541229CF25624B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Starship-Hyperdrive";
+			target = 4144B2B647A2D604449D76F0 /* Pods-Starship-Hyperdrive */;
+			targetProxy = 3CB2ED75EE90D4714990235C /* PBXContainerItemProxy */;
+		};
+		D278BA72D930F7A8B51F66AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Starship-SVProgressHUD";
+			target = 7A2680BBBC947CF27D23A9F3 /* Pods-Starship-SVProgressHUD */;
+			targetProxy = 5A9C23D737C8DCCBFE1DBC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0155542035262F682ADA3D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C800A12B57D3EB8BC1253B0 /* Pods-Starship.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship/Pods-Starship.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Starship;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10771EC6C0018A4277476013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01B376FCECA4017C3319D81 /* Pods-Starship-Hyperdrive-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Hyperdrive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FA03B32C2CA7A2BEF91D0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AFD6A90DC1D0C7ADA94295 /* Pods-Starship.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship/Pods-Starship.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Starship;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9C809B5F78E25161A71F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3EDE252A63507F24855709D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D9F3805DD857B336E7CDA4 /* Pods-Starship-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF2BF660F4A9B9C9D541501D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D9F3805DD857B336E7CDA4 /* Pods-Starship-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-SVProgressHUD/Pods-Starship-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F970027D0A2A0FBB39508AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01B376FCECA4017C3319D81 /* Pods-Starship-Hyperdrive-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Starship-Hyperdrive/Pods-Starship-Hyperdrive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hyperdrive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF889A728F341DC01845983B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22536280462B44F9DDDAD1F0 /* Build configuration list for PBXNativeTarget "Pods-Starship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA03B32C2CA7A2BEF91D0B3 /* Debug */,
+				0155542035262F682ADA3D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76536A0EC0209EB4250A2A9B /* Build configuration list for PBXNativeTarget "Pods-Starship-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2BF660F4A9B9C9D541501D /* Debug */,
+				B3EDE252A63507F24855709D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43F4A3AC184F013F352B224 /* Build configuration list for PBXNativeTarget "Pods-Starship-Hyperdrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F970027D0A2A0FBB39508AE4 /* Debug */,
+				10771EC6C0018A4277476013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA015182186C14329E0DC0CB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF889A728F341DC01845983B /* Debug */,
+				AE9C809B5F78E25161A71F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC6147E4979781CA0D648B3 /* Project object */;
+}

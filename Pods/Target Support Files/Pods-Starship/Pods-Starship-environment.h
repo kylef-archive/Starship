@@ -1,0 +1,80 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// Hyperdrive
+#define COCOAPODS_POD_AVAILABLE_Hyperdrive
+#define COCOAPODS_VERSION_MAJOR_Hyperdrive 0
+#define COCOAPODS_VERSION_MINOR_Hyperdrive 1
+#define COCOAPODS_VERSION_PATCH_Hyperdrive 0
+
+// Representor
+#define COCOAPODS_POD_AVAILABLE_Representor
+#define COCOAPODS_VERSION_MAJOR_Representor 0
+#define COCOAPODS_VERSION_MINOR_Representor 6
+#define COCOAPODS_VERSION_PATCH_Representor 0
+
+// Representor/Core
+#define COCOAPODS_POD_AVAILABLE_Representor_Core
+#define COCOAPODS_VERSION_MAJOR_Representor_Core 0
+#define COCOAPODS_VERSION_MINOR_Representor_Core 6
+#define COCOAPODS_VERSION_PATCH_Representor_Core 0
+
+// Representor/HTTP
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP 0
+
+// Representor/HTTP/Adapters
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP_Adapters
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP_Adapters 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP_Adapters 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP_Adapters 0
+
+// Representor/HTTP/Adapters/APIBlueprint
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP_Adapters_APIBlueprint
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP_Adapters_APIBlueprint 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP_Adapters_APIBlueprint 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP_Adapters_APIBlueprint 0
+
+// Representor/HTTP/Adapters/HAL
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP_Adapters_HAL
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP_Adapters_HAL 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP_Adapters_HAL 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP_Adapters_HAL 0
+
+// Representor/HTTP/Adapters/Siren
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP_Adapters_Siren
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP_Adapters_Siren 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP_Adapters_Siren 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP_Adapters_Siren 0
+
+// Representor/HTTP/Deserialization
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP_Deserialization
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP_Deserialization 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP_Deserialization 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP_Deserialization 0
+
+// Representor/HTTP/Transition
+#define COCOAPODS_POD_AVAILABLE_Representor_HTTP_Transition
+#define COCOAPODS_VERSION_MAJOR_Representor_HTTP_Transition 0
+#define COCOAPODS_VERSION_MINOR_Representor_HTTP_Transition 6
+#define COCOAPODS_VERSION_PATCH_Representor_HTTP_Transition 0
+
+// SVProgressHUD
+#define COCOAPODS_POD_AVAILABLE_SVProgressHUD
+#define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1
+#define COCOAPODS_VERSION_MINOR_SVProgressHUD 1
+#define COCOAPODS_VERSION_PATCH_SVProgressHUD 3
+
+// URITemplate
+#define COCOAPODS_POD_AVAILABLE_URITemplate
+#define COCOAPODS_VERSION_MAJOR_URITemplate 1
+#define COCOAPODS_VERSION_MINOR_URITemplate 2
+#define COCOAPODS_VERSION_PATCH_URITemplate 0
+
