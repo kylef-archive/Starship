@@ -20,6 +20,13 @@ class StarshipViewController : UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     title = "Starship"
+
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "About", style: .Plain, target: self, action: "presentAbout")
+  }
+
+  func presentAbout() {
+    let viewController = AboutViewController(style: .Grouped)
+    navigationController?.pushViewController(viewController, animated: true)
   }
 
   // MARK: UITableViewDataSource

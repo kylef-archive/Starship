@@ -13,6 +13,7 @@
 		27282BCC1AE5AB2200BBDF72 /* StarshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27282BCB1AE5AB2200BBDF72 /* StarshipTests.swift */; };
 		279FC61A1B44BD24004B2FBA /* StarshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC6191B44BD24004B2FBA /* StarshipViewController.swift */; };
 		279FC61C1B44BE63004B2FBA /* StarshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */; };
+		279FC61E1B44CD07004B2FBA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FC61D1B44CD07004B2FBA /* AboutViewController.swift */; };
 		27F668001B44A0F800D21EB3 /* ResourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F667FF1B44A0F800D21EB3 /* ResourceViewModel.swift */; };
 		27F668061B44A11F00D21EB3 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F668051B44A11F00D21EB3 /* ResourceViewController.swift */; };
 		9BF69FB323F7F9571C9AD93B /* Pods_Starship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF24E68D28AD299527A4E85 /* Pods_Starship.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -39,6 +40,7 @@
 		27282BCB1AE5AB2200BBDF72 /* StarshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipTests.swift; sourceTree = "<group>"; };
 		279FC6191B44BD24004B2FBA /* StarshipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipViewController.swift; sourceTree = "<group>"; };
 		279FC61B1B44BE63004B2FBA /* StarshipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarshipViewModel.swift; path = ViewModels/StarshipViewModel.swift; sourceTree = "<group>"; };
+		279FC61D1B44CD07004B2FBA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		27F667FF1B44A0F800D21EB3 /* ResourceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceViewModel.swift; path = ViewModels/ResourceViewModel.swift; sourceTree = "<group>"; };
 		27F668051B44A11F00D21EB3 /* ResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		5F62786AD324323B989E2DAC /* Pods-Starship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starship.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starship/Pods-Starship.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				279FC6191B44BD24004B2FBA /* StarshipViewController.swift */,
 				27F668051B44A11F00D21EB3 /* ResourceViewController.swift */,
+				279FC61D1B44CD07004B2FBA /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				27282BAE1AE5AB2200BBDF72 /* Resources */,
 				E7430F5E71D6DBC63ECF9B52 /* Embed Pods Frameworks */,
 				0E21E57ADBB0821B53D5EBE8 /* Copy Pods Resources */,
+				279FC61F1B44CF82004B2FBA /* Update version */,
 			);
 			buildRules = (
 			);
@@ -273,6 +277,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starship/Pods-Starship-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		279FC61F1B44CF82004B2FBA /* Update version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMMITS=$(git rev-list HEAD | wc -l)\nCOMMITS=$(($COMMITS))\ndefaults write \"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH%.*}\" \"CFBundleVersion\" \"${COMMITS}\"";
+			showEnvVarsInLog = 0;
+		};
 		62E4CD87F461941A764CF5A2 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279FC61E1B44CD07004B2FBA /* AboutViewController.swift in Sources */,
 				279FC61A1B44BD24004B2FBA /* StarshipViewController.swift in Sources */,
 				27F668001B44A0F800D21EB3 /* ResourceViewModel.swift in Sources */,
 				27282BB61AE5AB2200BBDF72 /* AppDelegate.swift in Sources */,

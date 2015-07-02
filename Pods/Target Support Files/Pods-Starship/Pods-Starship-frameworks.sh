@@ -50,8 +50,10 @@ code_sign() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Hyperdrive.framework'
   install_framework 'SVProgressHUD.framework'
+  install_framework 'VTAcknowledgementsViewController.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Hyperdrive.framework'
   install_framework 'SVProgressHUD.framework'
+  install_framework 'VTAcknowledgementsViewController.framework'
 fi

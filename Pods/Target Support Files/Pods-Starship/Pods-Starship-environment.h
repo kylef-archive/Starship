@@ -78,3 +78,9 @@
 #define COCOAPODS_VERSION_MINOR_URITemplate 2
 #define COCOAPODS_VERSION_PATCH_URITemplate 0
 
+// VTAcknowledgementsViewController
+#define COCOAPODS_POD_AVAILABLE_VTAcknowledgementsViewController
+#define COCOAPODS_VERSION_MAJOR_VTAcknowledgementsViewController 0
+#define COCOAPODS_VERSION_MINOR_VTAcknowledgementsViewController 14
+#define COCOAPODS_VERSION_PATCH_VTAcknowledgementsViewController 0
+
