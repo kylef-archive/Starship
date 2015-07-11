@@ -1,0 +1,6 @@
+framework module WebLinking {
+  umbrella header "WebLinking-umbrella.h"
+
+  export *
+  module * { export * }
+}

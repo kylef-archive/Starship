@@ -9,6 +9,7 @@
 import Foundation
 import Representor
 import URITemplate
+import WebLinking
 
 
 private func flatMap<T, U>(source:[T], transform:(T -> U?)) -> [U] {
@@ -276,7 +277,35 @@ public class HyperBlueprint : Hyperdrive {
         self.addResponse(resource, parameters: parameters, request: request, response: response, body: body, builder: builder)
 
         if let uri = response.URL?.absoluteString {
-          self.addTransitions(resource, parameters: parameters, builder: builder)
+          var allowedMethods:[String]? = nil
+
+          if let allow = response.allHeaderFields["Allow"] as? String {
+            allowedMethods = allow.componentsSeparatedByString(",").map {
+              $0.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+            }
+          }
+
+          self.addTransitions(resource, parameters: parameters, builder: builder, allowedMethods: allowedMethods)
+        }
+
+        for link in response.links {
+          if let relation = link.relationType {
+            builder.addTransition(relation, uri: link.uri) { builder in
+              builder.method = "GET"
+
+              if let type = link.type {
+                builder.suggestedContentTypes = [type]
+              }
+            }
+          }
+        }
+
+        if builder.transitions["self"] == nil {
+          if let URL = response.URL, URLString = URL.absoluteString {
+            builder.addTransition("self", uri: URLString) { builder in
+              builder.method = "GET"
+            }
+          }
         }
       }
     }
@@ -432,7 +461,7 @@ public class HyperBlueprint : Hyperdrive {
     addTransitions(resource, parameters:params, builder: builder)
   }
 
-  func addTransitions(resource:Resource, parameters:[String:AnyObject]?, builder:RepresentorBuilder<HTTPTransition>) {
+  func addTransitions(resource:Resource, parameters:[String:AnyObject]?, builder:RepresentorBuilder<HTTPTransition>, allowedMethods:[String]? = nil) {
     let resourceURI = absoluteURITemplate(self.baseURL.absoluteString!, URITemplate(template: resource.uriTemplate).expand(parameters ?? [:]))
 
     for action in resource.actions {
@@ -444,6 +473,11 @@ public class HyperBlueprint : Hyperdrive {
 
       if let relation = action.relation {
         let transition = HTTPTransition.from(resource:resource, action:action, URL:actionURI)
+        if let allowedMethods = allowedMethods {
+          if !contains(allowedMethods, transition.method) {
+            continue
+          }
+        }
         builder.addTransition(relation, transition)
       }
     }

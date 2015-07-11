@@ -1,6 +1,0 @@
-framework module Representor {
-  umbrella header "Pods-Starship-Representor-umbrella.h"
-
-  export *
-  module * { export * }
-}

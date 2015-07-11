@@ -1,0 +1,6 @@
+framework module Hyperdrive {
+  umbrella header "Hyperdrive-umbrella.h"
+
+  export *
+  module * { export * }
+}

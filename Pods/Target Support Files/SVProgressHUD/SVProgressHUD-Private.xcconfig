@@ -1,0 +1,6 @@
+#include "SVProgressHUD.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SVProgressHUD" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Hyperdrive" "${PODS_ROOT}/Headers/Public/JFTextFieldTableCell" "${PODS_ROOT}/Headers/Public/Representor" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/SwiftForms" "${PODS_ROOT}/Headers/Public/URITemplate" "${PODS_ROOT}/Headers/Public/VTAcknowledgementsViewController" "${PODS_ROOT}/Headers/Public/WebLinking"
+OTHER_LDFLAGS = ${SVPROGRESSHUD_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

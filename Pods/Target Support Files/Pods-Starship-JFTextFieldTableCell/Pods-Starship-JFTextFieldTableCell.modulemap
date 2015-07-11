@@ -1,6 +1,0 @@
-framework module JFTextFieldTableCell {
-  umbrella header "Pods-Starship-JFTextFieldTableCell-umbrella.h"
-
-  export *
-  module * { export * }
-}

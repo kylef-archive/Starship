@@ -1,0 +1,1 @@
+JFTEXTFIELDTABLECELL_OTHER_LDFLAGS = -framework "Foundation"
