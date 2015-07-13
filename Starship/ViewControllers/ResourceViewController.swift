@@ -116,7 +116,14 @@ class ResourceViewController : UITableViewController {
   override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     switch sections[indexPath.section] {
     case .Attributes:
-      tableView.deselectRowAtIndexPath(indexPath, animated: true)
+      let title = viewModel?.titleForAttribute(indexPath.row)
+      let value = viewModel?.valueForAttribute(indexPath.row)
+      let alertController = UIAlertController(title: title, message: value, preferredStyle: .Alert)
+      let action = UIAlertAction(title: "OK", style: .Default) { action in
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+      }
+      alertController.addAction(action)
+      presentViewController(alertController, animated: true, completion: nil)
     case .EmbeddedResources:
       let viewController = ResourceViewController(style: .Grouped)
       viewController.viewModel = viewModel?.viewModelForEmbeddedResource(indexPath.row)
