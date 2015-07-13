@@ -72,6 +72,22 @@ class ResourceViewModel {
     }
   }
 
+  // MARK: Other
+
+  var title:String? {
+    return titlify(representor)
+  }
+
+  private func titlify(representor:Representor<HTTPTransition>) -> String? {
+    for key in ["title", "name", "question", "choice"] {
+      if let value = representor.attributes[key] as? String {
+        return value
+      }
+    }
+
+    return nil
+  }
+
   // MARK: Attributes
 
   var numberOfAttributes:Int {
@@ -92,7 +108,11 @@ class ResourceViewModel {
     return embeddedResources.count
   }
 
-  func titleForEmbeddedResource(index:Int) -> String {
+  func titleForEmbeddedResource(index:Int) -> String? {
+    return titlify(embeddedResources[index].representor)
+  }
+
+  func relationForEmbeddedResource(index:Int) -> String {
     return embeddedResources[index].relation
   }
 

@@ -45,7 +45,6 @@ class ResourceViewController : UITableViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "Resource"
     updateState()
   }
 
@@ -58,6 +57,8 @@ class ResourceViewController : UITableViewController {
     } else {
       refreshControl = nil
     }
+
+    title = viewModel?.title ?? "Resource"
 
     tableView?.reloadData()
   }
@@ -138,8 +139,16 @@ class ResourceViewController : UITableViewController {
   }
 
   func cellForEmbeddedResource(tableView:UITableView, index:Int) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Resource") as? UITableViewCell ?? UITableViewCell(style: .Default, reuseIdentifier: "Resource")
-    cell.textLabel?.text = viewModel?.titleForEmbeddedResource(index)
+    let cell = tableView.dequeueReusableCellWithIdentifier("Resource") as? UITableViewCell ?? UITableViewCell(style: .Value1, reuseIdentifier: "Resource")
+
+    if let title = viewModel?.titleForEmbeddedResource(index) {
+      cell.textLabel?.text = title
+      cell.detailTextLabel?.text = viewModel?.relationForEmbeddedResource(index)
+    } else {
+      cell.textLabel?.text = viewModel?.relationForEmbeddedResource(index)
+      cell.detailTextLabel?.text = nil
+    }
+
     return cell
   }
 
