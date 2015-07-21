@@ -24,6 +24,7 @@ class StarshipViewController : UITableViewController {
     title = "Starship"
 
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "About", style: .Plain, target: self, action: "presentAbout")
+    tableView?.keyboardDismissMode = .Interactive
   }
 
   func presentAbout() {
