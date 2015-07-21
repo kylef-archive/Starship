@@ -188,6 +188,8 @@ class ResourceViewController : UITableViewController {
         let viewController = ResourceViewController(style: .Grouped)
         viewController.viewModel = viewModel
         self.navigationController?.pushViewController(viewController, animated: true)
+      case .Refresh:
+        self.updateState()
       case .Failure(let error):
         let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
         alertController.addAction(UIAlertAction(title: "Re-try", style: .Default) { action in

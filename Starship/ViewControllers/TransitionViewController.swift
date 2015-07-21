@@ -86,6 +86,8 @@ class TransitionViewController : FormViewController {
         let viewController = ResourceViewController(style: .Grouped)
         viewController.viewModel = viewModel
         self.navigationController?.pushViewController(viewController, animated: true)
+      case .Refresh:
+        fatalError("Impossible State")
       case .Failure(let error):
         let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
         alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))

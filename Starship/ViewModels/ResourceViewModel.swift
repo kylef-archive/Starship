@@ -13,6 +13,7 @@ import Hyperdrive
 
 enum ResourceViewModelResult {
   case Success(ResourceViewModel)
+  case Refresh
   case Failure(NSError)
 }
 
@@ -145,6 +146,14 @@ class ResourceViewModel {
     hyperdrive.request(transitions[index].transition) { result in
       switch result {
       case .Success(let representor):
+        if let oldSelf = self.representor.transitions["self"], newSelf = representor.transitions["self"] {
+          if oldSelf.uri == newSelf.uri {
+            self.representor = representor
+            completion(.Refresh)
+            return
+          }
+        }
+
         completion(.Success(ResourceViewModel(hyperdrive: self.hyperdrive, representor: representor)))
       case .Failure(let error):
         completion(.Failure(error))
