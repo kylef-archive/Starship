@@ -32,7 +32,7 @@ class StarshipViewController : UITableViewController {
     navigationController?.pushViewController(viewController, animated: true)
   }
 
-  func resultHandler(result:StarshipResult) {
+  func resultHandler(indexPath:NSIndexPath?)(result:StarshipResult) {
     SVProgressHUD.dismiss()
 
     switch result {
@@ -42,7 +42,11 @@ class StarshipViewController : UITableViewController {
       self.navigationController?.pushViewController(viewController, animated: true)
     case .Failure(let error):
       let alertController = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .Alert)
-      alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+      alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel) { action in
+        if let indexPath = indexPath {
+          self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        }
+      })
       self.presentViewController(alertController, animated: true, completion: nil)
     }
   }
@@ -94,7 +98,7 @@ class StarshipViewController : UITableViewController {
 
     case .Examples:
       SVProgressHUD.showWithMaskType(.Gradient)
-      viewModel.enterExample(indexPath.row, completion: resultHandler)
+      viewModel.enterExample(indexPath.row, completion: resultHandler(indexPath))
     }
   }
 
@@ -105,7 +109,7 @@ class StarshipViewController : UITableViewController {
     cell.textField.returnKeyType = .Go
     cell.textFieldShouldReturn = { [unowned self] textField in
       SVProgressHUD.showWithMaskType(.Gradient)
-      self.viewModel.enter(uri: textField.text, completion: self.resultHandler)
+      self.viewModel.enter(uri: textField.text, completion: self.resultHandler(nil))
       return true
     }
     return cell
@@ -118,7 +122,7 @@ class StarshipViewController : UITableViewController {
     cell.textField.returnKeyType = .Go
     cell.textFieldShouldReturn = { [unowned self] textField in
       SVProgressHUD.showWithMaskType(.Gradient)
-      self.viewModel.enter(apiary: textField.text, completion: self.resultHandler)
+      self.viewModel.enter(apiary: textField.text, completion: self.resultHandler(nil))
       return true
     }
     return cell
