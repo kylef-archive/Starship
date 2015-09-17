@@ -28,6 +28,7 @@ class StarshipViewController : UITableViewController {
     tableView?.keyboardDismissMode = .Interactive
 
     HTTPDeserialization.deserializers["application/json"] = HTTPDeserialization.deserializers["application/hal+json"]
+    HTTPDeserialization.deserializers["application/vnd.hal+json"] = HTTPDeserialization.deserializers["application/hal+json"]
   }
 
   func presentAbout() {

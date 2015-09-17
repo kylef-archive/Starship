@@ -20,7 +20,7 @@ class StarshipViewModel {
   // MARK: Entry
 
   func enter(uri  uri:String, completion:(StarshipResult -> ())) {
-    let hyperdrive = Hyperdrive()
+    let hyperdrive = Hyperdrive(preferredContentTypes: ["application/vnd.siren+json"])
     hyperdrive.enter(uri) { result in
       switch result {
       case .Success(let representor):
@@ -51,6 +51,7 @@ class StarshipViewModel {
       (title: "Polls", uri: "https://polls.apiblueprint.org/"),
       (title: "Maze", uri: "https://maze-server.herokuapp.com/"),
       (title: "FizzBuzz", uri: "https://fizzbuzzaas.herokuapp.com/"),
+      (title: "Hyper Hackery", uri: "https://hyper-hackery.herokuapp.com/"),
     ]
   }
 

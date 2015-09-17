@@ -120,6 +120,17 @@ public func deserializeSiren(siren:[String:AnyObject]) -> Representor<HTTPTransi
 
   if let properties = siren["properties"] as? [String:AnyObject] {
     attributes = properties
+  } else {
+    // Hack around properties not being in a properties dictionary
+    var properties = siren
+    properties.removeValueForKey("actions")
+    properties.removeValueForKey("entities")
+    properties.removeValueForKey("links")
+    properties.removeValueForKey("class")
+    properties.removeValueForKey("rel")
+    properties.removeValueForKey("type")
+    properties.removeValueForKey("href")
+    attributes = properties
   }
 
   return Representor<HTTPTransition>(transitions: transitions, representors: representors, attributes: attributes, metadata: [:])
