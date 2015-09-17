@@ -24,13 +24,16 @@ public class FormPickerCell: FormValueCell, UIPickerViewDelegate, UIPickerViewDa
         picker.delegate = self
         picker.dataSource = self
         hiddenTextField.inputView = picker
-        
+      
         contentView.addSubview(hiddenTextField)
     }
     
     public override func update() {
         super.update()
-        
+      
+        picker.userInteractionEnabled = false == (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool)
+        hiddenTextField.userInteractionEnabled = false == (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool)
+      
         titleLabel.text = rowDescriptor.title
         
         if rowDescriptor.value != nil {
@@ -65,7 +68,7 @@ public class FormPickerCell: FormValueCell, UIPickerViewDelegate, UIPickerViewDa
     
     /// MARK: UIPickerViewDelegate
     
-    public func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    public func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return rowDescriptor.titleForOptionAtIndex(row)
     }
     

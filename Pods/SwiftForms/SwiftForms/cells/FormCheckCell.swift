@@ -40,6 +40,9 @@ public class FormCheckCell: FormTitleCell {
     /// MARK: Private interface
     
     private func check() {
+        if (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool) {
+          return
+        }
         if rowDescriptor.value != nil {
             rowDescriptor.value = !(rowDescriptor.value as! Bool)
         }

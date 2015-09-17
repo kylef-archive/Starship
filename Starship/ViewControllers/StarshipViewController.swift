@@ -9,6 +9,7 @@
 import UIKit
 import SVProgressHUD
 import JFTextFieldTableCell
+import Representor
 
 
 enum StarshipSection : Int {
@@ -25,6 +26,8 @@ class StarshipViewController : UITableViewController {
 
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "About", style: .Plain, target: self, action: "presentAbout")
     tableView?.keyboardDismissMode = .Interactive
+
+    HTTPDeserialization.deserializers["application/json"] = HTTPDeserialization.deserializers["application/hal+json"]
   }
 
   func presentAbout() {
@@ -109,7 +112,7 @@ class StarshipViewController : UITableViewController {
     cell.textField.returnKeyType = .Go
     cell.textFieldShouldReturn = { [unowned self] textField in
       SVProgressHUD.showWithMaskType(.Gradient)
-      self.viewModel.enter(uri: textField.text, completion: self.resultHandler(nil))
+      self.viewModel.enter(uri: textField.text ?? "", completion: self.resultHandler(nil))
       return true
     }
     return cell
@@ -122,14 +125,14 @@ class StarshipViewController : UITableViewController {
     cell.textField.returnKeyType = .Go
     cell.textFieldShouldReturn = { [unowned self] textField in
       SVProgressHUD.showWithMaskType(.Gradient)
-      self.viewModel.enter(apiary: textField.text, completion: self.resultHandler(nil))
+      self.viewModel.enter(apiary: textField.text ?? "", completion: self.resultHandler(nil))
       return true
     }
     return cell
   }
 
   func cellForExample(tableView:UITableView, index:Int) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Example") as? UITableViewCell ?? UITableViewCell(style: .Value1, reuseIdentifier: "Example")
+    let cell = tableView.dequeueReusableCellWithIdentifier("Example") ?? UITableViewCell(style: .Value1, reuseIdentifier: "Example")
     cell.textLabel?.text = viewModel.titleForExample(index)
     cell.detailTextLabel?.text = viewModel.uriForExample(index)
     return cell

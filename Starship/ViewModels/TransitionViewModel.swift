@@ -32,12 +32,12 @@ class TransitionViewModel {
   }
 
   func titleForParameter(index:Int) -> String {
-    return transition.parameters.keys.array[index]
+    return Array(transition.parameters.keys)[index]
   }
 
   func valueForParameter(index:Int) -> String? {
     let current = parameters[titleForParameter(index)]
-    return current ?? transition.parameters.values.array[index].value as? String
+    return current ?? Array(transition.parameters.values)[index].value as? String
   }
 
   func setValueForParameter(index:Int, value:String) {
@@ -45,12 +45,12 @@ class TransitionViewModel {
   }
 
   func titleForAttribute(index:Int) -> String {
-    return transition.attributes.keys.array[index]
+    return Array(transition.attributes.keys)[index]
   }
 
   func valueForAttribute(index:Int) -> String? {
     let current = parameters[titleForAttribute(index)]
-    return current ?? transition.attributes.values.array[index].value as? String
+    return current ?? Array(transition.attributes.values)[index].value as? String
   }
 
   func setValueForAttribute(index:Int, value:String) {

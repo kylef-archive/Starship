@@ -27,7 +27,9 @@ public class FormSwitchCell: FormTitleCell {
     
     public override func update() {
         super.update()
-        
+      
+        switchView.userInteractionEnabled = false == (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool)
+      
         titleLabel.text = rowDescriptor.title
         
         if rowDescriptor.value != nil {

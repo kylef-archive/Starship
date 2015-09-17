@@ -139,14 +139,14 @@ class ResourceViewController : UITableViewController {
   // MARK: UITableView
 
   func cellForAttribute(tableView:UITableView, index:Int) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Attribute") as? UITableViewCell ?? UITableViewCell(style: .Value1, reuseIdentifier: "Attribute")
+    let cell = tableView.dequeueReusableCellWithIdentifier("Attribute") ?? UITableViewCell(style: .Value1, reuseIdentifier: "Attribute")
     cell.textLabel?.text = viewModel?.titleForAttribute(index)
     cell.detailTextLabel?.text = viewModel?.valueForAttribute(index)
     return cell
   }
 
   func cellForEmbeddedResource(tableView:UITableView, index:Int) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Resource") as? UITableViewCell ?? UITableViewCell(style: .Value1, reuseIdentifier: "Resource")
+    let cell = tableView.dequeueReusableCellWithIdentifier("Resource") ?? UITableViewCell(style: .Value1, reuseIdentifier: "Resource")
 
     if let title = viewModel?.titleForEmbeddedResource(index) {
       cell.textLabel?.text = title
@@ -160,7 +160,7 @@ class ResourceViewController : UITableViewController {
   }
 
   func cellForTransition(tableView:UITableView, index:Int) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Transition") as? UITableViewCell ?? UITableViewCell(style: .Default, reuseIdentifier: "Transition")
+    let cell = tableView.dequeueReusableCellWithIdentifier("Transition") ?? UITableViewCell(style: .Default, reuseIdentifier: "Transition")
     cell.textLabel?.text = viewModel?.titleForTransition(index)
     return cell
   }

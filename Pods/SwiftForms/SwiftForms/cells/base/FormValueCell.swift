@@ -25,10 +25,10 @@ public class FormValueCell: FormBaseCell {
         super.configure()
         
         accessoryType = .DisclosureIndicator
-        
-        titleLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
-        valueLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
-        
+      
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        valueLabel.translatesAutoresizingMaskIntoConstraints = false
+      
         titleLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
         valueLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
         
@@ -47,6 +47,18 @@ public class FormValueCell: FormBaseCell {
         contentView.addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .CenterY, relatedBy: .Equal, toItem: contentView, attribute: .CenterY, multiplier: 1.0, constant: 0.0))
         contentView.addConstraint(NSLayoutConstraint(item: valueLabel, attribute: .CenterY, relatedBy: .Equal, toItem: contentView, attribute: .CenterY, multiplier: 1.0, constant: 0.0))
     }
+  
+    public override func update() {
+        super.update()
+      
+        if (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool) {
+            accessoryType = .None
+        }
+        else {
+            accessoryType = .DisclosureIndicator
+        }
+      
+    }
     
     public override func constraintsViews() -> [String : UIView] {
         return ["titleLabel" : titleLabel, "valueLabel" : valueLabel]
@@ -60,7 +72,7 @@ public class FormValueCell: FormBaseCell {
             rightPadding = 16
         }
         
-        if titleLabel.text != nil && count(titleLabel.text!) > 0 {
+        if titleLabel.text != nil && titleLabel.text!.characters.count > 0 {
             return ["H:|-16-[titleLabel]-[valueLabel]-\(rightPadding)-|"]
         }
         else {

@@ -1,55 +1,67 @@
 PODS:
-  - Hyperdrive (0.1.2):
-    - Representor (~> 0.6.1)
-    - URITemplate (~> 1.2)
-    - WebLinking (~> 0.2.0)
+  - Hyperdrive (0.2.0):
+    - Representor (~> 0.7.0)
+    - Result (~> 0.6-beta.1)
+    - URITemplate (~> 1.3)
+    - WebLinking (~> 1.0.0)
   - JFTextFieldTableCell (1.0)
-  - Representor (0.6.1):
-    - Representor/Core (= 0.6.1)
-    - Representor/HTTP (= 0.6.1)
-  - Representor/Core (0.6.1)
-  - Representor/HTTP (0.6.1):
-    - Representor/HTTP/Adapters (= 0.6.1)
-    - Representor/HTTP/Deserialization (= 0.6.1)
-    - Representor/HTTP/Transition (= 0.6.1)
-  - Representor/HTTP/Adapters (0.6.1):
-    - Representor/HTTP/Adapters/APIBlueprint (= 0.6.1)
-    - Representor/HTTP/Adapters/HAL (= 0.6.1)
-    - Representor/HTTP/Adapters/Siren (= 0.6.1)
-  - Representor/HTTP/Adapters/APIBlueprint (0.6.1):
+  - Representor (0.7.0):
+    - Representor/Core (= 0.7.0)
+    - Representor/HTTP (= 0.7.0)
+  - Representor/Core (0.7.0)
+  - Representor/HTTP (0.7.0):
+    - Representor/HTTP/Adapters (= 0.7.0)
+    - Representor/HTTP/Deserialization (= 0.7.0)
+    - Representor/HTTP/Transition (= 0.7.0)
+  - Representor/HTTP/Adapters (0.7.0):
+    - Representor/HTTP/Adapters/APIBlueprint (= 0.7.0)
+    - Representor/HTTP/Adapters/HAL (= 0.7.0)
+    - Representor/HTTP/Adapters/Siren (= 0.7.0)
+  - Representor/HTTP/Adapters/APIBlueprint (0.7.0):
     - Representor/HTTP/Transition
-  - Representor/HTTP/Adapters/HAL (0.6.1):
+  - Representor/HTTP/Adapters/HAL (0.7.0):
     - Representor/HTTP/Transition
-  - Representor/HTTP/Adapters/Siren (0.6.1):
+  - Representor/HTTP/Adapters/Siren (0.7.0):
     - Representor/HTTP/Transition
-  - Representor/HTTP/Deserialization (0.6.1):
+  - Representor/HTTP/Deserialization (0.7.0):
     - Representor/HTTP/Adapters/HAL
     - Representor/HTTP/Adapters/Siren
     - Representor/HTTP/Transition
-  - Representor/HTTP/Transition (0.6.1):
+  - Representor/HTTP/Transition (0.7.0):
     - Representor/Core
+  - Result (0.6-beta.1)
   - SVProgressHUD (1.1.3)
   - SwiftForms (1.0)
-  - URITemplate (1.2.0)
-  - VTAcknowledgementsViewController (0.14)
-  - WebLinking (0.2.0)
+  - URITemplate (1.3.0)
+  - VTAcknowledgementsViewController (0.15)
+  - WebLinking (1.0.0)
 
 DEPENDENCIES:
   - Hyperdrive
   - JFTextFieldTableCell
   - Representor
   - SVProgressHUD
-  - SwiftForms
+  - SwiftForms (from `https://github.com/zshannon/SwiftForms`)
   - VTAcknowledgementsViewController
 
+EXTERNAL SOURCES:
+  SwiftForms:
+    :git: https://github.com/zshannon/SwiftForms
+
+CHECKOUT OPTIONS:
+  SwiftForms:
+    :commit: ec4a31d0d618a4a4143544b2a94d4b7607a4c2a3
+    :git: https://github.com/zshannon/SwiftForms
+
 SPEC CHECKSUMS:
-  Hyperdrive: 89420e075ec4c3ac5ad7beb98f9ce567dac8f6f6
+  Hyperdrive: 7362f6cf0f450db9af34fb5cdf54ef4ff8f06322
   JFTextFieldTableCell: 64f7584e35236d9b0ba9548d8194b4b4fe38f621
-  Representor: 7675c4253ce7555c46a6f83cf4bba0ad6648994e
+  Representor: 487b4efb0a39c2c2db258d40846d9915cd69b770
+  Result: af24e3e57ab81005ec4221a53fd36dc1e7a52869
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   SwiftForms: b16bf2978e6eb6617bc9f438322a1daa6c3d2dbd
-  URITemplate: 0dbf40f0e378eb9c6d04cc08e6101fb82d126dc3
-  VTAcknowledgementsViewController: 11a869dd69598a852f12699aeaf36e2589d3fc1b
-  WebLinking: 8e267eed3f7b2d040bf6468681cc1325141ab7fe
+  URITemplate: 0ebbec80d1eb59a89e29db9b14c99d5908d3e574
+  VTAcknowledgementsViewController: 575f5841fb47b7d9c852ccb406104ea68de07b21
+  WebLinking: d5b5ab4f7305bcf29821deb5cecd775f6c37efae
 
-COCOAPODS: 0.38.0.beta.2
+COCOAPODS: 0.39.0.beta.4

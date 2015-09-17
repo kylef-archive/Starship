@@ -19,7 +19,7 @@ class AboutViewController : UITableViewController {
   func presentAcknowledgements() {
     let acknowledgementsPath = NSBundle.mainBundle().pathForResource("Pods-Starship-acknowledgements", ofType: "plist")
     let viewController = VTAcknowledgementsViewController(acknowledgementsPlistPath: acknowledgementsPath)
-    navigationController?.pushViewController(viewController, animated: true)
+    navigationController?.pushViewController(viewController!, animated: true)
   }
 
   // MARK: UITableViewDataSource
@@ -56,7 +56,7 @@ class AboutViewController : UITableViewController {
 
   func versionCell() -> UITableViewCell {
     let cell = UITableViewCell(style: .Value1, reuseIdentifier: "VersionCell")
-    let infoDictionary = NSBundle.mainBundle().infoDictionary as! [String:AnyObject]
+    let infoDictionary = NSBundle.mainBundle().infoDictionary!
     let shortVersion = infoDictionary["CFBundleShortVersionString"] as! String
     let build = infoDictionary["CFBundleVersion"] as! String
     cell.textLabel?.text = "Version"

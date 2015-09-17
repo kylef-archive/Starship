@@ -8,6 +8,15 @@
 
 import Foundation
 
+private func sirenFieldToAttribute(builder: HTTPTransitionBuilder)(field:[String:AnyObject]) {
+  if let name = field["name"] as? String {
+    let title = field["title"] as? String
+    let value:AnyObject? = field["value"]
+
+    builder.addAttribute(name, title: title, value: value, defaultValue: nil)
+  }
+}
+
 private func sirenActionToTransition(action:[String: AnyObject]) -> (name:String, transition:HTTPTransition)? {
   if let name = action["name"] as? String {
     if let href = action["href"] as? String {
@@ -21,15 +30,7 @@ private func sirenActionToTransition(action:[String: AnyObject]) -> (name:String
         }
 
         if let fields = action["fields"] as? [[String:AnyObject]] {
-          for field in fields {
-            if let name = field["name"] as? String {
-              if let value = field["value"] as? String {
-                builder.addAttribute(name, value: value as NSObject, defaultValue: nil)
-              } else {
-                builder.addAttribute(name)
-              }
-            }
-          }
+          fields.forEach(sirenFieldToAttribute(builder))
         }
       }
 
@@ -49,6 +50,10 @@ private func inputPropertyToSirenField(name:String, inputProperty:InputProperty<
     field["value"] = "\(value)"
   }
 
+  if let title = inputProperty.title {
+    field["title"] = title
+  }
+
   return field
 }
 
@@ -64,7 +69,7 @@ private func transitionToSirenAction(relation:String, transition:HTTPTransition)
   }
 
   if transition.attributes.count > 0 {
-    action["fields"] = map(transition.attributes, inputPropertyToSirenField)
+    action["fields"] = transition.attributes.map(inputPropertyToSirenField)
   }
 
   return action
@@ -142,17 +147,17 @@ public func serializeSiren(representor:Representor<HTTPTransition>) -> [String:A
     representation["properties"] = representor.attributes
   }
 
-  let links = filter(representor.transitions) { $1.method == "GET" }
-  let actions = filter(representor.transitions) { $1.method != "GET" }
+  let links = representor.transitions.filter { $1.method == "GET" }
+  let actions = representor.transitions.filter { $1.method != "GET" }
 
   if links.count > 0 {
-    representation["links"] = map(links) { relation, transition in
+    representation["links"] = links.map { relation, transition in
       return ["rel": [relation], "href": transition.uri]
     }
   }
 
   if actions.count > 0 {
-    representation["actions"] = map(actions, transitionToSirenAction)
+    representation["actions"] = actions.map(transitionToSirenAction)
   }
 
   return representation

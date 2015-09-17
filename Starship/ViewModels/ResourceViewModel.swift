@@ -32,13 +32,13 @@ class ResourceViewModel {
     return self.representor.transitions["self"] != nil
   }
 
-  func reload(completion:((Result) -> ())) {
+  func reload(completion:((RepresentorResult) -> ())) {
     if let uri = self.representor.transitions["self"] {
       hyperdrive.request(uri) { result in
         switch result {
         case .Success(let representor):
           self.representor = representor
-        case .Failure(let error):
+        case .Failure:
           break
         }
 
@@ -50,27 +50,25 @@ class ResourceViewModel {
   // MARK: Private
 
   private var attributes:[(key:String, value:AnyObject)] {
-    return map(representor.attributes) { (key, value) in
+    return representor.attributes.map { (key, value) in
       return (key: key, value: value)
     }
   }
 
   private var embeddedResources:[(relation:String, representor:Representor<HTTPTransition>)] {
-    return reduce(representor.representors, []) { (accumulator, resources) in
+    return representor.representors.reduce([]) { (accumulator, resources) in
       let name = resources.0
 
-      return accumulator + map(resources.1) { representor in
+      return accumulator + resources.1.map { representor in
         return (relation: name, representor: representor)
       }
     }
   }
 
   private var transitions:[(relation:String, transition:HTTPTransition)] {
-    return filter(representor.transitions) { (relation, transition) in
-      return relation != "self"
-    }.map { (relation, transition) in
-      return (relation: relation, transition: transition)
-    }
+    return representor.transitions
+      .filter { (relation, transition) in relation != "self" }
+      .map { (relation, transition) in (relation: relation, transition: transition) }
   }
 
   // MARK: Other

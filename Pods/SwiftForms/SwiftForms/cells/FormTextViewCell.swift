@@ -30,13 +30,13 @@ public class FormTextViewCell : FormBaseCell, UITextViewDelegate {
         super.configure()
         
         selectionStyle = .None
-        
-        titleLabel.setTranslatesAutoresizingMaskIntoConstraints(false)
-        textField.setTranslatesAutoresizingMaskIntoConstraints(false)
-        
+      
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        textField.translatesAutoresizingMaskIntoConstraints = false
+      
         titleLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
         textField.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
-        
+      
         contentView.addSubview(titleLabel)
         contentView.addSubview(textField)
         
@@ -51,7 +51,9 @@ public class FormTextViewCell : FormBaseCell, UITextViewDelegate {
     }
     
     public override func update() {
-        
+      
+        textField.userInteractionEnabled = false == (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool)
+      
         titleLabel.text = rowDescriptor.title
         textField.text = rowDescriptor.value as? String
         
@@ -73,7 +75,7 @@ public class FormTextViewCell : FormBaseCell, UITextViewDelegate {
         
         if self.imageView!.image != nil {
             
-            if titleLabel.text != nil && count(titleLabel.text!) > 0 {
+            if titleLabel.text != nil && titleLabel.text!.characters.count > 0 {
                 return ["H:[imageView]-[titleLabel]-[textField]-16-|"]
             }
             else {
@@ -81,7 +83,7 @@ public class FormTextViewCell : FormBaseCell, UITextViewDelegate {
             }
         }
         else {
-            if titleLabel.text != nil && count(titleLabel.text!) > 0 {
+            if titleLabel.text != nil && titleLabel.text!.characters.count > 0 {
                 return ["H:|-16-[titleLabel]-[textField]-16-|"]
             }
             else {
@@ -94,6 +96,6 @@ public class FormTextViewCell : FormBaseCell, UITextViewDelegate {
     
     public func textViewDidChange(textView: UITextView) {
         let trimmedText = textView.text.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-        rowDescriptor.value = count(trimmedText) > 0 ? trimmedText : nil
+        rowDescriptor.value = trimmedText.characters.count > 0 ? trimmedText : nil
     }
 }

@@ -19,7 +19,7 @@ enum StarshipResult {
 class StarshipViewModel {
   // MARK: Entry
 
-  func enter(# uri:String, completion:(StarshipResult -> ())) {
+  func enter(uri  uri:String, completion:(StarshipResult -> ())) {
     let hyperdrive = Hyperdrive()
     hyperdrive.enter(uri) { result in
       switch result {
@@ -32,7 +32,7 @@ class StarshipViewModel {
     }
   }
 
-  func enter(# apiary:String, completion:(StarshipResult -> ())) {
+  func enter(apiary  apiary:String, completion:(StarshipResult -> ())) {
     HyperBlueprint.enter(apiary: apiary) { result in
       switch result {
       case .Success(let hyperdrive, let representor):

@@ -6,7 +6,7 @@ target 'Starship' do
   pod 'Hyperdrive'
   pod 'SVProgressHUD'
   pod 'JFTextFieldTableCell'
-  pod 'SwiftForms'
+  pod 'SwiftForms', :git => 'https://github.com/zshannon/SwiftForms'
   pod 'VTAcknowledgementsViewController'
 end
 

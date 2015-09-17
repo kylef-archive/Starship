@@ -34,7 +34,10 @@ public class FormDateCell: FormValueCell {
                 hiddenTextField.inputAccessoryView = inputAccesoryView()
             }
         }
-        
+      
+        hiddenTextField.userInteractionEnabled = false == (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool)
+        datePicker.userInteractionEnabled = false == (rowDescriptor.configuration[FormRowDescriptor.Configuration.ReadOnly] as! Bool)
+      
         titleLabel.text = rowDescriptor.title
         
         switch rowDescriptor.rowType {
@@ -56,6 +59,10 @@ public class FormDateCell: FormValueCell {
             let date = rowDescriptor.value as? NSDate
             datePicker.date = date!
             valueLabel.text = self.getDateFormatter().stringFromDate(date!)
+            valueLabel.textColor = UIColor.blackColor()
+        }
+        else {
+            valueLabel.textColor = UIColor.grayColor()
         }
     }
     

@@ -12,7 +12,7 @@ public class FormBaseCell: UITableViewCell {
 
     /// MARK: Properties
     
-    var rowDescriptor: FormRowDescriptor! {
+    public var rowDescriptor: FormRowDescriptor! {
         didSet {
             self.update()
         }
@@ -29,7 +29,7 @@ public class FormBaseCell: UITableViewCell {
     }
 
     public required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+        super.init(coder: aDecoder)!
     }
     
     /// MARK: Public interface
@@ -92,10 +92,10 @@ public class FormBaseCell: UITableViewCell {
     public override func updateConstraints() {
         
         if customConstraints.count > 0 {
-            contentView.removeConstraints(customConstraints)
+            contentView.removeConstraints(customConstraints as! [NSLayoutConstraint])
         }
         
-        var views = constraintsViews()
+        let views = constraintsViews()
         
         customConstraints.removeAll()
         
@@ -109,13 +109,13 @@ public class FormBaseCell: UITableViewCell {
         }
         
         for visualConstraint in visualConstraints {
-            let constraints = NSLayoutConstraint.constraintsWithVisualFormat(visualConstraint as! String, options: NSLayoutFormatOptions(0), metrics: nil, views: views)
+            let constraints = NSLayoutConstraint.constraintsWithVisualFormat(visualConstraint as! String, options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: views)
             for constraint in constraints {
                 customConstraints.append(constraint)
             }
         }
         
-        contentView.addConstraints(customConstraints)
+        contentView.addConstraints(customConstraints as! [NSLayoutConstraint])
         super.updateConstraints()
     }
 }

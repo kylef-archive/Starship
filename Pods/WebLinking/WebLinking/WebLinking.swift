@@ -10,14 +10,19 @@ import Foundation
 
 /// A structure representing a RFC 5988 link.
 public struct Link: Equatable, Hashable {
+  /// The URI for the link
   public let uri:String
+
+  /// The parameters for the link
   public let parameters:[String:String]
 
-  public init(uri:String, parameters:[String:String] = [:]) {
+  /// Initialize a Link with a given uri and parameters
+  public init(uri:String, parameters:[String:String]? = nil) {
     self.uri = uri
-    self.parameters = parameters
+    self.parameters = parameters ?? [:]
   }
 
+  /// Returns the hash value
   public var hashValue:Int {
     return uri.hashValue
   }
@@ -38,6 +43,7 @@ public struct Link: Equatable, Hashable {
   }
 }
 
+/// Returns whether two Link's are equivalent
 public func ==(lhs:Link, rhs:Link) -> Bool {
   return lhs.uri == rhs.uri && lhs.parameters == rhs.parameters
 }
@@ -48,39 +54,42 @@ public func ==(lhs:Link, rhs:Link) -> Bool {
 extension Link {
   /// Encode the link into a HTML element
   public var html:String {
-    let components = map(parameters) { (key, value) in
+    let components = parameters.map { (key, value) in
       "\(key)=\"\(value)\""
       } + ["href=\"\(uri)\""]
-    let elements = join(" ", components)
+    let elements = components.joinWithSeparator(" ")
     return "<link \(elements) />"
   }
 }
 
 // MARK: Header link conversion
 
-/// An extension to Link to provide conversion to a "Link" header
+/// An extension to Link to provide conversion to and from a HTTP "Link" header
 extension Link {
   /// Encode the link into a header
   public var header:String {
-    let components = ["<\(uri)>"] + map(parameters) { (key, value) in
+    let components = ["<\(uri)>"] + parameters.map { (key, value) in
       "\(key)=\"\(value)\""
     }
-    return join("; ", components)
+    return components.joinWithSeparator("; ")
   }
 
+  /*** Initialize a Link with a HTTP Link header
+  - parameter header: A HTTP Link Header
+  */
   public init(header:String) {
     let (uri, parametersString) = takeFirst(separateBy(";")(input: header))
-    let parameters = parametersString.map(split("=")).map { parameter in
-      [parameter.0: trim("\"", "\"")(input: parameter.1)]
-    }
+    let parameters = Array(Array(parametersString.map(split("="))).map { parameter in
+      [parameter.0: trim("\"", rhs: "\"")(input: parameter.1)]
+    })
 
-    self.uri = trim("<", ">")(input: uri)
-    self.parameters = reduce(parameters, [:], +)
+    self.uri = trim("<", rhs: ">")(input: uri)
+    self.parameters = parameters.reduce([:], combine: +)
   }
 }
 
 /*** Parses a Web Linking (RFC5988) header into an array of Links
-:param: header RFC5988 link header. For example `<?page=3>; rel=\"next\", <?page=1>; rel=\"prev\"`
+- parameter header: RFC5988 link header. For example `<?page=3>; rel=\"next\", <?page=1>; rel=\"prev\"`
 :return: An array of Links
 */
 public func parseLinkHeader(header:String) -> [Link] {
@@ -98,12 +107,8 @@ extension NSHTTPURLResponse {
         var uri = link.uri
 
         /// Handle relative URIs
-        if let baseURL = self.URL {
-          if let URL = NSURL(string: uri, relativeToURL: baseURL) {
-            if let uriString = URL.absoluteString {
-              uri = uriString
-            }
-          }
+        if let baseURL = self.URL, URL = NSURL(string: uri, relativeToURL: baseURL) {
+          uri = URL.absoluteString
         }
 
         return Link(uri: uri, parameters: link.parameters)
@@ -125,7 +130,7 @@ extension NSHTTPURLResponse {
   }
 
   /// Find a link for the relation
-  public func findLink(# relation:String) -> Link? {
+  public func findLink(relation  relation:String) -> Link? {
     return findLink(["rel": relation])
   }
 }
@@ -167,7 +172,7 @@ func separateBy(separator:String)(input:String) -> [String] {
 
 // Split a string by a separator into two components
 func split(separator:String)(input:String) -> (String, String) {
-  let range = input.rangeOfString(separator, options: NSStringCompareOptions(0), range: nil, locale: nil)
+  let range = input.rangeOfString(separator, options: NSStringCompareOptions(rawValue: 0), range: nil, locale: nil)
 
   if let range = range {
     let lhs = input.substringToIndex(range.startIndex)

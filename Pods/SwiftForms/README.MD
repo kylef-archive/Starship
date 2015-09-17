@@ -1,5 +1,5 @@
 
-[![Version](https://img.shields.io/badge/pod-0.8.1-blue.svg)](http://cocoadocs.org/docsets/SwiftForms)
+[![Version](https://img.shields.io/badge/pod-1.0-blue.svg)](http://cocoadocs.org/docsets/SwiftForms)
 [![License](https://img.shields.io/badge/license-MIT-gray.svg)](http://cocoadocs.org/docsets/SwiftForms)
 [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)](http://cocoadocs.org/docsets/SwiftForms)
 
@@ -95,7 +95,7 @@ Requirements
 
 ## Installation
 
-> **Embedded frameworks require a minimum deployment target of iOS 8 or OS X Mavericks.**
+> **Embedded frameworks require a minimum deployment target of iOS 8.**
 >
 > To use SwiftForms with a project targeting iOS 7, you must include all Swift files located inside the `SwiftForms` directory directly in your project.
 
